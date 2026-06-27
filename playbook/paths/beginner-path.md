@@ -41,8 +41,17 @@ The decision that shapes everything. Before you start any project, you need to k
 
 ---
 
-### 3. Set Rules Before You Build
-**[→ Read Fourth](../getting-started/04-set-rules-before-you-build.md)**
+### 3. Build Your Default Stack
+**[→ Read Fourth](../getting-started/03-build-your-default-stack.md)**
+
+Now that you have the fundamentals, build a baseline configuration you will use on every project.
+
+*What you will learn:* Which tools to start with, how to configure your stack, and why defaults are more valuable than variety.
+
+---
+
+### 4. Set Rules Before You Build
+**[→ Read Fifth](../getting-started/04-set-rules-before-you-build.md)**
 
 Rules are what make agents predictable. Without them, every session is an improvisation.
 
@@ -50,21 +59,12 @@ Rules are what make agents predictable. Without them, every session is an improv
 
 ---
 
-### 4. Common Vibe Coding Mistakes
-**[→ Read Fifth](../mistakes/01-common-vibe-coding-mistakes.md)**
+### 5. Common Vibe Coding Mistakes
+**[→ Read Sixth](../mistakes/01-common-vibe-coding-mistakes.md)**
 
 Before you build, know what consistently trips people up. Reading this now will save you from the most common painful discoveries.
 
 *What you will learn:* The 10 patterns that derail most builders who are new to agent-based development.
-
----
-
-### 5. Build Your Default Stack
-**[→ Read Sixth](../getting-started/03-build-your-default-stack.md)**
-
-Now that you have the fundamentals, build a baseline configuration you will use on every project.
-
-*What you will learn:* Which tools to start with, how to configure your stack, and why defaults are more valuable than variety.
 
 ---
 

@@ -12,6 +12,8 @@ The challenge for product-minded builders is scope discipline. Agents can build 
 
 ## Your Reading Order
 
+*Note: This path focuses heavily on product scoping, scoping discipline, and planning. It skips developer-centric setup details (like agent selection and default stack configuration) to move directly from spec to planning and operational rules.*
+
 ### Foundation
 
 0. [Build the Project Truth Before You Build](../getting-started/00-step-zero-build-the-project-truth.md) ← write PRODUCT.md and MVP scope first

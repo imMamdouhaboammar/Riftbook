@@ -16,17 +16,18 @@ Frontend work with coding agents has a specific challenge: agents are good at st
 
 0. [Build the Project Truth Before You Build](../getting-started/00-step-zero-build-the-project-truth.md) ← decide design and stack rules first
 1. [From MVP Idea to Agent-Ready Spec](../getting-started/01-turn-your-mvp-idea-into-an-agent-ready-spec.md)
-2. [Set Rules Before You Build](../getting-started/04-set-rules-before-you-build.md) ← especially important for design conventions
+2. [Choose Your Lead Agent](../getting-started/02-choose-your-lead-agent.md)
 3. [Build Your Default Stack](../getting-started/03-build-your-default-stack.md) ← React Doctor + Impeccable are key
+4. [Set Rules Before You Build](../getting-started/04-set-rules-before-you-build.md) ← especially important for design conventions
 
 ### Frontend-Specific Workflows
 
-4. [Reviewing Agent Output](../core-workflows/04-reviewing-agent-output.md) ← UI review has different criteria
-5. [Debugging with Agents](../core-workflows/03-debugging-with-agents.md) ← frontend bugs are visual and behavioral
+5. [Reviewing Agent Output](../core-workflows/04-reviewing-agent-output.md) ← UI review has different criteria
+6. [Debugging with Agents](../core-workflows/03-debugging-with-agents.md) ← frontend bugs are visual and behavioral
 
 ### Mistakes Worth Knowing
 
-6. [Things That Look Smart But Hurt](../mistakes/03-things-that-look-smart-but-hurt.md)
+7. [Things That Look Smart But Hurt](../mistakes/03-things-that-look-smart-but-hurt.md)
 
 ---
 

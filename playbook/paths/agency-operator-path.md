@@ -16,20 +16,21 @@ Agency operators have a different problem than solo builders: they cannot hold t
 
 0. [Build the Project Truth Before You Build](../getting-started/00-step-zero-build-the-project-truth.md) ← build the truth layer first
 1. [From MVP Idea to Agent-Ready Spec](../getting-started/01-turn-your-mvp-idea-into-an-agent-ready-spec.md) ← systemize this for every client
-2. [Build Your Default Stack](../getting-started/03-build-your-default-stack.md) ← your stack is an agency asset
-3. [Set Rules Before You Build](../getting-started/04-set-rules-before-you-build.md) ← rules templates save hours per client
+2. [Choose Your Lead Agent](../getting-started/02-choose-your-lead-agent.md) ← choose the lead builder for client projects
+3. [Build Your Default Stack](../getting-started/03-build-your-default-stack.md) ← your stack is an agency asset
+4. [Set Rules Before You Build](../getting-started/04-set-rules-before-you-build.md) ← rules templates save hours per client
 
 ### Workflows That Scale
 
-4. [Planning the Build](../core-workflows/01-planning-the-build.md)
-5. [Working with Multiple Agents](../core-workflows/02-working-with-multiple-agents.md) ← critical for parallel workstreams
-6. [Reviewing Agent Output](../core-workflows/04-reviewing-agent-output.md)
-7. [Shipping with Confidence](../core-workflows/05-shipping-with-confidence.md)
+5. [Planning the Build](../core-workflows/01-planning-the-build.md)
+6. [Working with Multiple Agents](../core-workflows/02-working-with-multiple-agents.md) ← critical for parallel workstreams
+7. [Reviewing Agent Output](../core-workflows/04-reviewing-agent-output.md)
+8. [Shipping with Confidence](../core-workflows/05-shipping-with-confidence.md)
 
 ### Mistakes That Hit Agencies Hardest
 
-8. [Common Vibe Coding Mistakes](../mistakes/01-common-vibe-coding-mistakes.md)
-9. [Things That Look Smart But Hurt](../mistakes/03-things-that-look-smart-but-hurt.md)
+9. [Common Vibe Coding Mistakes](../mistakes/01-common-vibe-coding-mistakes.md)
+10. [Things That Look Smart But Hurt](../mistakes/03-things-that-look-smart-but-hurt.md)
 
 ---
 
