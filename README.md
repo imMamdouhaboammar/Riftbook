@@ -74,6 +74,16 @@ Handpicked tools and skills that solve a real workflow problem and are worth try
 
 ---
 
+## Top Selected Skills
+
+The strongest curated skills in this repo. Start here when the workflow matters.
+
+| Skill | Category | Why it matters | Card |
+|---|---|---|---|
+| **Impeccable** | AI Frontend Design | Gives AI coding agents a practical design language with commands for audit, critique, polish, layout, typography, hardening, and live iteration | [![View Card](./assets/icons/eye-box.svg)](./skills/top-selected/impeccable.md) |
+
+---
+
 ## Hot Skills
 
 Field-tested skills that improve AI agent output in real workflows.

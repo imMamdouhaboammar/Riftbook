@@ -8,5 +8,6 @@ Use this section when the task is not just writing code, but making the product 
 
 | Skill | Focus | Best For | Card |
 |---|---|---|---|
+| Impeccable | Design guidance system for AI coding agents | Design guidance, frontend quality, UI audit, polish, layout, typography, detector checks | [![View Card](../../assets/icons/eye-box.svg)](../top-selected/impeccable.md) |
 | UI UX Pro Max | UI/UX Design Intelligence | Generating design systems, visual hierarchy, layout rules, frontend polish | [![View Card](../../assets/icons/eye-box.svg)](./ui-ux-pro-max.md) |
 | Taste Skill | Frontend Design Taste | Anti-slop UI, frontend polish, redesigns, image-to-code workflows | [![View Card](../../assets/icons/eye-box.svg)](../hot-skills/taste-skill.md) |

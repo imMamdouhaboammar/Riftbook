@@ -1,0 +1,9 @@
+<svg width="178" height="32" viewBox="0 0 178 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Top Selected">
+  <rect width="178" height="32" rx="16" fill="#0B1120"/>
+  <rect x="1" y="1" width="176" height="30" rx="15" stroke="#FBBF24" stroke-width="2"/>
+  <path d="M23 7.5L25.9 13.2L32.2 14.1L27.6 18.6L28.7 24.9L23 21.9L17.3 24.9L18.4 18.6L13.8 14.1L20.1 13.2L23 7.5Z" fill="#FBBF24"/>
+  <path d="M23 11.4L24.7 14.8L28.4 15.4L25.7 18L26.3 21.7L23 20L19.7 21.7L20.3 18L17.6 15.4L21.3 14.8L23 11.4Z" fill="#0B1120"/>
+  <text x="42" y="21" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#F9FAFB" letter-spacing="0.5">
+    TOP SELECTED
+  </text>
+</svg>
