@@ -304,7 +304,7 @@ Understanding the tools referenced in the handoff prompt helps you control the p
 
 ### SVG & Brand Icons (LobeHub Icons)
 * **What:** A comprehensive AI/LLM icon library.
-* **Why:** Avoids unofficial or messy image placeholders. We read [lobehub.com/icons/skill.md](https://lobehub.com/icons/skill.md) to query static SVG assets for dashboards, architecture documentation, or buttons.
+* **Why:** Avoids unofficial or messy image placeholders. Follow the canonical [Icon Policy](../design-system/icon-policy.md) (which uses LobeHub Icons) to query static SVG assets for dashboards, architecture documentation, or buttons.
 
 ---
 

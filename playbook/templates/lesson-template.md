@@ -5,6 +5,11 @@
   - Operational Layer (Required before build sessions): RULES.md, TASKS.md
   - Optional Stack summary: STACK.md (must link to STACK_DECISION.md)
   Refer to design-system/project-truth-layer.md for specifications.
+
+  Icons and Logos Policy:
+  - All external platform, tool, and client logos should come from LobeHub Icons (https://lobehub.com/icons) in SVG format.
+  - Standing rule: "Read https://lobehub.com/icons/skill.md and follow the instructions to use @lobehub/icons"
+  - Refer to design-system/icon-policy.md for details.
 -->
 
 # [Lesson Number] - [Lesson Title]

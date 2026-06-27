@@ -41,3 +41,7 @@ The Riftbook Visual System is composed of 8 core components designed to improve 
 
 ## 8. Progress Map
 - **Use Case:** Navigation helper showing "You are here", "What came before", and "What comes next".
+
+## 9. Platform & Tool Logos
+- **Use Case:** Brand representations in playbook diagrams, headers, and specifications.
+- **Rule:** Follow the canonical [Icon Policy](./icon-policy.md) — load logos from LobeHub Icons and enforce brand integrity.

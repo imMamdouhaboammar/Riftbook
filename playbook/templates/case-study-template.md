@@ -1,3 +1,16 @@
+<!-- 
+  NOTE FOR WRITERS:
+  When referencing repository context or configuration files, always use the canonical Project Truth Layer Standard:
+  - Initial Truth Layer (Required before coding): PRODUCT.md, DESIGN.md, AGENT.md, STACK_DECISION.md, IMPLEMENTATION_PLAN.md, OPEN_QUESTIONS.md
+  - Operational Layer (Required before build sessions): RULES.md, TASKS.md
+  Refer to design-system/project-truth-layer.md for specifications.
+
+  Icons and Logos Policy:
+  - All external platform, tool, and client logos should come from LobeHub Icons (https://lobehub.com/icons) in SVG format.
+  - Standing rule: "Read https://lobehub.com/icons/skill.md and follow the instructions to use @lobehub/icons"
+  - Refer to design-system/icon-policy.md for details.
+-->
+
 # Case Study: [Title]
 
 ![STORY](../assets/badges/story.svg) ![[Second Badge]](../assets/badges/[badge-name].svg)
