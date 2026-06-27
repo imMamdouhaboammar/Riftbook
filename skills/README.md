@@ -16,11 +16,18 @@ Every skill listed has a dedicated **Skill Card** detailing its purpose, inputs,
 | **Impeccable** | AI Frontend Design | Top Selected | Design guidance, frontend quality, UI audit, polish, layout, typography, detector checks | [![View Card](../assets/icons/open-card.svg)](./top-selected/impeccable.md) |
 | **Last30Days** | Research | Use Case Skill | Recent-signal research, meeting prep, competitor research, product validation, trend tracking | [![View Card](../assets/icons/open-card.svg)](./use-case-skills/last30days.md) |
 | **UI UX Pro Max** | UI/UX | Standard | Design systems, landing pages, dashboards, app UI, frontend polish | [![View Card](../assets/icons/open-card.svg)](./ui-ux/ui-ux-pro-max.md) |
-| **Clean Code Audit** | Coding | Standard | Auditing code changes for DRY, SOLID, and readability before committing | [![View Card](../assets/icons/open-card.svg)](./coding/) |
-| **Competitor Matrix** | Marketing | Standard | Compares product features against main competitors | [![View Card](../assets/icons/open-card.svg)](./marketing/) |
-| **Fact Checker** | Content | Standard | Verifies technical API names and links in docs | [![View Card](../assets/icons/open-card.svg)](./content/) |
-| **Codebase Mapping** | AI Agents | Standard | Traverses repository to build module dependency map | [![View Card](../assets/icons/open-card.svg)](./ai-agents/) |
 | **Delegate Team (`dt`)** | Installable Skills | Installable Skill | Delegating coding tasks from Claude Code to Codex, MiniMax, GLM, OpenCode, OpenRouter, Gemini, Vertex AI | [![View Card](../assets/icons/open-card.svg)](./installable-skills/delegate-team.md) |
+
+---
+
+## Planned Skills
+
+The following skills are planned and will be carded in future updates:
+
+- **Clean Code Audit** (Coding) — Auditing code changes for DRY, SOLID, and readability before committing.
+- **Competitor Matrix** (Marketing) — Compares product features against main competitors.
+- **Fact Checker** (Content) — Verifies technical API names and links in docs.
+- **Codebase Mapping** (AI Agents) — Traverses repository to build module dependency map.
 
 ---
 

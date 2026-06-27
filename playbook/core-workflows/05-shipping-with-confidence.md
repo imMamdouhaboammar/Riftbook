@@ -29,7 +29,7 @@ Before shipping anything, answer three questions:
 
 ## The Ship Check
 
-![SHIP CHECK](../../playbook/assets/badges/ship-check.svg)
+![SHIP CHECK](../assets/badges/ship-check.svg)
 
 Before any ship:
 

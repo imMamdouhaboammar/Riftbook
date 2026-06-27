@@ -34,7 +34,7 @@ Before writing any code for a feature or project, establish:
 
 ## The Outline-First Technique
 
-![AGENT MOVE](../../playbook/assets/badges/agent-move.svg)
+![AGENT MOVE](../assets/badges/agent-move.svg)
 
 Before any significant task, use this prompt:
 
@@ -68,7 +68,7 @@ A good planning session produces:
 
 ## Ship Check
 
-![SHIP CHECK](../../playbook/assets/badges/ship-check.svg)
+![SHIP CHECK](../assets/badges/ship-check.svg)
 
 Before building anything significant:
 

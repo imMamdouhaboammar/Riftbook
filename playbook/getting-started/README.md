@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="../assets/section-headers/getting-started.svg" alt="Getting Started Section Header" width="100%" />
+</p>
+
 # Getting Started
 
 **The entry point to the playbook.**

@@ -1,6 +1,6 @@
 # When I Should Have Used Codex
 
-![STORY](../../playbook/assets/badges/story.svg) ![MISTAKE LOG](https://img.shields.io/badge/MISTAKE%20LOG-111827?style=flat-square)
+![STORY](../assets/badges/story.svg) ![MISTAKE LOG](https://img.shields.io/badge/MISTAKE%20LOG-111827?style=flat-square)
 
 ---
 

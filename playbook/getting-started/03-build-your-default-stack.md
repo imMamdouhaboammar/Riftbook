@@ -1,6 +1,15 @@
+<p align="center">
+  <img src="../assets/lesson-heroes/03-build-your-default-stack.svg" alt="Lesson 03 Hero" width="100%" />
+</p>
+
 # Build Your Default Stack
 
-![WORKFLOW](https://img.shields.io/badge/WORKFLOW-111827?style=flat-square) ![PRACTICAL](https://img.shields.io/badge/PRACTICAL-3B82F6?style=flat-square)
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Beginner | 5 mins | Start Here | Lesson 02 | Claude Code, Cursor, RTK, Serena |
+
+### Active Signals in this Lesson
+- ![DEFAULT STACK](../assets/badges/default-stack.svg) · ![RED FLAG](../assets/badges/red-flag.svg) · ![SHIP CHECK](../assets/badges/ship-check.svg)
 
 ---
 
@@ -33,7 +42,7 @@ Once you have answers to these questions, starting a new project is faster, more
 
 ## A Strong Default Stack to Start With
 
-![DEFAULT STACK](../../playbook/assets/badges/default-stack.svg)
+![DEFAULT STACK](../assets/badges/default-stack.svg)
 
 This is a practical starting configuration that works well across most project types:
 
@@ -121,7 +130,7 @@ This file is also useful to give to the lead agent at the start of sessions so i
 
 ## The Anti-Pattern
 
-![RED FLAG](../../playbook/assets/badges/red-flag.svg)
+![RED FLAG](../assets/badges/red-flag.svg)
 
 The most common mistake with stacks is building the stack instead of the product.
 
@@ -137,7 +146,7 @@ The stack should take one hour to set up. Then you use it. The refinements come 
 
 ## Ship Check
 
-![SHIP CHECK](../../playbook/assets/badges/ship-check.svg)
+![SHIP CHECK](../assets/badges/ship-check.svg)
 
 - [ ] Lead agent chosen
 - [ ] At least one support agent identified

@@ -1,0 +1,39 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dot-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#EFE7D8" />
+    </pattern>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#F8F5EE" />
+  <rect width="100%" height="100%" fill="url(#dot-grid)" />
+  
+  <rect x="24" y="24" width="1152" height="312" rx="16" fill="#111827" />
+  <rect x="18" y="18" width="1152" height="312" rx="16" fill="#F8F5EE" stroke="#111827" stroke-width="3" />
+  <rect x="30" y="30" width="1128" height="288" rx="12" stroke="#EFE7D8" stroke-width="1.5" stroke-dasharray="6 4" fill="none" />
+  
+  <g transform="translate(1000, 174)">
+    
+        <!-- Onboarding key / startup play -->
+        <rect x="-40" y="-40" width="80" height="80" rx="40" fill="#D97706" fill-opacity="0.1" stroke="#D97706" stroke-width="3" />
+        <polygon points="-12,-20 -12,20 20,0" fill="#D97706" />
+        
+  </g>
+  
+  <g transform="translate(80, 85)">
+    <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#4B5563" letter-spacing="1.5">PLAYBOOK SECTION</text>
+    <text x="0" y="55" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="900" fill="#111827">Getting Started</text>
+    <text x="0" y="105" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="500" fill="#4B5563">Start before the agent starts making decisions for you.</text>
+    
+    <g transform="translate(0, 155)">
+      <rect x="0" y="0" width="140" height="32" rx="16" fill="#EFE7D8" stroke="#111827" stroke-width="1.5" />
+      <text x="70" y="20" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#111827" text-anchor="middle">Lead Agent</text>
+      
+      <rect x="155" y="0" width="140" height="32" rx="16" fill="#EFE7D8" stroke="#111827" stroke-width="1.5" />
+      <text x="225" y="20" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#111827" text-anchor="middle">Rules</text>
+      
+      <rect x="310" y="0" width="140" height="32" rx="16" fill="#EFE7D8" stroke="#111827" stroke-width="1.5" />
+      <text x="380" y="20" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#111827" text-anchor="middle">First Project</text>
+    </g>
+  </g>
+</svg>

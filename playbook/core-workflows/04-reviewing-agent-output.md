@@ -51,7 +51,7 @@ After every significant task:
 
 ## Ship Check
 
-![SHIP CHECK](../../playbook/assets/badges/ship-check.svg)
+![SHIP CHECK](../assets/badges/ship-check.svg)
 
 Before accepting any significant agent output:
 

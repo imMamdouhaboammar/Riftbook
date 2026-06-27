@@ -1,6 +1,6 @@
 # A Project I Overcomplicated
 
-![STORY](../../playbook/assets/badges/story.svg) ![MY MISTAKE](../../playbook/assets/badges/my-mistake.svg)
+![STORY](../assets/badges/story.svg) ![MY MISTAKE](../assets/badges/my-mistake.svg)
 
 ---
 

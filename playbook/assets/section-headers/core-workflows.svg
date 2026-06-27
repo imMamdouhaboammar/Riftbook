@@ -1,0 +1,43 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dot-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#EFE7D8" />
+    </pattern>
+  </defs>
+  
+  <rect width="100%" height="100%" fill="#F8F5EE" />
+  <rect width="100%" height="100%" fill="url(#dot-grid)" />
+  
+  <rect x="24" y="24" width="1152" height="312" rx="16" fill="#111827" />
+  <rect x="18" y="18" width="1152" height="312" rx="16" fill="#F8F5EE" stroke="#111827" stroke-width="3" />
+  <rect x="30" y="30" width="1128" height="288" rx="12" stroke="#EFE7D8" stroke-width="1.5" stroke-dasharray="6 4" fill="none" />
+  
+  <g transform="translate(1000, 174)">
+    
+        <!-- Gears/cycles -->
+        <circle cx="0" cy="0" r="30" fill="none" stroke="#2563EB" stroke-width="4" />
+        <circle cx="0" cy="0" r="10" fill="none" stroke="#2563EB" stroke-width="3" />
+        <path d="M-8,-32 L8,-32 L6,-26 L-6,-26 Z" fill="#2563EB" />
+        <path d="M-8,32 L8,32 L6,26 L-6,26 Z" fill="#2563EB" />
+        <path d="M-32,-8 L-32,8 L-26,6 L-26,-6 Z" fill="#2563EB" />
+        <path d="M32,-8 L32,8 L26,6 L26,-6 Z" fill="#2563EB" />
+        
+  </g>
+  
+  <g transform="translate(80, 85)">
+    <text x="0" y="0" font-family="'JetBrains Mono', monospace" font-size="13" font-weight="700" fill="#4B5563" letter-spacing="1.5">PLAYBOOK SECTION</text>
+    <text x="0" y="55" font-family="Inter, system-ui, sans-serif" font-size="44" font-weight="900" fill="#111827">Core Workflows</text>
+    <text x="0" y="105" font-family="Inter, system-ui, sans-serif" font-size="16" font-weight="500" fill="#4B5563">Step-by-step routines of working with coding agents.</text>
+    
+    <g transform="translate(0, 155)">
+      <rect x="0" y="0" width="140" height="32" rx="16" fill="#EFE7D8" stroke="#111827" stroke-width="1.5" />
+      <text x="70" y="20" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#111827" text-anchor="middle">Planning</text>
+      
+      <rect x="155" y="0" width="140" height="32" rx="16" fill="#EFE7D8" stroke="#111827" stroke-width="1.5" />
+      <text x="225" y="20" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#111827" text-anchor="middle">Multiple Agents</text>
+      
+      <rect x="310" y="0" width="140" height="32" rx="16" fill="#EFE7D8" stroke="#111827" stroke-width="1.5" />
+      <text x="380" y="20" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="#111827" text-anchor="middle">Shipping</text>
+    </g>
+  </g>
+</svg>

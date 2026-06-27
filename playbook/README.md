@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/branding/riftbook-logo.svg" alt="Riftbook" width="480" />
+  <img src="./assets/covers/playbook-cover.svg" alt="The Real Vibe Coding Playbook" width="100%" />
 </p>
 
 <h1 align="center">The Real Vibe Coding Playbook</h1>

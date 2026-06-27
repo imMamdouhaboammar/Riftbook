@@ -9,6 +9,7 @@ Use this section for infrastructure that improves how agents work with real code
 | Tool | Focus | Target Environments | Card |
 |---|---|---|---|
 | Serena | Semantic code retrieval, symbol-level editing, refactoring, memory, project workflow | Claude Code, Cursor, Codex, Gemini CLI, OpenCode, VS Code, JetBrains | [![View Card](../../assets/icons/open-card.svg)](./serena.md) |
+| Delegate Team | Controlled agent delegation, policy gateway, multi-backend routing, Claude Code support workflow | Claude Code, Codex, MiniMax, Gemini, OpenCode, VertexCoder | [![View Card](../../assets/icons/open-card.svg)](./delegate-team.md) |
 
 ## Related Review Intelligence
 

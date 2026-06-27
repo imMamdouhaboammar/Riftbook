@@ -1,6 +1,15 @@
+<p align="center">
+  <img src="../assets/lesson-heroes/01-how-to-start-a-new-project.svg" alt="Lesson 01 Hero" width="100%" />
+</p>
+
 # How to Start a New Project as a Vibe Coder
 
-![FOUNDATION](https://img.shields.io/badge/FOUNDATION-111827?style=flat-square) ![GETTING STARTED](https://img.shields.io/badge/GETTING%20STARTED-111827?style=flat-square) ![HIGH IMPACT](https://img.shields.io/badge/HIGH%20IMPACT-10B981?style=flat-square)
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Beginner | 8 mins | Start Here | None | Claude Code |
+
+### Active Signals in this Lesson
+- ![MENTAL MODEL](../assets/badges/mental-model.svg) · ![DO THIS FIRST](../assets/badges/do-this-first.svg) · ![TRY IT](../assets/badges/try-it.svg)
 
 ---
 
@@ -34,7 +43,7 @@ Everything else — stack, tools, workflow — comes after that decision.
 
 ## The Real Mental Model
 
-![MENTAL MODEL](../../playbook/assets/badges/mental-model.svg)
+![MENTAL MODEL](../assets/badges/mental-model.svg)
 
 Think of a real software team. There is a lead engineer who holds the full picture of the project. They know the architecture, the decisions that were made, and why certain things were built the way they were. When something needs to get done, they either do it themselves or direct someone else.
 
@@ -53,7 +62,7 @@ If you do not have a clear lead, no agent holds the full picture — and nothing
 
 ## Step 1: Pick Your Lead Agent
 
-![DO THIS FIRST](../../playbook/assets/badges/do-this-first.svg)
+![DO THIS FIRST](../assets/badges/do-this-first.svg)
 
 Your lead agent is the one that will hold project context across sessions. It is the one you talk to first, the one you give your `PRODUCT.md` and `RULES.md` to, and the one responsible for keeping the overall structure coherent.
 
@@ -93,11 +102,11 @@ Claude Code review
 Human-approved commit
 ```
 
-![AGENT MOVE](../../playbook/assets/badges/agent-move.svg)
+![AGENT MOVE](../assets/badges/agent-move.svg)
 
 > **AGENT MOVE:** Do not use multiple agents as a crowd. Use one lead agent and let the rest act like specialists.
 
-![MY MISTAKE](../../playbook/assets/badges/my-mistake.svg)
+![MY MISTAKE](../assets/badges/my-mistake.svg)
 
 > **MY MISTAKE:** The mistake is not using many agents. The mistake is using many agents without a controller, review loop, and boundaries.
 
@@ -144,7 +153,7 @@ dt metagpt "plan and implement the billing module with tests" --workspace-only -
 
 ## When I delegate
 
-![TRY IT](../../playbook/assets/badges/try-it.svg)
+![TRY IT](../assets/badges/try-it.svg)
 
 I delegate focused tasks to support backends via `dt` in these scenarios:
 - **When Claude Code is stuck** or repeating incorrect code patterns.
@@ -159,7 +168,7 @@ I delegate focused tasks to support backends via `dt` in these scenarios:
 
 ## When I do not delegate
 
-![RED FLAG](../../playbook/assets/badges/red-flag.svg)
+![RED FLAG](../assets/badges/red-flag.svg)
 
 I avoid delegation and handle the code directly with the lead agent (or manually) when:
 - **When the task is vague** or needs active exploration/discovery.
@@ -170,7 +179,7 @@ I avoid delegation and handle the code directly with the lead agent (or manually
 - **When the repository has no tests** or verification rules to assert correctness.
 - **When the lead agent is already losing context** or drifting; adding more agents at this stage compounds the confusion.
 
-![DON'T BREAK](../../playbook/assets/badges/dont-break.svg)
+![DON'T BREAK](../assets/badges/dont-break.svg)
 
 > **DON'T BREAK:** Never let delegated output write, install, commit, delete, or change auth/cloud settings without explicit approval.
 
@@ -189,7 +198,7 @@ A good brief prevents the support agent from making wrong assumptions. It must i
 
 ### Ready-to-use delegation prompt
 
-![COPY THIS](../../playbook/assets/badges/copy-this.svg)
+![COPY THIS](../assets/badges/copy-this.svg)
 
 ```
 Use Delegate Team for this focused task.
@@ -343,7 +352,7 @@ Add these before you have written significant code:
 
 ## Step 8: Know When to Switch Agents
 
-![WHEN TO SWITCH](../../playbook/assets/badges/when-to-switch.svg)
+![WHEN TO SWITCH](../assets/badges/when-to-switch.svg)
 
 Your lead agent is not infallible. There are clear signals that it is time to bring in a support agent or restart context:
 
@@ -358,7 +367,7 @@ Your lead agent is not infallible. There are clear signals that it is time to br
 
 ## Ship Check
 
-![SHIP CHECK](../../playbook/assets/badges/ship-check.svg)
+![SHIP CHECK](../assets/badges/ship-check.svg)
 
 Before starting any new project, confirm:
 

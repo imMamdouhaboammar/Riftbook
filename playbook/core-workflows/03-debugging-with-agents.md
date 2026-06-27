@@ -27,7 +27,7 @@ This one change prevents 80% of the fix-then-break-something-else cycles.
 
 ## The Debugging Prompt
 
-![COPY THIS](../../playbook/assets/badges/copy-this.svg)
+![COPY THIS](../assets/badges/copy-this.svg)
 
 ```
 Something is broken. Before suggesting a fix, I want you to:
@@ -56,7 +56,7 @@ When this happens: open a fresh support agent, give it only the relevant file(s)
 
 ## Ship Check
 
-![SHIP CHECK](../../playbook/assets/badges/ship-check.svg)
+![SHIP CHECK](../assets/badges/ship-check.svg)
 
 Before marking a bug as fixed:
 

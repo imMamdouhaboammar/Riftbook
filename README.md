@@ -17,8 +17,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/imMamdouhaboammar/Awesome_Vibe_Coding/stargazers">
-    <img src="https://img.shields.io/github/stars/imMamdouhaboammar/Awesome_Vibe_Coding?style=for-the-badge&label=Star" alt="GitHub stars" />
+  <a href="https://github.com/imMamdouhaboammar/Riftbook/stargazers">
+    <img src="https://img.shields.io/github/stars/imMamdouhaboammar/Riftbook?style=for-the-badge&label=Star" alt="GitHub stars" />
   </a>
   <a href="./tools/README.md">
     <img src="https://img.shields.io/badge/Explore%20Tools-111827?style=for-the-badge" alt="Explore tools" />
@@ -242,8 +242,8 @@ Explore the complete index of curated resource directories:
 | **Learning** | Structured courses, tutorials, and study paths for agentic systems | [Open](./learning/README.md) |
 | **Templates** | Standardized markdown patterns for prompts, skills, tools, and workflows | [Open](./templates/README.md) |
 | **Cheat Sheets** | High-density references and command lookups for coding and git | [Open](./cheat-sheets/README.md) |
-| **Playbooks** | End-to-end handbooks detailing product launch and build methodologies | [Open](./playbooks/README.md) |
-| **The Vibe Coding Playbook** | Field guide for working with AI coding agents — lessons, mistakes, stories, and paths | [Open](./playbook/README.md) |
+| **Execution Playbooks** | End-to-end handbooks detailing product launch and build methodologies | [Open](./playbooks/README.md) |
+| **The Real Vibe Coding Playbook** | Field guide for working with AI coding agents — lessons, mistakes, stories, and paths | [Open](./playbook/README.md) |
 | **Resources** | External libraries, academic papers, and reference documentation | [Open](./resources/README.md) |
 | **Examples** | Real-world prompt examples, case studies, and before/after comparisons | [Open](./examples/README.md) |
 | **Ideas** | Backlog of product, automation, and research concepts for builders | [Open](./ideas/README.md) |

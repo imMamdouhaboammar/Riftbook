@@ -1,6 +1,6 @@
 # Things That Look Smart But Hurt
 
-![RED FLAG](../../playbook/assets/badges/red-flag.svg) ![FIELD TESTED](https://img.shields.io/badge/FIELD%20TESTED-10B981?style=flat-square)
+![RED FLAG](../assets/badges/red-flag.svg) ![FIELD TESTED](https://img.shields.io/badge/FIELD%20TESTED-10B981?style=flat-square)
 
 ---
 

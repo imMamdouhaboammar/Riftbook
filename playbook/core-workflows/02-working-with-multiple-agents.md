@@ -53,7 +53,7 @@ By using a gateway like `delegate-team` (`dt`), your lead agent (Claude Code) st
 
 ## How to Split Work Between Agents
 
-![MENTAL MODEL](../../playbook/assets/badges/mental-model.svg)
+![MENTAL MODEL](../assets/badges/mental-model.svg)
 
 Assign clear roles based on the agent's strengths. Here is how to structure the division of labor:
 
@@ -77,7 +77,7 @@ Assign clear roles based on the agent's strengths. Here is how to structure the 
 
 Never let any support agent write directly to your codebase without a gateway check or manual diff review. 
 
-![DON'T BREAK](../../playbook/assets/badges/dont-break.svg)
+![DON'T BREAK](../assets/badges/dont-break.svg)
 
 > **DON'T BREAK:** Never let delegated output write, install, commit, delete, or change auth/cloud settings without explicit approval.
 
@@ -137,7 +137,7 @@ The lead agent (Claude Code) acts as your coordinator, and the delegation runtim
 
 ## Try It
 
-![TRY IT](../../playbook/assets/badges/try-it.svg)
+![TRY IT](../assets/badges/try-it.svg)
 
 In your current project workspace, try to delegate a small, isolated task (like adding a helper utility) instead of asking your lead agent to write it directly:
 
@@ -150,7 +150,7 @@ In your current project workspace, try to delegate a small, isolated task (like 
 
 ## Ship Check
 
-![SHIP CHECK](../../playbook/assets/badges/ship-check.svg)
+![SHIP CHECK](../assets/badges/ship-check.svg)
 
 Before adopting a multi-agent workflow:
 

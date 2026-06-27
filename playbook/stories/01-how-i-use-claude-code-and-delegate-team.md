@@ -1,6 +1,6 @@
 # How I Use Claude Code and Delegate Team
 
-![STORY](../../playbook/assets/badges/story.svg) ![FIELD TESTED](https://img.shields.io/badge/FIELD%20TESTED-10B981?style=flat-square)
+![STORY](../assets/badges/story.svg) ![FIELD TESTED](https://img.shields.io/badge/FIELD%20TESTED-10B981?style=flat-square)
 
 ---
 

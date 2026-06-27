@@ -1,6 +1,15 @@
+<p align="center">
+  <img src="../assets/lesson-heroes/04-set-rules-before-you-build.svg" alt="Lesson 04 Hero" width="100%" />
+</p>
+
 # Set Rules Before You Build
 
-![FOUNDATION](https://img.shields.io/badge/FOUNDATION-111827?style=flat-square) ![HIGH IMPACT](https://img.shields.io/badge/HIGH%20IMPACT-10B981?style=flat-square)
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Beginner | 7 mins | Start Here | Lesson 03 | Claude Code, Cursor, RULES.md |
+
+### Active Signals in this Lesson
+- ![MY MISTAKE](../assets/badges/my-mistake.svg) · ![PRO TIP](../assets/badges/pro-tip.svg) · ![COPY THIS](../assets/badges/copy-this.svg) · ![SHIP CHECK](../assets/badges/ship-check.svg)
 
 ---
 
@@ -83,7 +92,7 @@ Follow them without exception unless I explicitly override one.
 
 ## Why Most People Skip This
 
-![MY MISTAKE](../../playbook/assets/badges/my-mistake.svg)
+![MY MISTAKE](../assets/badges/my-mistake.svg)
 
 Most people skip `RULES.md` for one of two reasons:
 
@@ -124,7 +133,7 @@ The best rules are written reactively: when the agent does something wrong that 
 
 Over time, your `RULES.md` becomes a record of what you have learned about working with agents on your type of projects.
 
-![PRO TIP](../../playbook/assets/badges/pro-tip.svg)
+![PRO TIP](../assets/badges/pro-tip.svg)
 
 > **Template rules for any project:** Start with these five as your baseline.
 > 1. Never leave `TODO` comments without adding a task to `TASKS.md`
@@ -145,7 +154,7 @@ At the end of a project, your `RULES.md` is worth reviewing. The rules that matt
 
 ## Copy This
 
-![COPY THIS](../../playbook/assets/badges/copy-this.svg)
+![COPY THIS](../assets/badges/copy-this.svg)
 
 Use this to introduce rules to the agent at the start of a session:
 
@@ -164,7 +173,7 @@ before proceeding — do not silently override a rule.
 
 ## Ship Check
 
-![SHIP CHECK](../../playbook/assets/badges/ship-check.svg)
+![SHIP CHECK](../assets/badges/ship-check.svg)
 
 - [ ] `RULES.md` exists in the project root
 - [ ] At least 5 rules written

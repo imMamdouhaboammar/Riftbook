@@ -1,6 +1,15 @@
+<p align="center">
+  <img src="../assets/lesson-heroes/02-choose-your-lead-agent.svg" alt="Lesson 02 Hero" width="100%" />
+</p>
+
 # Choose Your Lead Agent
 
-![FOUNDATION](https://img.shields.io/badge/FOUNDATION-111827?style=flat-square) ![HIGH IMPACT](https://img.shields.io/badge/HIGH%20IMPACT-10B981?style=flat-square)
+| Level | Duration | Path | Prerequisites | Tools Mentioned |
+|---|---|---|---|---|
+| Beginner | 6 mins | Start Here | Lesson 01 | Claude Code, Cursor, Copilot |
+
+### Active Signals in this Lesson
+- ![MENTAL MODEL](../assets/badges/mental-model.svg) · ![RED FLAG](../assets/badges/red-flag.svg) · ![WHEN TO SWITCH](../assets/badges/when-to-switch.svg)
 
 ---
 
@@ -28,7 +37,7 @@ A lead agent is the coding agent you trust to:
 
 It is the difference between a contractor who shows up, builds what they are told, and leaves — and an engineer who understands the project, asks the right questions, and flags problems before they become expensive.
 
-![MENTAL MODEL](../../playbook/assets/badges/mental-model.svg)
+![MENTAL MODEL](../assets/badges/mental-model.svg)
 
 > The lead agent is your staff engineer. It holds the whole picture. Support agents are specialists — they are good at specific things, but they do not hold the full context and should not try to.
 
@@ -67,7 +76,7 @@ It combines planning, reasoning, code generation, review, and self-correction in
 
 ## The Signal That Your Lead Is Losing the Plot
 
-![RED FLAG](../../playbook/assets/badges/red-flag.svg)
+![RED FLAG](../assets/badges/red-flag.svg)
 
 These are the signs that your lead agent has lost coherence and needs a reset — or a switch:
 
@@ -90,7 +99,7 @@ These are the signs that your lead agent has lost coherence and needs a reset �
 
 ## When to Keep Going vs. When to Switch
 
-![WHEN TO SWITCH](../../playbook/assets/badges/when-to-switch.svg)
+![WHEN TO SWITCH](../assets/badges/when-to-switch.svg)
 
 **Keep going if:**
 - The agent is making small, correctable mistakes
@@ -120,7 +129,7 @@ This is cleaner than trying to transfer a degraded conversation and faster than 
 
 ## My Setup
 
-![DEFAULT STACK](../../playbook/assets/badges/default-stack.svg)
+![DEFAULT STACK](../assets/badges/default-stack.svg)
 
 Here is the actual setup I use for most projects:
 
@@ -140,7 +149,7 @@ The key principle: **Claude Code always holds the architectural view.** Other ag
 
 ## Try It
 
-![TRY IT](../../playbook/assets/badges/try-it.svg)
+![TRY IT](../assets/badges/try-it.svg)
 
 Before your next project:
 
@@ -155,7 +164,7 @@ That sentence will anchor every session.
 
 ## Ship Check
 
-![SHIP CHECK](../../playbook/assets/badges/ship-check.svg)
+![SHIP CHECK](../assets/badges/ship-check.svg)
 
 - [ ] Lead agent chosen and documented in `PRODUCT.md`
 - [ ] Role of each support agent defined (even loosely)
