@@ -147,6 +147,17 @@ To maintain a high signal-to-noise ratio, this repository excludes:
 
 ---
 
+## Learning Paths
+
+Structured courses and study resources for people who want stronger fundamentals before building.
+
+| Resource | Topic | Why it matters | Card |
+|---|---|---|---|
+| **AI Agents for Beginners** | AI Agents | A Microsoft learning path for understanding how agents work before building with them | [![View Card](./assets/icons/eye-box.svg)](./learning/ai-agents/ai-agents-for-beginners.md) |
+
+---
+
 ## How to Contribute
 
 Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed rules on how to format your additions, follow templates, and submit pull requests.
+
