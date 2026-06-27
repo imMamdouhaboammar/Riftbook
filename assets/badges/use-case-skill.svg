@@ -1,0 +1,12 @@
+<svg width="174" height="32" viewBox="0 0 174 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Use Case Skill">
+  <rect width="174" height="32" rx="16" fill="#111827"/>
+  <rect x="1" y="1" width="172" height="30" rx="15" stroke="#06B6D4" stroke-width="2"/>
+  <path d="M17 16C17 11.58 20.58 8 25 8C29.42 8 33 11.58 33 16C33 20.42 29.42 24 25 24C20.58 24 17 20.42 17 16Z" fill="#06B6D4"/>
+  <path d="M21.3 16.4L23.8 18.9L29 13.1" stroke="#111827" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M38 10.5H41.5V21.5H38V10.5Z" fill="#67E8F9"/>
+  <path d="M43.5 10.5H47V21.5H43.5V10.5Z" fill="#22D3EE"/>
+  <path d="M49 10.5H52.5V21.5H49V10.5Z" fill="#0891B2"/>
+  <text x="62" y="21" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700" fill="#F9FAFB" letter-spacing="0.4">
+    USE CASE SKILL
+  </text>
+</svg>

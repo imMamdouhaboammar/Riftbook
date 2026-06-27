@@ -84,6 +84,16 @@ Field-tested skills that improve AI agent output in real workflows.
 
 ---
 
+## Use Case Skills
+
+Specialized skills for specific workflow problems.
+
+| Skill | Use Case | Why it matters | Card |
+|---|---|---|---|
+| **Last30Days** | Recent-signal research | Searches recent social, developer, market, GitHub, and web signals before meetings, research, validation, or comparisons | [![View Card](./assets/icons/eye-box.svg)](./skills/use-case-skills/last30days.md) |
+
+---
+
 ## Hot Indexes
 
 High-signal discovery hubs for finding useful tools, skills, hooks, agents, commands, and workflow ideas.

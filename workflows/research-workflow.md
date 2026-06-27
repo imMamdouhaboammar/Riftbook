@@ -23,3 +23,8 @@ Workflow for system analysis, codebase mapping, and technical planning before st
 
 - [ ] Are all affected packages and entrypoints identified?
 - [ ] Has compatibility with the existing tech stack been verified?
+
+## Recommended Skills
+
+- **[Last30Days](../skills/use-case-skills/last30days.md)**: AI agent skill for researching recent signals across Reddit, X, YouTube, HN, Polymarket, and the web.
+
