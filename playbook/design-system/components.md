@@ -122,13 +122,23 @@ The Riftbook Visual System is composed of 9 core components designed to improve 
 - **When to use:** At the very bottom of every lesson markdown page.
 - **When not to use:** On index files or templates.
 - **Markdown example:**
-  ```markdown
-  *← Back to [Getting Started](./README.md) | Next: [Choose Your Lead Agent →](./02-choose-your-lead-agent.md)*
+  ```html
+  <p align="center">
+    <a href="./01-turn-your-mvp-idea-into-an-agent-ready-spec.md">
+      <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+    </a>
+    <a href="./README.md">
+      <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+    </a>
+    <a href="./03-build-your-default-stack.md">
+      <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+    </a>
+  </p>
   ```
-- **Common mistakes:** Using incorrect relative paths or listing links in the wrong sequence order.
-- **Good example:** `/playbook/getting-started/00-step-zero-build-the-project-truth.md`
+- **Common mistakes:** Using incorrect relative paths, using raw text arrows, or placing images on separate lines rather than inside a centered `<p>` block.
+- **Good example:** `/playbook/getting-started/01-turn-your-mvp-idea-into-an-agent-ready-spec.md`
 - **"Do not" rules for agents:**
-  * Do not omit the progress map link from the bottom of any lesson.
+  * Do not omit the centered SVG progress map buttons from the bottom of any lesson.
   * Do not reference lessons out of their canonical order.
 
 ---

@@ -67,6 +67,11 @@ Build that version. When it becomes insufficient, you will know exactly why, whi
 
 **The validation test:** If I cannot validate the core concept of this project within the next three days of work, something is wrong with my sequencing. Rethink the order.
 
----
-
-*← Back to [Stories](./README.md)*
+<p align="center">
+  <a href="./02-when-i-should-have-used-codex.md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+</p>

@@ -129,6 +129,11 @@ This is the list of the ones that show up most consistently.
 
 **What to do instead:** Start with a simple setup and let complexity develop from real need. If you find yourself configuring for more than an hour before writing any product code, stop and build something first.
 
----
-
-*← Back to [Mistakes](./README.md)*
+<p align="center">
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./02-my-own-mistakes.md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>

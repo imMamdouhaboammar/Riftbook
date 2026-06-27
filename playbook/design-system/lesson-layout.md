@@ -125,11 +125,21 @@ Every playbook lesson must follow this standard layout sequence. Future agents m
 - **When to use:** The last line of every lesson.
 - **When not to use:** Anywhere else in the document.
 - **Markdown example:**
-  ```markdown
-  *← Back to [Getting Started](./README.md) | Next: [Choose Your Lead Agent →](./02-choose-your-lead-agent.md)*
+  ```html
+  <p align="center">
+    <a href="./01-turn-your-mvp-idea-into-an-agent-ready-spec.md">
+      <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+    </a>
+    <a href="./README.md">
+      <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+    </a>
+    <a href="./03-build-your-default-stack.md">
+      <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+    </a>
+  </p>
   ```
-- **Common mistakes:** Linking to deprecated lesson paths or using absolute file system directories.
-- **Good example:** `/playbook/getting-started/03-build-your-default-stack.md`
+- **Common mistakes:** Linking to deprecated lesson paths, using raw text arrows, or using absolute file system directories.
+- **Good example:** `/playbook/getting-started/01-turn-your-mvp-idea-into-an-agent-ready-spec.md`
 - **"Do not" rules for agents:**
   * Do not omit the back/next footer links.
   * Do not leave broken local directory references.

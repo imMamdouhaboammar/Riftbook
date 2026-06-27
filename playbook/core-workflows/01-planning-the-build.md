@@ -106,6 +106,11 @@ Before building anything significant:
 - [ ] Outline has been reviewed and approved
 - [ ] `TASKS.md` is up to date
 
----
-
-*← Back to [Core Workflows](./README.md)*
+<p align="center">
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./02-working-with-multiple-agents.md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>

@@ -105,6 +105,11 @@ These are the moves that feel productive, look sophisticated, and consistently c
 
 **Better move:** After automated review, always do one manual check with a specific question: "What would break this in production?" Look for one specific edge case. It is a different kind of review than the automated kind and it catches different things.
 
----
-
-*← Back to [Mistakes](./README.md)*
+<p align="center">
+  <a href="./02-my-own-mistakes.md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+</p>

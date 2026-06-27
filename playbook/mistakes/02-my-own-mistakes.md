@@ -85,6 +85,14 @@ A plan that is not reviewed is not a plan. It is a document that delays coding b
 
 **What changed:** `TASKS.md` gets updated as part of every task completion, not when I remember.
 
----
-
-*← Back to [Mistakes](./README.md)*
+<p align="center">
+  <a href="./01-common-vibe-coding-mistakes.md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./03-things-that-look-smart-but-hurt.md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>

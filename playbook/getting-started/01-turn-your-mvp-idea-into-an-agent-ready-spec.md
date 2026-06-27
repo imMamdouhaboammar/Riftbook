@@ -225,6 +225,15 @@ Before writing the first line of code, confirm that you have completed these che
 - [ ] Selected the engineering discipline (Basic ChatGPT + Claude Code or Advanced Spec Kit + Delegate Team) that fits the scale of the task.
 - [ ] Established approval gates for dependency installation and code commits.
 
----
+<p align="center">
+  <a href="./00-step-zero-build-the-project-truth.md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./02-choose-your-lead-agent.md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>
 
-*← Back to [Getting Started](./README.md) | Next: [Choose Your Lead Agent →](./02-choose-your-lead-agent.md)*

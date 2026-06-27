@@ -300,6 +300,14 @@ That sentence will anchor every session.
 - [ ] Context files ready to feed to the lead at session start
 - [ ] Know the three signals that will tell you it is time to switch
 
----
-
-*← Back to [Getting Started](./README.md) | Next: [Build Your Default Stack →](./03-build-your-default-stack.md)*
+<p align="center">
+  <a href="./01-turn-your-mvp-idea-into-an-agent-ready-spec.md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./03-build-your-default-stack.md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>

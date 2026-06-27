@@ -87,6 +87,11 @@ Always keep in mind:
 
 > Delegate Team is a powerful gateway, but it does not replace the need for unit tests, clear project rules, and final human approval.
 
----
-
-*← Back to [Stories](./README.md)*
+<p align="center">
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./02-when-i-should-have-used-codex.md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>

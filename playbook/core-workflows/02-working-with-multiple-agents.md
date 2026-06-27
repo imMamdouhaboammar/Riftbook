@@ -166,6 +166,14 @@ Before adopting a multi-agent workflow:
 - [ ] Boundary policies (`--workspace-only`, `--no-install`) are active for team-based generation
 - [ ] Human review step is in place before committing code
 
----
-
-*← Back to [Core Workflows](./README.md) | Next: [Debugging with Agents →](./03-debugging-with-agents.md)*
+<p align="center">
+  <a href="./01-planning-the-build.md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./03-debugging-with-agents.md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>

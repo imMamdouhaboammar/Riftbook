@@ -70,6 +70,14 @@ Before accepting any significant agent output:
 - [ ] No new dependencies were added silently
 - [ ] One edge case was manually tested
 
----
-
-*← Back to [Core Workflows](./README.md)*
+<p align="center">
+  <a href="./03-debugging-with-agents.md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./05-shipping-with-confidence.md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>

@@ -70,6 +70,14 @@ Before routing a task to the lead agent, ask: is this a reasoning task or an imp
 
 If it is clearly implementation — well-defined input, well-defined output, clear constraints — consider starting with a support agent that specializes in code generation. Bring the output back to the lead for integration and review.
 
----
-
-*← Back to [Stories](./README.md)*
+<p align="center">
+  <a href="./01-how-i-use-claude-code-and-delegate-team.md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./03-a-project-i-overcomplicated.md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>

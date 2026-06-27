@@ -87,4 +87,16 @@ If the lesson includes reusable prompts, place them here inside a clean copyable
 - [ ] [Onboarding Checklist Item 2]
 
 ---
-*Part of [The Real Vibe Coding Playbook](../README.md)*
+
+<p align="center">
+  <a href="./[prev-lesson].md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./[next-lesson].md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>
+

@@ -187,5 +187,12 @@ This is where most builders make the last mistake: trying to build the whole pro
 - [ ] The stack choice is justified in `STACK_DECISION.md` based on requirements, not AI defaults.
 - [ ] No installation commands or component files have been created before the truth layer is finalized.
 
----
-*Part of [The Real Vibe Coding Playbook](../README.md)*
+<p align="center">
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./01-turn-your-mvp-idea-into-an-agent-ready-spec.md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>
+

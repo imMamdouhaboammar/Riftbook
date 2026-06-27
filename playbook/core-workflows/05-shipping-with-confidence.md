@@ -57,6 +57,11 @@ Shipping is not when the agent says it is done. Shipping is when you verify it i
 
 That is a different thing.
 
----
-
-*← Back to [Core Workflows](./README.md)*
+<p align="center">
+  <a href="./04-reviewing-agent-output.md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+</p>

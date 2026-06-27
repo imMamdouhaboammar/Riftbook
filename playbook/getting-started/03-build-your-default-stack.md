@@ -171,6 +171,14 @@ The stack should take one hour to set up. Then you use it. The refinements come 
 - [ ] At least one quality gate chosen
 - [ ] `STACK_DECISION.md` written and saved in the project (and optionally `STACK.md` summarized)
 
----
-
-*← Back to [Getting Started](./README.md) | Next: [Set Rules Before You Build →](./04-set-rules-before-you-build.md)*
+<p align="center">
+  <a href="./02-choose-your-lead-agent.md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./04-set-rules-before-you-build.md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>

@@ -72,6 +72,14 @@ Before marking a bug as fixed:
 - [ ] Related areas were checked for the same issue
 - [ ] Tests were run or manually verified
 
----
-
-*← Back to [Core Workflows](./README.md)*
+<p align="center">
+  <a href="./02-working-with-multiple-agents.md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+  <a href="./04-reviewing-agent-output.md">
+    <img src="../assets/navigation/next-lesson.svg" alt="Next Lesson" />
+  </a>
+</p>

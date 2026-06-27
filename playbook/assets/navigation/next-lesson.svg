@@ -1,0 +1,10 @@
+<svg width="200" height="48" viewBox="0 0 200 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Offset Shadow -->
+  <rect x="3" y="3" width="194" height="42" rx="8" fill="#4F46E5" />
+  <!-- Main Button -->
+  <rect x="0" y="0" width="194" height="42" rx="8" fill="#F8F5EE" stroke="#4F46E5" stroke-width="2"/>
+  <!-- Right Arrow Icon -->
+  <path d="M174 21H182M182 21L179 18M182 21L179 24" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Text -->
+  <text x="90" y="26" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="700" fill="#4F46E5" text-anchor="middle" letter-spacing="0.5">NEXT LESSON</text>
+</svg>

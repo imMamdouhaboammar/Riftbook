@@ -203,6 +203,11 @@ before proceeding — do not silently override a rule.
 - [ ] At least one "never" rule for something project-critical
 - [ ] Agent has confirmed it has read the rules before the first coding session
 
----
-
-*← Back to [Getting Started](./README.md)*
+<p align="center">
+  <a href="./03-build-your-default-stack.md">
+    <img src="../assets/navigation/prev-lesson.svg" alt="Previous Lesson" />
+  </a>
+  <a href="./README.md">
+    <img src="../assets/navigation/back-to-index.svg" alt="View Index" />
+  </a>
+</p>
