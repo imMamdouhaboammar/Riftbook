@@ -46,6 +46,10 @@ Any new playbook lesson should follow:
 - `design-system/lesson-layout.md`
 - `design-system/project-truth-layer.md`
 - `design-system/icon-policy.md`
+- `case-intake/case-intake-template.md`
+- `case-intake/case-to-lesson-template.md`
+- `case-intake/case-to-story-template.md`
+- `case-intake/case-to-coding-agent-plan-template.md`
 
 If a lesson needs a new visual pattern, add it to the design system before using it repeatedly.
 

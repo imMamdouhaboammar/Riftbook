@@ -9,6 +9,9 @@
   - All external platform, tool, and client logos should come from LobeHub Icons (https://lobehub.com/icons) in SVG format.
   - Standing rule: "Read https://lobehub.com/icons/skill.md and follow the instructions to use @lobehub/icons"
   - Refer to design-system/icon-policy.md for details.
+
+  Writing New Stories / Case Studies:
+  - To turn a real build session or problem-solution experience into a story or case study, use the Case Intake templates first (see case-intake/README.md).
 -->
 
 # Case Study: [Title]

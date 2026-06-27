@@ -103,6 +103,15 @@ Not everyone starts from the same place. Find yours.
 
 ---
 
+### 📥 Case Intake
+The field-notes system to capture raw builder battles and turn them into playbook content.
+
+> Templates and workflows to capture mistakes, wins, and rules.
+
+[→ Open Case Intake](./case-intake/README.md)
+
+---
+
 ## Learning Paths
 
 | Path | Best for | Start |
