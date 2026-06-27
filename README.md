@@ -35,9 +35,20 @@ Handpicked tools and skills that solve a real workflow problem and are worth try
 
 ---
 
+## Best Practice Guides
+
+Reference resources for designing better AI-assisted workflows.
+
+| Guide | Topic | Why it matters | Card |
+|---|---|---|---|
+| **Claude Code Best Practice** | Claude Code | Helps move from casual prompting to structured Claude Code workflows using commands, agents, skills, hooks, MCP, and memory | [![View Card](./assets/icons/eye-box.svg)](./guides/claude-code/claude-code-best-practice.md) |
+
+---
+
 ## Table of Contents
 
 - [Premium Picks](#premium-picks)
+- [Best Practice Guides](#best-practice-guides)
 - [Prompt Library](#prompt-library)
 - [Skills](#skills)
 - [Tool Stack](#tool-stack)
@@ -120,6 +131,11 @@ Real-world before/after case studies, prompt outputs, and workflow implementatio
 Backlog of product, automation, and research concepts.
 * **Link:** [`/ideas`](./ideas/)
 * **Files:** [Raw Ideas](./ideas/raw-ideas.md)
+
+### Guides
+Reference hubs, best-practice collections, and practical guides for building better AI-assisted apps.
+* **Link:** [`/guides`](./guides/)
+* **Files:** [Claude Code Best Practice](./guides/claude-code/claude-code-best-practice.md)
 
 ---
 
