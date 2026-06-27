@@ -1,0 +1,7 @@
+<svg width="130" height="32" viewBox="0 0 130 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Red Flag">
+  <rect width="130" height="32" rx="16" fill="#111827"/>
+  <rect x="1" y="1" width="128" height="30" rx="15" stroke="#F43F5E" stroke-width="2"/>
+  <line x1="14" y1="8" x2="14" y2="24" stroke="#F43F5E" stroke-width="2" stroke-linecap="round"/>
+  <path d="M14 8L26 11L14 15" fill="#F43F5E"/>
+  <text x="34" y="21" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#F43F5E" letter-spacing="0.8">RED FLAG</text>
+</svg>

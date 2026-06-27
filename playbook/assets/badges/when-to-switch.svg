@@ -1,0 +1,9 @@
+<svg width="186" height="32" viewBox="0 0 186 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="When To Switch">
+  <rect width="186" height="32" rx="16" fill="#111827"/>
+  <rect x="1" y="1" width="184" height="30" rx="15" stroke="#F472B6" stroke-width="2"/>
+  <path d="M13 12H25" stroke="#F472B6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M22 9L25 12L22 15" stroke="#F472B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M29 20H17" stroke="#F472B6" stroke-width="2" stroke-linecap="round"/>
+  <path d="M20 17L17 20L20 23" stroke="#F472B6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="38" y="21" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#F472B6" letter-spacing="0.8">WHEN TO SWITCH</text>
+</svg>

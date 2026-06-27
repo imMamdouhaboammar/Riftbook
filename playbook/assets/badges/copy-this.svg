@@ -1,0 +1,7 @@
+<svg width="142" height="32" viewBox="0 0 142 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Copy This">
+  <rect width="142" height="32" rx="16" fill="#111827"/>
+  <rect x="1" y="1" width="140" height="30" rx="15" stroke="#FB923C" stroke-width="2"/>
+  <rect x="13" y="11" width="9" height="11" rx="1.5" stroke="#FB923C" stroke-width="2"/>
+  <rect x="17" y="8" width="9" height="11" rx="1.5" stroke="#FB923C" stroke-width="2" fill="#111827"/>
+  <text x="34" y="21" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#FB923C" letter-spacing="0.8">COPY THIS</text>
+</svg>

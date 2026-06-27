@@ -37,6 +37,35 @@
 
 ---
 
+## The Real Vibe Coding Playbook
+
+A growing field guide for learning how to actually work with AI coding agents.
+Built from real workflows, real mistakes, and real lessons — not from theory.
+
+> If you are using coding agents and still feel messy, slow, or unsure where to start, the playbook is for you.
+
+| Section | What is inside |
+|---|---|
+| 🚀 [Getting Started](./playbook/getting-started/README.md) | How to begin the right way — lead agent, rules, context files, first steps |
+| ⚙️ [Core Workflows](./playbook/core-workflows/README.md) | Planning, multi-agent coordination, debugging, reviewing, and shipping |
+| ❌ [Mistakes](./playbook/mistakes/README.md) | Common mistakes, personal confessions, and things that look smart but hurt |
+| 📖 [Stories](./playbook/stories/README.md) | Real accounts from actual use — what worked, what didn't, what changed |
+| 🗺️ [Paths](./playbook/paths/README.md) | Structured reading order by role: beginner, solo builder, frontend, agency |
+
+<p>
+  <a href="./playbook/getting-started/01-how-to-start-a-new-project.md">
+    <img src="https://img.shields.io/badge/Start%20Here-111827?style=for-the-badge" alt="Start Here" />
+  </a>
+  <a href="./playbook/README.md">
+    <img src="https://img.shields.io/badge/Open%20Playbook-3B82F6?style=for-the-badge" alt="Open Playbook" />
+  </a>
+  <a href="./playbook/paths/beginner-path.md">
+    <img src="https://img.shields.io/badge/Beginner%20Path-10B981?style=for-the-badge" alt="Beginner Path" />
+  </a>
+</p>
+
+---
+
 ## Why Riftbook exists
 
 AI-assisted coding is moving fast, but most resource lists still stop at links.
@@ -212,6 +241,7 @@ Explore the complete index of curated resource directories:
 | **Templates** | Standardized markdown patterns for prompts, skills, tools, and workflows | [Open](./templates/README.md) |
 | **Cheat Sheets** | High-density references and command lookups for coding and git | [Open](./cheat-sheets/README.md) |
 | **Playbooks** | End-to-end handbooks detailing product launch and build methodologies | [Open](./playbooks/README.md) |
+| **The Vibe Coding Playbook** | Field guide for working with AI coding agents — lessons, mistakes, stories, and paths | [Open](./playbook/README.md) |
 | **Resources** | External libraries, academic papers, and reference documentation | [Open](./resources/README.md) |
 | **Examples** | Real-world prompt examples, case studies, and before/after comparisons | [Open](./examples/README.md) |
 | **Ideas** | Backlog of product, automation, and research concepts for builders | [Open](./ideas/README.md) |
