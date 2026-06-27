@@ -8,6 +8,6 @@ These are not just coding helpers. They shape the workflow around the agent so i
 
 | Tool | Focus | Target Environments | Card |
 |---|---|---|---|
-| Superpowers | Structured AI coding, TDD, planning, review | Claude Code, Cursor, Codex, Gemini CLI, OpenCode | [Open card](./superpowers.md) |
-| Caveman | Token Efficiency, agent output compression | Claude Code, Cursor, Codex, Gemini CLI, OpenCode | [Open skill card](../../skills/token-efficiency/caveman.md) |
-| Graphify | Codebase mapping, knowledge graphs | Claude Code, Cursor, Codex, Gemini CLI, OpenCode, PowerShell | [Open skill card](../../skills/project-intelligence/graphify.md) |
+| Superpowers | Structured AI coding, TDD, planning, review | Claude Code, Cursor, Codex, Gemini CLI, OpenCode | [[👁️]](./superpowers.md) |
+| Caveman | Token Efficiency, agent output compression | Claude Code, Cursor, Codex, Gemini CLI, OpenCode | [[👁️]](../../skills/token-efficiency/caveman.md) |
+| Graphify | Codebase mapping, knowledge graphs | Claude Code, Cursor, Codex, Gemini CLI, OpenCode, PowerShell | [[👁️]](../../skills/project-intelligence/graphify.md) |

@@ -10,13 +10,13 @@ Every skill listed has a dedicated **Skill Card** detailing its purpose, inputs,
 
 | Skill | Category | Tier | Best For | Card |
 |---|---|---|---|---|
-| **Caveman** | Token Efficiency | Premium Pick | Shorter agent replies, token savings, PR reviews, commit messages, memory compression | [Open card](./token-efficiency/caveman.md) |
-| **Graphify** | Project Intelligence | Premium Pick | Codebase maps, knowledge graphs, architecture context, refactors, debugging | [Open card](./project-intelligence/graphify.md) |
-| **UI UX Pro Max** | UI/UX | Standard | Design systems, landing pages, dashboards, app UI, frontend polish | [Open card](./ui-ux/ui-ux-pro-max.md) |
-| **Clean Code Audit** | Coding | Standard | Auditing code changes for DRY, SOLID, and readability before committing | [Open category](./coding/) |
-| **Competitor Matrix** | Marketing | Standard | Compares product features against main competitors | [Open category](./marketing/) |
-| **Fact Checker** | Content | Standard | Verifies technical API names and links in docs | [Open category](./content/) |
-| **Codebase Mapping** | AI Agents | Standard | Traverses repository to build module dependency map | [Open category](./ai-agents/) |
+| **Caveman** | Token Efficiency | Premium Pick | Shorter agent replies, token savings, PR reviews, commit messages, memory compression | [[👁️]](./token-efficiency/caveman.md) |
+| **Graphify** | Project Intelligence | Premium Pick | Codebase maps, knowledge graphs, architecture context, refactors, debugging | [[👁️]](./project-intelligence/graphify.md) |
+| **UI UX Pro Max** | UI/UX | Standard | Design systems, landing pages, dashboards, app UI, frontend polish | [[👁️]](./ui-ux/ui-ux-pro-max.md) |
+| **Clean Code Audit** | Coding | Standard | Auditing code changes for DRY, SOLID, and readability before committing | [[👁️]](./coding/) |
+| **Competitor Matrix** | Marketing | Standard | Compares product features against main competitors | [[👁️]](./marketing/) |
+| **Fact Checker** | Content | Standard | Verifies technical API names and links in docs | [[👁️]](./content/) |
+| **Codebase Mapping** | AI Agents | Standard | Traverses repository to build module dependency map | [[👁️]](./ai-agents/) |
 
 ---
 
