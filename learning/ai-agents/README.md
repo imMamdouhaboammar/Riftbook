@@ -7,3 +7,8 @@ Structured courses, tutorials, and materials focused on AI Agent architecture, R
 | Course | Topic | Focus | Card |
 |---|---|---|---|
 | AI Agents for Beginners | AI Agents | Core fundamentals, tool use, memory, RAG, multi-agent, security | [[👁️]](./ai-agents-for-beginners.md) |
+
+## Frameworks & Systems
+
+- [Microsoft GraphRAG](../../frameworks/rag/graphrag.md) — Knowledge graph-based Retrieval-Augmented Generation framework.
+

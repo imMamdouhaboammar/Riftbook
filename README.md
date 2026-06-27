@@ -84,6 +84,16 @@ The strongest curated skills in this repo. Start here when the workflow matters.
 
 ---
 
+## Agent Infrastructure
+
+Tools that make AI coding agents stronger inside real codebases.
+
+| Tool | Category | Why it matters | Card |
+|---|---|---|---|
+| **Serena** | MCP Semantic Coding Toolkit | Gives agents IDE-like symbol navigation, semantic editing, refactoring, and project memory | [![View Card](./assets/icons/eye-box.svg)](./tools/agent-infrastructure/serena.md) |
+
+---
+
 ## Hot Skills
 
 Field-tested skills that improve AI agent output in real workflows.
@@ -114,6 +124,16 @@ High-signal discovery hubs for finding useful tools, skills, hooks, agents, comm
 
 ---
 
+## Core Frameworks
+
+Architecture-level projects for people building serious AI-assisted systems.
+
+| Framework | Category | Why it matters | Card |
+|---|---|---|---|
+| Microsoft GraphRAG | RAG Infrastructure | Builds graph-based retrieval pipelines for reasoning over private or complex document collections | [Open card](./frameworks/rag/graphrag.md) |
+
+---
+
 ## Start Here
 
 New here? Use these onboarding shortcuts to find what you need quickly:
@@ -136,6 +156,7 @@ Explore the complete index of curated resource directories:
 | **Prompts** | Curated, tested prompts for coding, design, writing, research, and automation | [Open](./prompts/README.md) |
 | **Skills** | Reusable agent instructions, behaviors, and custom prompt logic layers | [Open](./skills/README.md) |
 | **Tools** | A curated index of IDE extensions, MCP servers, and terminal utilities | [Open](./tools/README.md) |
+| **Frameworks** | Architecture-level projects and technical frameworks for building serious AI-assisted applications | [Open](./frameworks/README.md) |
 | **Workflows** | Step-by-step blueprints for debugging, researching, designing, and shipping | [Open](./workflows/README.md) |
 | **Guides** | Setup playbooks, best practices, and configurations (e.g. Claude Code) | [Open](./guides/README.md) |
 | **Indexes** | Curated indexes and discovery hubs for finding AI-assisted coding resources | [Open](./indexes/README.md) |
