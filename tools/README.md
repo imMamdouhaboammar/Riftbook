@@ -14,6 +14,7 @@ Every tool listed has a dedicated **Tool Card** detailing its use cases, install
 | **Cursor** | Coding | Codebase context-aware edits, inline edits, multi-file refactors | [Open card](./coding/cursor.md) |
 | **Chrome DevTools MCP** | Coding | Browser testing, console log inspection, UI automation | [Open card](./coding/chrome-devtools-mcp.md) |
 | **Coolors** | Design | Theme palette generation, color contrasting | [Open card](./design/coolors.md) |
+| **UI UX Pro Max** | AI UI/UX Skill | Helping coding agents generate better UI direction and design systems | [Open skill card](../skills/ui-ux/ui-ux-pro-max.md) |
 | **Markdownlint** | Writing | Markdown style checking, documentation formatting | [Open card](./writing/markdownlint.md) |
 | **Perplexity AI** | Research | Conversational web queries, latest tech stack analysis | [Open card](./research/perplexity-ai.md) |
 | **GitHub Actions** | Automation | Continuous integration, staging deployments, test execution | [Open card](./automation/github-actions.md) |

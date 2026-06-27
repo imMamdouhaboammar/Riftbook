@@ -63,7 +63,8 @@ Curated, high-performing prompts categorized by domain. Use these to get high-qu
 ### Skills
 Reusable instructions and configurations designed for AI agents, custom MCP tools, and LLM system prompts.
 * **Link:** [`/skills`](./skills/)
-* **Categories:** [AI Agents](./skills/ai-agents/), [Coding](./skills/coding/), [Marketing](./skills/marketing/), [Content](./skills/content/)
+* **UI/UX Design:** [UI UX Pro Max](./skills/ui-ux/ui-ux-pro-max.md) — Design system and interface intelligence for AI coding agents.
+* **Categories:** [UI/UX](./skills/ui-ux/), [AI Agents](./skills/ai-agents/), [Coding](./skills/coding/), [Marketing](./skills/marketing/), [Content](./skills/content/)
 
 ### Tool Stack
 A curated index of tools, IDE extensions, MCP servers, and utilities that speed up the dev loop.
