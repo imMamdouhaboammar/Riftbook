@@ -127,14 +127,23 @@ How the agent should report what it did, how it should flag uncertainty.
 
 ## Context Files as Live Boundaries
 
-Rules are only effective if they are supported by a clear repo context. Think of context files as live boundaries that keep the agent from guessing. Before you begin, set up these files to guide the agent:
+Rules are only effective if they are supported by a clear repo context. Think of context files as live boundaries that keep the agent from guessing. We organize these files into two lifecycle layers (see [Project Truth Layer Standard](../design-system/project-truth-layer.md)):
 
+### 1. The Initial Truth Layer (Required Before Coding)
+These files lock down the product vision, design language, and architecture before code is written:
 - **`PRODUCT.md`**: Defines what you are building, for whom, the first version scope, and the strict non-goals.
 - **`DESIGN.md`**: Records design tokens, color schemes, component states, and spacing to avoid UI visual drift.
-- **`TASKS.md`**: The current, living task list (In Progress, Backlog, Done) that you update at the end of each session.
-- **`RULES.md`**: The exact code quality, styling, and communication guidelines the agent must execute.
+- **`AGENT.md`**: Tailors agent instructions, role definitions, and interaction boundaries.
+- **`STACK_DECISION.md`**: Documents and justifies technical framework and library selections.
+- **`IMPLEMENTATION_PLAN.md`**: A step-by-step technical milestone blueprint.
+- **`OPEN_QUESTIONS.md`**: Tracks unresolved design and technical queries.
 
-When starting a session, feed these four files directly into the agent. They form the "truth layer" that prevents the agent's short-term memory from degrading over time.
+### 2. The Operational Layer (Required Before Build Sessions)
+Once the truth layer is established, you create these operational files to manage daily sessions:
+- **`RULES.md`**: The exact code quality, styling, and communication guidelines the agent must execute.
+- **`TASKS.md`**: The current, living task list (In Progress, Backlog, Done) that you update at the end of each session.
+
+When starting a session, feed these operational and truth files directly into the agent. They form the context boundary that prevents the agent's short-term memory from degrading over time.
 
 ---
 

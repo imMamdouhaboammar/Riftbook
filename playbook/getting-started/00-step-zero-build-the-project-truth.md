@@ -67,6 +67,9 @@ At a minimum, your repository must contain these files before any execution begi
 5. **`IMPLEMENTATION_PLAN.md`**: A step-by-step breakdown of how the project will be built, organized into logical, incremental milestones.
 6. **`OPEN_QUESTIONS.md`**: A living document listing unresolved design queries, technical uncertainties, or scope questions that need human resolution.
 
+> [!NOTE]
+> These six files make up the **Initial Truth Layer** and are required *before* any coding or directory scaffolding begins. Operational files such as `RULES.md` and `TASKS.md` belong to the **Operational Layer** and are created subsequently, before launching active implementation sessions (see [Project Truth Layer Standard](../design-system/project-truth-layer.md)).
+
 ---
 
 ## Stack Decision Matrix

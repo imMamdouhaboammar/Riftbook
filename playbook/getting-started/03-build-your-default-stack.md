@@ -109,7 +109,11 @@ Customize based on:
 
 ## Document Your Stack
 
-Add a `STACK.md` to every project with your configuration:
+Your tech stack choices are officially recorded and justified in `STACK_DECISION.md` as part of the Initial Truth Layer (see [Project Truth Layer Standard](../design-system/project-truth-layer.md)).
+
+Optionally, you can create a `STACK.md` file in the project root to serve as a short operational summary of your active local configuration. If you use `STACK.md`, it must not replace `STACK_DECISION.md`, and it should link back to `STACK_DECISION.md` for architectural context.
+
+Here is a template for the operational `STACK.md` file:
 
 ```markdown
 # Stack
@@ -150,7 +154,7 @@ The most common mistake with stacks is building the stack instead of the product
 Signs you are doing this:
 - You spent more than a day configuring tools before writing any code
 - You keep evaluating new tools instead of using the ones you have
-- Your `STACK.md` is longer than your `PRODUCT.md`
+- Your `STACK_DECISION.md` is longer than your `PRODUCT.md`
 - The stack changes every project
 
 The stack should take one hour to set up. Then you use it. The refinements come from actual use, not from research.
@@ -165,7 +169,7 @@ The stack should take one hour to set up. Then you use it. The refinements come 
 - [ ] At least one support agent identified
 - [ ] At least one code review tool configured
 - [ ] At least one quality gate chosen
-- [ ] `STACK.md` written and saved in the project
+- [ ] `STACK_DECISION.md` written and saved in the project (and optionally `STACK.md` summarized)
 
 ---
 

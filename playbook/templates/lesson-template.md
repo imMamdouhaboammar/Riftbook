@@ -1,3 +1,12 @@
+<!-- 
+  NOTE FOR WRITERS:
+  When referencing repository context or configuration files, always use the canonical Project Truth Layer Standard:
+  - Initial Truth Layer (Required before coding): PRODUCT.md, DESIGN.md, AGENT.md, STACK_DECISION.md, IMPLEMENTATION_PLAN.md, OPEN_QUESTIONS.md
+  - Operational Layer (Required before build sessions): RULES.md, TASKS.md
+  - Optional Stack summary: STACK.md (must link to STACK_DECISION.md)
+  Refer to design-system/project-truth-layer.md for specifications.
+-->
+
 # [Lesson Number] - [Lesson Title]
 
 ![[Lesson Title]](../assets/lesson-heroes/[lesson-filename].svg)

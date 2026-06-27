@@ -192,6 +192,9 @@ Once the MVP spec is locked, move to your coding agent (e.g. Claude Code or Gemi
 
 > **DON'T BREAK:** Do not let the coding agent start writing production code immediately. It must first inspect the repository, set up the project truth files, and organize its engineering workflows.
 
+> [!NOTE]
+> The setup prompt focuses on initializing the **Initial Truth Layer** (`PRODUCT.md`, `DESIGN.md`, `AGENT.md`, `STACK_DECISION.md`, `IMPLEMENTATION_PLAN.md`, `OPEN_QUESTIONS.md`). The operational files (`RULES.md` and `TASKS.md`) are managed as part of the **Operational Layer** that governs subsequent execution sessions (see [Project Truth Layer Standard](../design-system/project-truth-layer.md)).
+
 ---
 
 ## Step 5: The Build Setup Prompt

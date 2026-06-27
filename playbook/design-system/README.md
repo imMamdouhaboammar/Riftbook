@@ -44,5 +44,6 @@ Any new playbook lesson should follow:
 - `templates/lesson-template.md`
 - `design-system/badge-system.md`
 - `design-system/lesson-layout.md`
+- `design-system/project-truth-layer.md`
 
 If a lesson needs a new visual pattern, add it to the design system before using it repeatedly.
