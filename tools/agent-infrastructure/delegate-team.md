@@ -126,7 +126,7 @@ dt metagpt "design the dashboard grid layout" --workspace-only --no-install
 
 ## Special Thanks
 
-Special thanks to [@{owner}](https://github.com/{owner}) for creating and maintaining the amazing [{name}](https://github.com/{owner}) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟
+Special thanks to [@imMamdouhaboammar](https://github.com/imMamdouhaboammar) for creating and maintaining the amazing [delegate-team](https://github.com/imMamdouhaboammar/delegate-team) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟
 
 ---
 
