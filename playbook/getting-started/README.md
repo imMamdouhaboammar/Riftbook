@@ -19,6 +19,7 @@ If you are new to working with AI coding agents, start here. Read these lessons 
 | 2 | [Choose Your Lead Agent](./02-choose-your-lead-agent.md) | The most important decision most builders skip |
 | 3 | [Build Your Default Stack](./03-build-your-default-stack.md) | Stop picking tools every time. Build a repeatable setup. |
 | 4 | [Set Rules Before You Build](./04-set-rules-before-you-build.md) | How rules make agents predictable instead of unpredictable |
+| 5 | [The First Slice](./05-the-first-slice.md) | Build one real end-to-end flow before expanding. Never ask the agent to build the whole app at once. |
 
 ---
 
@@ -31,8 +32,9 @@ Most people who start using coding agents make the same foundational mistakes:
 3. They open an agent and immediately start describing what to build — without selecting a lead agent (Lesson 2)
 4. They pick a stack based on habit rather than product needs (Lesson 0 & 3)
 5. They skip writing rules and spend time correcting the same behavior in every session (Lesson 4)
+6. They ask the agent to build the entire app at once — and lose control of the codebase immediately (Lesson 5)
 
-These five lessons address each of those directly.
+These six lessons address each of those directly.
 
 ---
 

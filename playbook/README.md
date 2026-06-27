@@ -53,6 +53,7 @@ If you are new to working with AI coding agents, read these first — in order:
 | 2 | [Choose Your Lead Agent](./getting-started/02-choose-your-lead-agent.md) | The most important decision most builders skip. |
 | 3 | [Build Your Default Stack](./getting-started/03-build-your-default-stack.md) | Stop picking tools every time. Build a repeatable setup. |
 | 4 | [Set Rules Before You Build](./getting-started/04-set-rules-before-you-build.md) | Rules are not optional. They are what makes agents predictable. |
+| 5 | [The First Slice](./getting-started/05-the-first-slice.md) | Build one real flow end to end before expanding. Never open the whole app scope at once. |
 
 ---
 
@@ -135,6 +136,7 @@ The field-notes system to capture raw builder battles and turn them into playboo
 | [Choose Your Lead Agent](./getting-started/02-choose-your-lead-agent.md) | Getting Started | The decision most people skip |
 | [Common Vibe Coding Mistakes](./mistakes/01-common-vibe-coding-mistakes.md) | Mistakes | What trips up most builders |
 | [Planning the Build](./core-workflows/01-planning-the-build.md) | Core Workflows | Saves hours every project |
+| [The First Slice](./getting-started/05-the-first-slice.md) | Getting Started | How to make the first implementation move correctly |
 | [Debugging with Agents](./core-workflows/03-debugging-with-agents.md) | Core Workflows | Most underrated skill |
 
 ---

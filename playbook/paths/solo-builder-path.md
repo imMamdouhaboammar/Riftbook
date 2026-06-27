@@ -1,6 +1,6 @@
 # Solo Builder Path
 
-**Path Profile:** Solo Builder | **Length:** 11 Lessons
+**Path Profile:** Solo Builder | **Length:** 12 Lessons
 
 ---
 
@@ -19,6 +19,7 @@ Solo builders have a specific challenge: you are the PM, the designer, the engin
 2. [Choose Your Lead Agent](../getting-started/02-choose-your-lead-agent.md)
 3. [Build Your Default Stack](../getting-started/03-build-your-default-stack.md)
 4. [Set Rules Before You Build](../getting-started/04-set-rules-before-you-build.md)
+5. [The First Slice](../getting-started/05-the-first-slice.md) ← never open the full app scope at once
 
 ### Core Workflows (Your Day-to-Day)
 

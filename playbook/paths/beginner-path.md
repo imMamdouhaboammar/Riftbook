@@ -1,6 +1,6 @@
 # Beginner Path
 
-**Path Profile:** Beginner | **Length:** 6 Lessons
+**Path Profile:** Beginner | **Length:** 7 Lessons
 
 ---
 
@@ -59,8 +59,17 @@ Rules are what make agents predictable. Without them, every session is an improv
 
 ---
 
-### 5. Common Vibe Coding Mistakes
-**[→ Read Sixth](../mistakes/01-common-vibe-coding-mistakes.md)**
+### 5. The First Slice
+**[→ Read Sixth](../getting-started/05-the-first-slice.md)**
+
+After everything is set up, this is the most common mistake: asking the agent to build the whole app at once. This lesson teaches you to define and build one real, testable flow first.
+
+*What you will learn:* What a vertical slice is, why full-app prompts fail, how to choose the smallest real flow, and how to review it before expanding.
+
+---
+
+### 6. Common Vibe Coding Mistakes
+**[→ Read Seventh](../mistakes/01-common-vibe-coding-mistakes.md)**
 
 Before you build, know what consistently trips people up. Reading this now will save you from the most common painful discoveries.
 
@@ -70,7 +79,7 @@ Before you build, know what consistently trips people up. Reading this now will 
 
 ## After This Path
 
-Once you have read all six lessons, you are ready for the core workflows.
+Once you have read all seven lessons, you are ready for the core workflows.
 
 Your next step: [Planning the Build →](../core-workflows/01-planning-the-build.md)
 
