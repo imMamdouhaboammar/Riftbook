@@ -297,3 +297,10 @@ If Riftbook helps you build faster or write cleaner code, please consider:
 ## How to Contribute
 
 Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for detailed rules on how to format your additions, follow templates, and submit pull requests.
+
+---
+
+## Topics & Keywords
+
+`vibe-coding` · `awesome-vibe-coding` · `claude-code` · `ai-agents` · `coding-agents` · `awesome-list` · `developer-tools` · `mcp-servers` · `metagpt` · `openai-codex` · `vertex-ai` · `prompt-engineering` · `agentic-workflows` · `riftbook`
+
