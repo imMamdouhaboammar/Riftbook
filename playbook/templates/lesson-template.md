@@ -40,6 +40,18 @@ Precede commands or configuration rulesets with standard signal badges.
 
 ---
 
+## Prompt Template / Copy-This Prompt (Optional)
+
+If the lesson includes reusable prompts, place them here inside a clean copyable code block:
+
+![COPY THIS](../assets/badges/copy-this.svg)
+
+```
+[Detailed prompt text goes here]
+```
+
+---
+
 ## Try It
 
 ![TRY IT](../assets/badges/try-it.svg)

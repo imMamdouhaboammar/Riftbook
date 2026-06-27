@@ -15,7 +15,7 @@ The challenge for product-minded builders is scope discipline. Agents can build 
 ### Foundation
 
 0. [Build the Project Truth Before You Build](../getting-started/00-step-zero-build-the-project-truth.md) ← write PRODUCT.md and MVP scope first
-1. [How to Start a New Project](../getting-started/01-how-to-start-a-new-project.md) ← especially "Define the Job Before the Build"
+1. [From MVP Idea to Agent-Ready Spec](../getting-started/01-turn-your-mvp-idea-into-an-agent-ready-spec.md) ← especially "Explain the Problem Before the Product"
 2. [Planning the Build](../core-workflows/01-planning-the-build.md) ← the planning discipline is central here
 3. [Set Rules Before You Build](../getting-started/04-set-rules-before-you-build.md)
 

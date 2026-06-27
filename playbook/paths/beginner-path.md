@@ -23,12 +23,12 @@ Why vibe coding projects fail before the first line of code. Learn to slow down 
 
 ---
 
-### 1. How to Start a New Project
-**[→ Read Second](../getting-started/01-how-to-start-a-new-project.md)**
+### 1. From MVP Idea to Agent-Ready Spec
+**[→ Read Second](../getting-started/01-turn-your-mvp-idea-into-an-agent-ready-spec.md)**
 
-The second step in your workflow. Before you open any agent, establish your lead agent and start rules.
+The second step in your workflow. Before you ask your coding agent to build, clarify the problem and MVP scope using a thinking partner client.
 
-*What you will learn:* The lead-specialist model, controller hierarchy, delegation prompts.
+*What you will learn:* The distinction between thinking clients and building operators, discovery and handoff prompts, Spec Kit, and Delegate Team integrations.
 
 ---
 

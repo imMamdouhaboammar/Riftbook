@@ -61,7 +61,7 @@
 
 <!-- Link to lessons in the playbook that address this area. -->
 
-- [Related lesson](../getting-started/01-how-to-start-a-new-project.md)
+- [Related lesson](../getting-started/01-turn-your-mvp-idea-into-an-agent-ready-spec.md)
 
 ---
 

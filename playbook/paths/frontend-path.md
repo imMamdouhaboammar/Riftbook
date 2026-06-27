@@ -15,7 +15,7 @@ Frontend work with coding agents has a specific challenge: agents are good at st
 ### Foundation
 
 0. [Build the Project Truth Before You Build](../getting-started/00-step-zero-build-the-project-truth.md) ← decide design and stack rules first
-1. [How to Start a New Project](../getting-started/01-how-to-start-a-new-project.md)
+1. [From MVP Idea to Agent-Ready Spec](../getting-started/01-turn-your-mvp-idea-into-an-agent-ready-spec.md)
 2. [Set Rules Before You Build](../getting-started/04-set-rules-before-you-build.md) ← especially important for design conventions
 3. [Build Your Default Stack](../getting-started/03-build-your-default-stack.md) ← React Doctor + Impeccable are key
 

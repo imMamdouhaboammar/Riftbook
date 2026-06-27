@@ -15,7 +15,7 @@ Agency operators have a different problem than solo builders: they cannot hold t
 ### Foundation (Non-Negotiable)
 
 0. [Build the Project Truth Before You Build](../getting-started/00-step-zero-build-the-project-truth.md) ← build the truth layer first
-1. [How to Start a New Project](../getting-started/01-how-to-start-a-new-project.md) ← systemize this for every client
+1. [From MVP Idea to Agent-Ready Spec](../getting-started/01-turn-your-mvp-idea-into-an-agent-ready-spec.md) ← systemize this for every client
 2. [Build Your Default Stack](../getting-started/03-build-your-default-stack.md) ← your stack is an agency asset
 3. [Set Rules Before You Build](../getting-started/04-set-rules-before-you-build.md) ← rules templates save hours per client
 

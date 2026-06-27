@@ -20,7 +20,7 @@ This document defines how reading paths in `playbook/paths/` are structured.
    ```markdown
    | Sequence | Lesson | Why it matters | Status |
    |---|---|---|---|
-   | 1 | [How to Start a New Project](../getting-started/01-how-to-start-a-new-project.md) | baseline setup | Core |
+   | 1 | [From MVP Idea to Agent-Ready Spec](../getting-started/01-turn-your-mvp-idea-into-an-agent-ready-spec.md) | baseline setup | Core |
    ```
 
 4. **Required Tools and Skills:**

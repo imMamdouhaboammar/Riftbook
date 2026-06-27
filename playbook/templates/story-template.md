@@ -56,7 +56,7 @@
 
 <!-- Link to relevant lessons in the playbook that expand on the themes of this story. -->
 
-- [Related lesson name](../getting-started/01-how-to-start-a-new-project.md)
+- [Related lesson name](../getting-started/01-turn-your-mvp-idea-into-an-agent-ready-spec.md)
 
 ---
 
