@@ -5,7 +5,7 @@ Final checks and deployment steps to release stable releases.
 - **Goal**: Safely deploy application changes without downtime or crashes.
 - **When to Use**: Merging features to primary branch or pushing builds to hosting platforms.
 - **Inputs**: Completed task branches, test logs.
-- **Tools Needed**: Git commands, build runner engine, Code Review Graph (for pre-merge impact validation).
+- **Tools Needed**: Git commands, build runner engine, Code Review Graph (for pre-merge impact validation), React Doctor (for React quality gates).
 
 ## Steps
 
@@ -13,7 +13,7 @@ Final checks and deployment steps to release stable releases.
    - Clean local workspace, pull latest upstream.
    - Run compilation check.
 2. **Test & Review validation**:
-   - Run exhaustive test scripts and execute Code Review Graph checks to identify blast-radius risks.
+   - Run exhaustive test scripts, execute Code Review Graph checks to identify blast-radius risks, and run React Doctor audits for frontend quality.
 3. **Commit & Push**:
    - Push code to main branch to trigger automation flows.
 4. **Post-deploy check**:

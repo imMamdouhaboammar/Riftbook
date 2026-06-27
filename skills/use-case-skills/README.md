@@ -9,3 +9,9 @@ These skills are not general-purpose utilities. Each one solves a clear workflow
 | Skill | Focus | Card |
 |---|---|---|
 | Last30Days | AI agent skill for researching what happened recently around a person, company, topic, product, tool, trend, or event | [![View Card](../../assets/icons/eye-box.svg)](./last30days.md) |
+
+## Related Use Case Tools
+
+| Tool | Focus | Card |
+|---|---|---|
+| React Doctor | Auditing AI-written React, state/effects issues, performance checks, accessibility, CI PR review | [![View Card](../../assets/icons/eye-box.svg)](../../tools/react-quality/react-doctor.md) |

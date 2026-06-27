@@ -104,6 +104,16 @@ Tools that make AI-assisted code review more structural and less diff-only.
 
 ---
 
+## React Quality Gates
+
+Tools for checking AI-written React before you trust it.
+
+| Tool | Use Case | Why it matters | Card |
+|---|---|---|---|
+| **React Doctor** | React quality audit | Catches React issues across state, effects, performance, architecture, security, and accessibility after the agent builds the UI | [![View Card](./assets/icons/eye-box.svg)](./tools/react-quality/react-doctor.md) |
+
+---
+
 ## Hot Skills
 
 Field-tested skills that improve AI agent output in real workflows.

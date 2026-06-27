@@ -13,6 +13,7 @@ Every tool listed has a dedicated **Tool Card** detailing its use cases, install
 | **RTK** | Token Efficiency | Premium Pick | Compact terminal output, cleaner context, long AI coding sessions, test-heavy workflows | [![View Card](../assets/icons/eye-box.svg)](./token-efficiency/rtk.md) |
 | **Serena** | Agent Infrastructure | Top Selected | Semantic code retrieval, symbol-level editing, refactoring, large codebase navigation | [![View Card](../assets/icons/eye-box.svg)](./agent-infrastructure/serena.md) |
 | **Code Review Graph** | Review Intelligence | Top Selected | PR review, blast-radius analysis, affected flows, token-efficient review context, CI review comments | [![View Card](../assets/icons/eye-box.svg)](./review-intelligence/code-review-graph.md) |
+| **React Doctor** | React Quality | Use Case Tool | Auditing AI-written React, state/effects issues, performance checks, accessibility, CI PR review | [![View Card](../assets/icons/eye-box.svg)](./react-quality/react-doctor.md) |
 | **Superpowers** | Agentic Coding | Standard | Structured AI coding workflows, TDD, planning, review | [![View Card](../assets/icons/eye-box.svg)](./agentic-coding/superpowers.md) |
 | **Cursor** | Coding | Standard | Codebase context-aware edits, inline edits, multi-file refactors | [![View Card](../assets/icons/eye-box.svg)](./coding/cursor.md) |
 | **Chrome DevTools MCP** | Coding | Standard | Browser testing, console log inspection, UI automation | [![View Card](../assets/icons/eye-box.svg)](./coding/chrome-devtools-mcp.md) |
