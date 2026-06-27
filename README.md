@@ -122,6 +122,7 @@ Tools that make AI-assisted code review more structural and less diff-only.
 |---|---|---|---|
 | **Code Review Graph** | PR Review Infrastructure | Builds a local graph of the repo so AI agents can review changes through blast radius, risk, affected flows, and targeted context | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/code-review-graph.md) |
 | **Open Code Review** | AI Review Automation | Runs structured AI code reviews on diffs, commits, branches, or full-file scans with line-level comments and configurable review rules | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/open-code-review.md) |
+| **reviewdog** | CI Review Bridge | Turns linter and static-analysis output into PR comments, checks, and annotations so vibe-coded changes get readable feedback inside review | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/reviewdog.md) |
 
 ---
 

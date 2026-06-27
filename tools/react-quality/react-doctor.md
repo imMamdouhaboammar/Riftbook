@@ -347,6 +347,13 @@ Before trusting a React feature from an AI agent, check:
 - [ ] Telemetry preference is understood
 - [ ] Agent did not rewrite unrelated components just to satisfy the tool
 
+## Pairing with other tools
+
+### React Doctor + reviewdog
+
+Use React Doctor for React-specific analysis and static scanning.
+Use reviewdog when you want findings from React Doctor (or other linters) to appear directly as inline comments on the PR rather than searching through CI logs.
+
 ## Notes
 
 - **After-Implementation Gate**: React Doctor is strongest when used after implementation and before trust.

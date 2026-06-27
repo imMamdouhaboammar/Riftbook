@@ -397,6 +397,11 @@ crg-daemon stop
 
 ## Pairing with other tools
 
+### Code Review Graph + reviewdog
+
+Use Code Review Graph to understand blast radius and affected flows.
+Use reviewdog to report mechanical linter issues on changed lines.
+
 ### Code Review Graph + Open Code Review
 
 Use Code Review Graph to understand blast radius and affected flows.

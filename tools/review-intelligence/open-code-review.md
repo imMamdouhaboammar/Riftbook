@@ -372,6 +372,11 @@ Example:
 
 ## Pairing with other review tools
 
+### Open Code Review + reviewdog
+
+Use reviewdog for deterministic linter findings.
+Use Open Code Review for AI reasoning over the diff.
+
 ### Open Code Review + Code Review Graph
 
 Use Code Review Graph for blast radius and affected flows.
