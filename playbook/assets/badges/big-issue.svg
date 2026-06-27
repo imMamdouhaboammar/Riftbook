@@ -1,0 +1,8 @@
+<svg width="134" height="32" viewBox="0 0 134 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Big Issue">
+  <rect width="134" height="32" rx="16" fill="#111827"/>
+  <rect x="1" y="1" width="132" height="30" rx="15" stroke="#F97316" stroke-width="2"/>
+  <path d="M21 8L21 17" stroke="#F97316" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="21" cy="21" r="1.5" fill="#F97316"/>
+  <path d="M12 26L21 8L30 26H12Z" stroke="#F97316" stroke-width="2" stroke-linejoin="round"/>
+  <text x="38" y="21" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#F97316" letter-spacing="0.8">BIG ISSUE</text>
+</svg>

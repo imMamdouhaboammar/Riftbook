@@ -1,0 +1,8 @@
+<svg width="128" height="32" viewBox="0 0 128 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Pro Tip">
+  <rect width="128" height="32" rx="16" fill="#111827"/>
+  <rect x="1" y="1" width="126" height="30" rx="15" stroke="#FBBF24" stroke-width="2"/>
+  <circle cx="17" cy="13" r="5" stroke="#FBBF24" stroke-width="2"/>
+  <line x1="17" y1="18" x2="17" y2="22" stroke="#FBBF24" stroke-width="2" stroke-linecap="round"/>
+  <line x1="14" y1="24" x2="20" y2="24" stroke="#FBBF24" stroke-width="2" stroke-linecap="round"/>
+  <text x="34" y="21" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#FBBF24" letter-spacing="0.8">PRO TIP</text>
+</svg>

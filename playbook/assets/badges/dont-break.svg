@@ -1,0 +1,7 @@
+<svg width="152" height="32" viewBox="0 0 152 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Don't Break">
+  <rect width="152" height="32" rx="16" fill="#111827"/>
+  <rect x="1" y="1" width="150" height="30" rx="15" stroke="#EF4444" stroke-width="2"/>
+  <path d="M17 8L25 16M25 8L17 16" stroke="#EF4444" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="21" cy="12" r="7" stroke="#EF4444" stroke-width="2"/>
+  <text x="37" y="21" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#EF4444" letter-spacing="0.8">DON'T BREAK</text>
+</svg>

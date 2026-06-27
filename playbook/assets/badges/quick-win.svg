@@ -1,0 +1,6 @@
+<svg width="140" height="32" viewBox="0 0 140 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quick Win">
+  <rect width="140" height="32" rx="16" fill="#111827"/>
+  <rect x="1" y="1" width="138" height="30" rx="15" stroke="#10B981" stroke-width="2"/>
+  <path d="M20 8L23 14H29L24 18L26 24L20 20L14 24L16 18L11 14H17L20 8Z" stroke="#10B981" stroke-width="2" stroke-linejoin="round"/>
+  <text x="36" y="21" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#10B981" letter-spacing="0.8">QUICK WIN</text>
+</svg>

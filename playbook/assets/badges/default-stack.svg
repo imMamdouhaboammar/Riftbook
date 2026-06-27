@@ -1,0 +1,8 @@
+<svg width="172" height="32" viewBox="0 0 172 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Default Stack">
+  <rect width="172" height="32" rx="16" fill="#111827"/>
+  <rect x="1" y="1" width="170" height="30" rx="15" stroke="#818CF8" stroke-width="2"/>
+  <ellipse cx="21" cy="10" rx="8" ry="3" stroke="#818CF8" stroke-width="2"/>
+  <path d="M13 10V16C13 17.657 16.686 19 21 19C25.314 19 29 17.657 29 16V10" stroke="#818CF8" stroke-width="2"/>
+  <path d="M13 16V22C13 23.657 16.686 25 21 25C25.314 25 29 23.657 29 22V16" stroke="#818CF8" stroke-width="2"/>
+  <text x="37" y="21" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#818CF8" letter-spacing="0.8">DEFAULT STACK</text>
+</svg>

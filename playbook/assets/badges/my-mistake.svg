@@ -1,0 +1,9 @@
+<svg width="158" height="32" viewBox="0 0 158 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="My Mistake">
+  <rect width="158" height="32" rx="16" fill="#111827"/>
+  <rect x="1" y="1" width="156" height="30" rx="15" stroke="#A78BFA" stroke-width="2"/>
+  <path d="M14 22C14 18.686 16.686 16 20 16C21.104 16 22 16.896 22 18V22" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 22C28 18.686 25.314 16 22 16" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="21" cy="11" r="3" stroke="#A78BFA" stroke-width="2"/>
+  <line x1="14" y1="22" x2="28" y2="22" stroke="#A78BFA" stroke-width="2" stroke-linecap="round"/>
+  <text x="38" y="21" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#A78BFA" letter-spacing="0.8">MY MISTAKE</text>
+</svg>

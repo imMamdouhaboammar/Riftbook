@@ -1,0 +1,6 @@
+<svg width="108" height="32" viewBox="0 0 108 32" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Try It">
+  <rect width="108" height="32" rx="16" fill="#111827"/>
+  <rect x="1" y="1" width="106" height="30" rx="15" stroke="#38BDF8" stroke-width="2"/>
+  <polygon points="13,8 13,24 27,16" fill="#38BDF8"/>
+  <text x="34" y="21" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#38BDF8" letter-spacing="0.8">TRY IT</text>
+</svg>

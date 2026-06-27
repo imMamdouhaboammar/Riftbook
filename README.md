@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/branding/riftbook-logo.svg" alt="Riftbook" width="640" />
+  <img src="./assets/branding/riftbook-logo.svg" alt="Riftbook" width="480" />
 </p>
 
 <h1 align="center">Riftbook</h1>
