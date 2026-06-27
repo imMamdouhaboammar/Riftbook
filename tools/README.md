@@ -8,16 +8,17 @@ Every tool listed has a dedicated **Tool Card** detailing its use cases, install
 
 ## Tool Catalog
 
-| Tool | Category | Best For | Card |
-|---|---|---|---|
-| **Superpowers** | Agentic Coding | Structured AI coding workflows, TDD, planning, review | [![View Card](../assets/icons/eye-box.svg)](./agentic-coding/superpowers.md) |
-| **Cursor** | Coding | Codebase context-aware edits, inline edits, multi-file refactors | [![View Card](../assets/icons/eye-box.svg)](./coding/cursor.md) |
-| **Chrome DevTools MCP** | Coding | Browser testing, console log inspection, UI automation | [![View Card](../assets/icons/eye-box.svg)](./coding/chrome-devtools-mcp.md) |
-| **Coolors** | Design | Theme palette generation, color contrasting | [![View Card](../assets/icons/eye-box.svg)](./design/coolors.md) |
-| **UI UX Pro Max** | AI UI/UX Skill | Helping coding agents generate better UI direction and design systems | [![View Card](../assets/icons/eye-box.svg)](../skills/ui-ux/ui-ux-pro-max.md) |
-| **Markdownlint** | Writing | Markdown style checking, documentation formatting | [![View Card](../assets/icons/eye-box.svg)](./writing/markdownlint.md) |
-| **Perplexity AI** | Research | Conversational web queries, latest tech stack analysis | [![View Card](../assets/icons/eye-box.svg)](./research/perplexity-ai.md) |
-| **GitHub Actions** | Automation | Continuous integration, staging deployments, test execution | [![View Card](../assets/icons/eye-box.svg)](./automation/github-actions.md) |
+| Tool | Category | Tier | Best For | Card |
+|---|---|---|---|---|
+| **RTK** | Token Efficiency | Premium Pick | Compact terminal output, cleaner context, long AI coding sessions, test-heavy workflows | [![View Card](../assets/icons/eye-box.svg)](./token-efficiency/rtk.md) |
+| **Superpowers** | Agentic Coding | Standard | Structured AI coding workflows, TDD, planning, review | [![View Card](../assets/icons/eye-box.svg)](./agentic-coding/superpowers.md) |
+| **Cursor** | Coding | Standard | Codebase context-aware edits, inline edits, multi-file refactors | [![View Card](../assets/icons/eye-box.svg)](./coding/cursor.md) |
+| **Chrome DevTools MCP** | Coding | Standard | Browser testing, console log inspection, UI automation | [![View Card](../assets/icons/eye-box.svg)](./coding/chrome-devtools-mcp.md) |
+| **Coolors** | Design | Standard | Theme palette generation, color contrasting | [![View Card](../assets/icons/eye-box.svg)](./design/coolors.md) |
+| **UI UX Pro Max** | AI UI/UX Skill | Standard | Helping coding agents generate better UI direction and design systems | [![View Card](../assets/icons/eye-box.svg)](../skills/ui-ux/ui-ux-pro-max.md) |
+| **Markdownlint** | Writing | Standard | Markdown style checking, documentation formatting | [![View Card](../assets/icons/eye-box.svg)](./writing/markdownlint.md) |
+| **Perplexity AI** | Research | Standard | Conversational web queries, latest tech stack analysis | [![View Card](../assets/icons/eye-box.svg)](./research/perplexity-ai.md) |
+| **GitHub Actions** | Automation | Standard | Continuous integration, staging deployments, test execution | [![View Card](../assets/icons/eye-box.svg)](./automation/github-actions.md) |
 
 ---
 

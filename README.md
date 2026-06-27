@@ -30,6 +30,7 @@ Handpicked tools and skills that solve a real workflow problem and are worth try
 | Pick | Category | Why it matters | Card |
 |---|---|---|---|
 | **Caveman** | Token Efficiency | Cuts verbose agent output and makes long coding sessions easier to scan | [![View Card](./assets/icons/eye-box.svg)](./skills/token-efficiency/caveman.md) |
+| **RTK** | Token Efficiency | Compresses terminal output before it enters the AI context window, reducing CLI noise during long coding sessions | [![View Card](./assets/icons/eye-box.svg)](./tools/token-efficiency/rtk.md) |
 | **Graphify** | Project Intelligence | Turns a repo into a queryable graph so agents understand structure before editing | [![View Card](./assets/icons/eye-box.svg)](./skills/project-intelligence/graphify.md) |
 
 ---
