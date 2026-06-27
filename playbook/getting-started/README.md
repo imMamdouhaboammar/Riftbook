@@ -17,7 +17,7 @@ If you are new to working with AI coding agents, start here. Read these lessons 
 | 0 | [Step 0: Build the Project Truth](./00-step-zero-build-the-project-truth.md) | Build the project truth layer (PRODUCT.md, DESIGN.md, etc.) before writing code |
 | 1 | [From MVP Idea to Agent-Ready Spec](./01-turn-your-mvp-idea-into-an-agent-ready-spec.md) | Shape your concept with an AI thinking client first, then hand it off to a coding agent |
 | 2 | [Choose Your Lead Agent](./02-choose-your-lead-agent.md) | The most important decision most builders skip |
-| 3 | [Build Your Default Stack](./03-build-your-default-stack.md) | Stop picking tools every time. Build a repeatable setup. |
+| 3 | [Build Your Default Stack](./03-build-your-default-stack.md) | Stop picking tools every time. Build a repeatable setup — including a runtime safety layer for React apps. |
 | 4 | [Set Rules Before You Build](./04-set-rules-before-you-build.md) | How rules make agents predictable instead of unpredictable |
 | 5 | [The First Slice](./05-the-first-slice.md) | Build one real end-to-end flow before expanding. Never ask the agent to build the whole app at once. |
 

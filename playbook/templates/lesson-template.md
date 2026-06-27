@@ -79,6 +79,21 @@ If the lesson includes reusable prompts, place them here inside a clean copyable
 
 ---
 
+## Runtime Safety Layer (Optional — include for UI stacks)
+
+![DON'T BREAK](../assets/badges/dont-break.svg)
+
+> **DON'T BREAK:** [Frame the safety rule for this stack here.]
+
+If the lesson covers a UI stack (React, Next.js, Remix, etc.), document the required error boundary or framework equivalent here before the Ship Check.
+
+| Stack | Required safety setup |
+|---|---|
+| React + Vite | Reusable `ErrorBoundary` wrapping app root or major feature areas |
+| Next.js App Router | `error.tsx` for route segments, `global-error.tsx` only when needed |
+
+---
+
 ## Ship Check
 
 ![SHIP CHECK](../assets/badges/ship-check.svg)

@@ -21,6 +21,7 @@ Riftbook uses a standardized system of 15 inline signal badges to categorize adv
 - **Example section title:** `## Core Imports and Exports`
 - **Overuse warning:** Use only when an action is fragile and has downstream consequences.
 - **One valid use case:** Warning against changing global export formatting standards in files that multiple agents read.
+- **Another valid use case:** "Do not build a React UI without an Error Boundary or framework equivalent." — placed at the top of a Runtime Safety Layer section to protect the developer from silent white-screen failures.
 - **One invalid use case:** Explaining normal git commands.
 - **Markdown:** `![DON'T BREAK](../assets/badges/dont-break.svg)`
 

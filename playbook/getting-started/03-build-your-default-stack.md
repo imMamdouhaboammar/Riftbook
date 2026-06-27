@@ -9,7 +9,7 @@
 | Beginner | 5 mins | Start Here | Lesson 02 | Claude Code, Cursor, RTK, Serena |
 
 ### Active Signals in this Lesson
-- ![DEFAULT STACK](../assets/badges/default-stack.svg) · ![RED FLAG](../assets/badges/red-flag.svg) · ![SHIP CHECK](../assets/badges/ship-check.svg)
+- ![DEFAULT STACK](../assets/badges/default-stack.svg) · ![DON'T BREAK](../assets/badges/dont-break.svg) · ![RED FLAG](../assets/badges/red-flag.svg) · ![COPY THIS](../assets/badges/copy-this.svg) · ![SHIP CHECK](../assets/badges/ship-check.svg)
 
 ---
 
@@ -161,6 +161,62 @@ The stack should take one hour to set up. Then you use it. The refinements come 
 
 ---
 
+## Runtime Safety Layer
+
+![DON'T BREAK](../assets/badges/dont-break.svg)
+
+> **DON'T BREAK:** Do not build a serious React UI without an error boundary or the framework equivalent. If the app crashes into a blank screen, you lose the ability to understand what broke.
+
+If your stack includes React, add a runtime safety layer before building major UI flows.
+
+At minimum, the app should have:
+
+- A top-level Error Boundary or route-level framework equivalent
+- A fallback UI that tells the user something went wrong
+- A reset / retry action where possible
+- A logging point for the error and component stack
+- A small test component or test route that intentionally throws an error so you can verify the boundary works
+
+This is not polish. This is visibility.
+
+Without it, the coding agent can create a UI that looks complete, but fails silently when one component throws during rendering.
+
+### Stack-specific rule
+
+| Stack | Required safety setup |
+|---|---|
+| React + Vite | Add a reusable `ErrorBoundary` and wrap the app root or major feature areas |
+| Next.js App Router | Add `error.tsx` for important route segments and `global-error.tsx` only when root-level handling is needed |
+| Remix / React Router | Add route-level error boundaries where the framework supports them |
+| Non-React UI stack | Ask the agent to identify the framework equivalent before building major UI flows |
+
+> **What Error Boundaries do not catch:** normal event-handler errors, SSR errors, async callback errors, and errors thrown inside the boundary component itself. These must be handled manually.
+
+![COPY THIS](../assets/badges/copy-this.svg)
+
+```markdown
+Before building more UI, add the runtime safety layer for this stack.
+
+Inspect the project and tell me:
+1. Is this React, Next.js, Remix, Vue, Svelte, or another UI stack?
+2. What is the correct error boundary or runtime error handling pattern for this stack?
+3. Where should it live in this repo?
+4. What fallback UI should users see?
+5. How will errors be logged during development?
+6. How can we verify it works?
+
+Rules:
+- Do not build new features yet
+- Do not add a monitoring vendor unless I approve it
+- Do not hide errors silently
+- Do not catch errors in a way that makes debugging harder
+- Add a minimal fallback UI
+- Add a safe test case that intentionally throws so we can verify the boundary
+- Explain what this boundary does not catch
+```
+
+---
+
 ## Ship Check
 
 ![SHIP CHECK](../assets/badges/ship-check.svg)
@@ -170,6 +226,7 @@ The stack should take one hour to set up. Then you use it. The refinements come 
 - [ ] At least one code review tool configured
 - [ ] At least one quality gate chosen
 - [ ] `STACK_DECISION.md` written and saved in the project (and optionally `STACK.md` summarized)
+- [ ] If this is a React app, an Error Boundary or framework equivalent is installed before building major UI flows
 
 <p align="center">
   <a href="./02-choose-your-lead-agent.md">
