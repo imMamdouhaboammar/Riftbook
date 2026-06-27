@@ -29,8 +29,8 @@ Handpicked tools and skills that solve a real workflow problem and are worth try
 
 | Pick | Category | Why it matters | Card |
 |---|---|---|---|
-| **Caveman** | Token Efficiency | Cuts verbose agent output and makes long coding sessions easier to scan | [[👁️]](./skills/token-efficiency/caveman.md) |
-| **Graphify** | Project Intelligence | Turns a repo into a queryable graph so agents understand structure before editing | [[👁️]](./skills/project-intelligence/graphify.md) |
+| **Caveman** | Token Efficiency | Cuts verbose agent output and makes long coding sessions easier to scan | [![View Card](./assets/icons/eye-box.svg)](./skills/token-efficiency/caveman.md) |
+| **Graphify** | Project Intelligence | Turns a repo into a queryable graph so agents understand structure before editing | [![View Card](./assets/icons/eye-box.svg)](./skills/project-intelligence/graphify.md) |
 
 ---
 
@@ -47,6 +47,7 @@ Handpicked tools and skills that solve a real workflow problem and are worth try
 - [Resources](#resources)
 - [Examples](#examples)
 - [Ideas](#ideas)
+- [Learning Paths](#learning-paths)
 - [How to Use This Repo](#how-to-use-this-repo)
 - [Quality Rules](#quality-rules)
 - [What is Not Included](#what-is-not-included)

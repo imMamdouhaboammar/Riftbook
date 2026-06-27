@@ -6,4 +6,4 @@ AI skills focused on cutting output verbosity, reducing token usage, and maximiz
 
 | Skill | Focus | Tier | Best For | Card |
 |---|---|---|---|---|
-| Caveman | Output Compression | Premium Pick | Shorter agent replies, token savings, PR reviews, commit messages, memory compression | [[👁️]](./caveman.md) |
+| Caveman | Output Compression | Premium Pick | Shorter agent replies, token savings, PR reviews, commit messages, memory compression | [![View Card](../../assets/icons/eye-box.svg)](./caveman.md) |
