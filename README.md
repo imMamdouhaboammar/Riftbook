@@ -84,6 +84,16 @@ Field-tested skills that improve AI agent output in real workflows.
 
 ---
 
+## Hot Indexes
+
+High-signal discovery hubs for finding useful tools, skills, hooks, agents, commands, and workflow ideas.
+
+| Index | Topic | Why it matters | Card |
+|---|---|---|---|
+| **Awesome Claude Code** | Claude Code Ecosystem | Helps discover Claude Code skills, hooks, agents, commands, plugins, and workflow resources | [![View Card](./assets/icons/eye-box.svg)](./indexes/hot-indexes/awesome-claude-code.md) |
+
+---
+
 ## Start Here
 
 New here? Use these onboarding shortcuts to find what you need quickly:
@@ -108,6 +118,7 @@ Explore the complete index of curated resource directories:
 | **Tools** | A curated index of IDE extensions, MCP servers, and terminal utilities | [Open](./tools/README.md) |
 | **Workflows** | Step-by-step blueprints for debugging, researching, designing, and shipping | [Open](./workflows/README.md) |
 | **Guides** | Setup playbooks, best practices, and configurations (e.g. Claude Code) | [Open](./guides/README.md) |
+| **Indexes** | Curated indexes and discovery hubs for finding AI-assisted coding resources | [Open](./indexes/README.md) |
 | **Learning** | Structured courses, tutorials, and study paths for agentic systems | [Open](./learning/README.md) |
 | **Templates** | Standardized markdown patterns for prompts, skills, tools, and workflows | [Open](./templates/README.md) |
 | **Cheat Sheets** | High-density references and command lookups for coding and git | [Open](./cheat-sheets/README.md) |
