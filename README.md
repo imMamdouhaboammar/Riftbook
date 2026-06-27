@@ -74,6 +74,16 @@ Handpicked tools and skills that solve a real workflow problem and are worth try
 
 ---
 
+## Hot Skills
+
+Field-tested skills that improve AI agent output in real workflows.
+
+| Skill | Category | Why it matters | Card |
+|---|---|---|---|
+| **Taste Skill** | Frontend Design | Gives AI coding agents stronger UI taste and helps avoid generic frontend output | [![View Card](./assets/icons/eye-box.svg)](./skills/hot-skills/taste-skill.md) |
+
+---
+
 ## Start Here
 
 New here? Use these onboarding shortcuts to find what you need quickly:
