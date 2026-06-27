@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/branding/riftbook-logo.svg" alt="Riftbook" width="560" />
+  <img src="./assets/branding/riftbook-logo.svg" alt="Riftbook" width="640" />
 </p>
 
 <h1 align="center">Riftbook</h1>
@@ -34,10 +34,6 @@
 <p align="center">
   If Riftbook saves you time, helps you find a useful tool, or gives you a better workflow, consider starring the repo and sharing it with another builder.
 </p>
-
----
-
-> Formerly known as Awesome Vibe Coding. Renamed to Riftbook to make the repo feel less like a generic awesome list and more like a curated working space for AI-assisted builders.
 
 ---
 
