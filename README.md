@@ -30,6 +30,7 @@ Handpicked tools and skills that solve a real workflow problem and are worth try
 | Pick | Category | Why it matters | Card |
 |---|---|---|---|
 | **Caveman** | Token Efficiency | Cuts verbose agent output and makes long coding sessions easier to scan | [Open card](./skills/token-efficiency/caveman.md) |
+| **Graphify** | Project Intelligence | Turns a repo into a queryable graph so agents understand structure before editing | [Open card](./skills/project-intelligence/graphify.md) |
 
 ---
 
