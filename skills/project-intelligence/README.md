@@ -17,5 +17,6 @@ Use this section for tools that map codebases, create context layers, analyze ar
 ## Related Infrastructure
 
 - [Serena](../../tools/agent-infrastructure/serena.md) — MCP toolkit that gives AI coding agents IDE-like semantic code navigation, editing, and refactoring capabilities.
+- [Code Review Graph](../../tools/review-intelligence/code-review-graph.md) — Local-first code intelligence graph for MCP and CLI, focused on blast-radius analysis and PR context reduction.
 
 

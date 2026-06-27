@@ -94,6 +94,16 @@ Tools that make AI coding agents stronger inside real codebases.
 
 ---
 
+## Review Intelligence
+
+Tools that make AI-assisted code review more structural and less diff-only.
+
+| Tool | Category | Why it matters | Card |
+|---|---|---|---|
+| **Code Review Graph** | PR Review Infrastructure | Builds a local graph of the repo so AI agents can review changes through blast radius, risk, affected flows, and targeted context | [![View Card](./assets/icons/eye-box.svg)](./tools/review-intelligence/code-review-graph.md) |
+
+---
+
 ## Hot Skills
 
 Field-tested skills that improve AI agent output in real workflows.

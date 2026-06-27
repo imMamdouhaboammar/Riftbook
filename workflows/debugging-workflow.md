@@ -5,7 +5,7 @@ Systematic tracking, verification, and resolution of codebase bugs and errors.
 - **Goal**: Identify root-cause of application issues and fix them without introducing regressions.
 - **When to Use**: Tests fail, application crashes, or user reports unexpected behavior.
 - **Inputs**: Exception trace, error logs, or bug report description.
-- **Tools Needed**: IDE, terminal debugger, Chrome DevTools (if web app).
+- **Tools Needed**: IDE, terminal debugger, Chrome DevTools (if web app), Code Review Graph (for blast-radius and impact mapping).
 
 ## Steps
 
