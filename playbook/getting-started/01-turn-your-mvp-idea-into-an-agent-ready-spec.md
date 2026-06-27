@@ -36,12 +36,19 @@ The first step is not opening the coding agent. It is explaining the problem wel
 To build reliably with AI, you must separate **thinking** from **building**. These are two different phases that require different roles and distinct contexts:
 
 1. **AI Client for Thinking (Product Thinking Partner)**
-   * **Tools:** ChatGPT, Claude (web UI), Gemini Advanced.
+   * **Tools:** 
+     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg" width="16" height="16" valign="middle" /> **ChatGPT** (OpenAI)
+     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/claude.svg" width="16" height="16" valign="middle" /> **Claude** (Web UI)
+     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gemini.svg" width="16" height="16" valign="middle" /> **Gemini Advanced**
    * **Job:** Act as a product manager. It helps you shape the idea, questions your assumptions, defines the MVP scope, and establishes user flows.
    * **Output:** A locked-down, approved MVP Specification.
 
 2. **Coding Agent for Building (Build Operator)**
-   * **Tools:** Claude Code, Codex, Cursor, Gemini CLI.
+   * **Tools:** 
+     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/claude.svg" width="16" height="16" valign="middle" /> **Claude Code**
+     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/openai.svg" width="16" height="16" valign="middle" /> **Codex**
+     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/cursor.svg" width="16" height="16" valign="middle" /> **Cursor**
+     * <img src="https://unpkg.com/@lobehub/icons-static-svg@latest/icons/gemini.svg" width="16" height="16" valign="middle" /> **Gemini CLI**
    * **Job:** Act as a staff engineer. It takes the approved MVP spec, inspects the repo, sets up the project truth files, initializes workflows, and writes the code.
    * **Output:** A working, verified codebase.
 
