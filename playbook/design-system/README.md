@@ -48,3 +48,13 @@ Any new playbook lesson should follow:
 - `design-system/icon-policy.md`
 
 If a lesson needs a new visual pattern, add it to the design system before using it repeatedly.
+
+---
+
+## Automated Audit
+
+To verify that the playbook links, image assets, duplicate lesson numbers, and layout requirements conform to the design system, run the local audit utility from the repository root:
+
+```bash
+node scripts/audit-playbook.mjs
+```
