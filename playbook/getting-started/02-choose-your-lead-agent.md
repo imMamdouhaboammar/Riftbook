@@ -6,10 +6,10 @@
 
 | Level | Duration | Path | Prerequisites | Tools Mentioned |
 |---|---|---|---|---|
-| Beginner | 6 mins | Start Here | Lesson 01 | Claude Code, Cursor, Copilot |
+| Beginner | 8 mins | Start Here | Lesson 01 | Claude Code, Cursor, Copilot, Delegate Team |
 
 ### Active Signals in this Lesson
-- ![MENTAL MODEL](../assets/badges/mental-model.svg) · ![RED FLAG](../assets/badges/red-flag.svg) · ![WHEN TO SWITCH](../assets/badges/when-to-switch.svg)
+- ![MENTAL MODEL](../assets/badges/mental-model.svg) · ![RED FLAG](../assets/badges/red-flag.svg) · ![WHEN TO SWITCH](../assets/badges/when-to-switch.svg) · ![TRY IT](../assets/badges/try-it.svg) · ![COPY THIS](../assets/badges/copy-this.svg) · ![DON'T BREAK](../assets/badges/dont-break.svg)
 
 ---
 
@@ -144,6 +144,135 @@ Support 4: OpenCode      → specific local tasks, fast focused requests
 I also use a custom skill that helps Claude Code coordinate with other agents — so when Claude identifies a task that would benefit from a different tool, it can delegate that task cleanly and bring the output back into context.
 
 The key principle: **Claude Code always holds the architectural view.** Other agents work on specific pieces and their output comes back through Claude for integration.
+
+---
+
+## Multi-Agent Delegation Workflow
+
+When your project grows, running a single agent can lead to token saturation and slow execution. This is where a controller-delegation hierarchy pays off.
+
+### My Setup: Lead Controller & Support Specialist Gateway
+
+Instead of asking multiple agents to work randomly at the same time, establish a clear controller hierarchy. Use **Claude Code** as the lead agent, acting like a staff engineer or lead architect. Claude Code retains the primary context, reads files, and directs tasks.
+
+To keep the workspace clean, give Claude Code access to [Delegate Team](https://github.com/imMamdouhaboammar/delegate-team) (`dt`). This local CLI and delegation runtime acts as a policy gateway, allowing the lead agent to dispatch specific, bounded tasks to specialized support backends (like Codex, MiniMax, Gemini, or OpenCode).
+
+```txt
+Human
+  ↓ intent / approval
+Claude Code (Lead / Controller)
+  ↓ brief / review
+Delegate Team (`dt`)
+  ↓ controlled routing
+Codex / MiniMax / Gemini / OpenCode / VertexCoder / Team mode
+  ↓ result contract
+Claude Code review
+  ↓
+Human-approved commit
+```
+
+### Delegate Team Runtime Commands
+
+When running with `delegate-team` (`dt`), use these CLI entries for management, validation, and execution:
+
+```bash
+# Check if dt is available
+dt --help
+
+# Check backend readiness
+dt check --strict
+
+# Focused task
+dt run "fix the auth bug and run the related tests"
+
+# Force a backend
+dt run "fix the auth bug and run the related tests" --backend codex
+
+# Large multi-module task
+dt run "plan and implement the billing module with tests" --team
+
+# Safer team workflow
+dt metagpt "plan and implement the billing module with tests" --workspace-only --no-install
+```
+
+---
+
+## When to Delegate
+
+![TRY IT](../assets/badges/try-it.svg)
+
+Delegate focused tasks to support backends via `dt` in these scenarios:
+- **When Claude Code is stuck** or repeating incorrect code patterns.
+- **When you want a second implementation angle** or alternative algorithmic approach.
+- **When the task is isolated enough** to brief clearly (e.g. self-contained helper functions, parser scripts).
+- **When the task can be reviewed easily** through a simple git diff.
+- **When the work can be verified** via automated test suites.
+- **When a support backend is better suited** for a specific sub-task (e.g., Codex for raw boilerplate generation).
+- **When you need a team-style split** using dynamic role mapping: Architect, Coder, UI Designer, and QA.
+
+---
+
+## When Not to Delegate
+
+![RED FLAG](../assets/badges/red-flag.svg)
+
+Avoid delegation and handle the code directly with the lead agent (or manually) when:
+- **When the task is vague** or needs active exploration/discovery.
+- **When you cannot review the output** easily due to its scale or complexity.
+- **When secrets, credentials, or private data** are involved in the context.
+- **When the change is too broad** and impacts multiple core modules simultaneously.
+- **When you need product judgment**, rather than raw code generation.
+- **When the repository has no tests** or verification rules to assert correctness.
+- **When the lead agent is already losing context** or drifting; adding more agents at this stage compounds the confusion.
+
+![DON'T BREAK](../assets/badges/dont-break.svg)
+
+> **DON'T BREAK:** Never let delegated output write, install, commit, delete, or change auth/cloud settings without explicit approval.
+
+---
+
+## A Good Delegation Brief
+
+A good brief prevents the support agent from making wrong assumptions. It must include:
+- **Goal:** What should change and why.
+- **Scope:** Target files or modules allowed to be changed.
+- **Do not touch:** Files/modules strictly forbidden from modification.
+- **Constraints:** Security, performance, style guidelines, or database schemas.
+- **Acceptance criteria:** Concrete states that must be true.
+- **Verification:** The exact tests/checks to run to verify success.
+- **Expected output format:** What the final code contract looks like.
+
+### Ready-to-use delegation prompt
+
+![COPY THIS](../assets/badges/copy-this.svg)
+
+```
+Use Delegate Team for this focused task.
+
+Goal:
+[what should change]
+
+Scope:
+[files/modules allowed]
+
+Do not touch:
+[files/modules forbidden]
+
+Constraints:
+[security/performance/style constraints]
+
+Acceptance criteria:
+[what must be true]
+
+Verification:
+[tests/checks to run]
+
+After delegation:
+1. Inspect the result contract.
+2. Review the actual diff.
+3. Run the relevant tests.
+4. Reject the result if it touches unrelated files or weakens security.
+```
 
 ---
 

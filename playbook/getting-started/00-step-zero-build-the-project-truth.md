@@ -152,6 +152,18 @@ After that, show me the recommended first implementation step.
 
 ---
 
+## Execution Strategy: Start Small
+
+This is where most builders make the last mistake: trying to build the whole project in one session. Once the truth layer is ready, execute using a slice-by-slice approach:
+
+1. **Outline** — a rough description of the architecture and main components.
+2. **Architecture** — the actual directory and file structures, showing how they fit together.
+3. **First slice** — the smallest piece that does something real (e.g., a single API endpoint or static component).
+4. **Validation** — proof that this slice works correctly and sets the right foundation.
+5. **Expand** — build the next piece on top of the validated foundation.
+
+---
+
 ## Try It
 
 ![TRY IT](../assets/badges/try-it.svg)

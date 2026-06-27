@@ -79,6 +79,19 @@ This is a practical starting configuration that works well across most project t
 
 ---
 
+## Adding Quality Gates Early
+
+Quality gates are not just for production. They are for staying sane during development. If you wait until you are ready to ship to configure linters, formatters, and AI reviewers, you will spend your final hours correcting hundreds of styling and logic errors.
+
+Add these gates before you have written significant code:
+- **React Doctor** — for React codebases, catches structural and hook logic issues early.
+- **Open Code Review** — structured AI review on your local git diffs before staging.
+- **reviewdog** — pipes linter and check outputs into inline reviewable comments.
+- **Impeccable** — provides the agent with the design system visual boundaries to prevent UI styling drift.
+- **Serena** — enables semantic navigation so the agent doesn't get lost in deep file hierarchies.
+
+---
+
 ## How to Customize It
 
 The stack above is not prescriptive. It is a starting point.

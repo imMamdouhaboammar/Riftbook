@@ -108,7 +108,22 @@ Before writing down any feature lists or choosing a framework, explain the probl
 
 ---
 
-## Step 2: The Discovery Conversation
+## Step 2: Define the Job Before the Build
+
+Before writing any code or prompts, write one clear definition of the product's job:
+
+1. **What am I building?**
+   Not the full spec — just one clear sentence. *Example:* "A tool that lets freelancers track client invoices and flag overdue payments."
+2. **For whom?**
+   Who uses this? What do they care about? What would make them stop using it?
+3. **What does done look like?**
+   What is the first version that a real person could use? Not the final vision — the first useful version.
+4. **What should never happen?**
+   The non-negotiables. Things that, if broken, invalidate the whole product. Write these down. They become your quality gates.
+
+---
+
+## Step 3: The Discovery Conversation
 
 ![COPY THIS](../assets/badges/copy-this.svg)
 
@@ -167,7 +182,7 @@ Work with the thinking client until you are satisfied. Copy the final generated 
 
 ---
 
-## Step 3: Handoff to the Coding Agent
+## Step 4: Handoff to the Coding Agent
 
 ![AGENT MOVE](../assets/badges/agent-move.svg)
 
@@ -179,7 +194,7 @@ Once the MVP spec is locked, move to your coding agent (e.g. Claude Code or Gemi
 
 ---
 
-## Step 4: The Build Setup Prompt
+## Step 5: The Build Setup Prompt
 
 ![COPY THIS](../assets/badges/copy-this.svg)
 

@@ -125,6 +125,19 @@ How the agent should report what it did, how it should flag uncertainty.
 
 ---
 
+## Context Files as Live Boundaries
+
+Rules are only effective if they are supported by a clear repo context. Think of context files as live boundaries that keep the agent from guessing. Before you begin, set up these files to guide the agent:
+
+- **`PRODUCT.md`**: Defines what you are building, for whom, the first version scope, and the strict non-goals.
+- **`DESIGN.md`**: Records design tokens, color schemes, component states, and spacing to avoid UI visual drift.
+- **`TASKS.md`**: The current, living task list (In Progress, Backlog, Done) that you update at the end of each session.
+- **`RULES.md`**: The exact code quality, styling, and communication guidelines the agent must execute.
+
+When starting a session, feed these four files directly into the agent. They form the "truth layer" that prevents the agent's short-term memory from degrading over time.
+
+---
+
 ## Starting Small
 
 You do not need a perfect `RULES.md` on day one. Start with five rules and add more as you discover what the agent gets wrong.
