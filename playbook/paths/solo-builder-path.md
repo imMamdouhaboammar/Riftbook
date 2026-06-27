@@ -14,6 +14,7 @@ Solo builders have a specific challenge: you are the PM, the designer, the engin
 
 ### Foundation (Start Here)
 
+0. [Build the Project Truth Before You Build](../getting-started/00-step-zero-build-the-project-truth.md) ← build the truth layer first
 1. [How to Start a New Project](../getting-started/01-how-to-start-a-new-project.md)
 2. [Choose Your Lead Agent](../getting-started/02-choose-your-lead-agent.md)
 3. [Set Rules Before You Build](../getting-started/04-set-rules-before-you-build.md)

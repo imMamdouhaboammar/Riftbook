@@ -6,7 +6,7 @@
 
 | Level | Duration | Path | Prerequisites | Tools Mentioned |
 |---|---|---|---|---|
-| Beginner | 8 mins | Start Here | None | Claude Code |
+| Beginner | 8 mins | Start Here | Lesson 00 | Claude Code |
 
 ### Active Signals in this Lesson
 - ![MENTAL MODEL](../assets/badges/mental-model.svg) · ![DO THIS FIRST](../assets/badges/do-this-first.svg) · ![TRY IT](../assets/badges/try-it.svg)
@@ -393,4 +393,4 @@ Everything else in this playbook builds on top of these three things.
 
 ---
 
-*← Back to [Getting Started](./README.md) | Next: [Choose Your Lead Agent →](./02-choose-your-lead-agent.md)*
+*← Previous: [Step 0: Build the Project Truth](./00-step-zero-build-the-project-truth.md) | Next: [Choose Your Lead Agent →](./02-choose-your-lead-agent.md)*

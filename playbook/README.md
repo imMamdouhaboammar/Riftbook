@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="./getting-started/01-how-to-start-a-new-project.md">
+  <a href="./getting-started/00-step-zero-build-the-project-truth.md">
     <img src="https://img.shields.io/badge/Start%20Here-111827?style=for-the-badge" alt="Start Here" />
   </a>
   <a href="./paths/beginner-path.md">
@@ -48,7 +48,8 @@ If you are new to working with AI coding agents, read these first — in order:
 
 | # | Lesson | Why it matters |
 |---|---|---|
-| 1 | [How to Start a New Project](./getting-started/01-how-to-start-a-new-project.md) | Most people start wrong. This fixes that. |
+| 0 | [Step 0: Build the Project Truth](./getting-started/00-step-zero-build-the-project-truth.md) | Most people start wrong by writing code immediately. Build the truth first. |
+| 1 | [How to Start a New Project](./getting-started/01-how-to-start-a-new-project.md) | Pick your lead agent and set up workflows. |
 | 2 | [Choose Your Lead Agent](./getting-started/02-choose-your-lead-agent.md) | The most important decision most builders skip. |
 | 3 | [Build Your Default Stack](./getting-started/03-build-your-default-stack.md) | Stop picking tools every time. Build a repeatable setup. |
 | 4 | [Set Rules Before You Build](./getting-started/04-set-rules-before-you-build.md) | Rules are not optional. They are what makes agents predictable. |
@@ -60,7 +61,7 @@ If you are new to working with AI coding agents, read these first — in order:
 ### 🚀 Getting Started
 The entry point. Start here before anything else.
 
-> 4 foundational lessons on how to begin the right way.
+> 5 foundational lessons on how to begin the right way.
 
 [→ Open Getting Started](./getting-started/README.md)
 
@@ -120,7 +121,8 @@ Not everyone starts from the same place. Find yours.
 
 | Lesson | Section | Signal |
 |---|---|---|
-| [How to Start a New Project](./getting-started/01-how-to-start-a-new-project.md) | Getting Started | Entry point for everything |
+| [Step 0: Build the Project Truth](./getting-started/00-step-zero-build-the-project-truth.md) | Getting Started | Core entry point for everything |
+| [How to Start a New Project](./getting-started/01-how-to-start-a-new-project.md) | Getting Started | Pick your lead agent and set up workflows |
 | [Choose Your Lead Agent](./getting-started/02-choose-your-lead-agent.md) | Getting Started | The decision most people skip |
 | [Common Vibe Coding Mistakes](./mistakes/01-common-vibe-coding-mistakes.md) | Mistakes | What trips up most builders |
 | [Planning the Build](./core-workflows/01-planning-the-build.md) | Core Workflows | Saves hours every project |

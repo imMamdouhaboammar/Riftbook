@@ -54,7 +54,7 @@ Built from real workflows, real mistakes, and real lessons — not from theory.
 | 🗺️ [Paths](./playbook/paths/README.md) | Structured reading order by role: beginner, solo builder, frontend, agency |
 
 <p>
-  <a href="./playbook/getting-started/01-how-to-start-a-new-project.md">
+  <a href="./playbook/getting-started/00-step-zero-build-the-project-truth.md">
     <img src="https://img.shields.io/badge/Start%20Here-111827?style=for-the-badge" alt="Start Here" />
   </a>
   <a href="./playbook/README.md">
