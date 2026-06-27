@@ -2,30 +2,48 @@
 
 This layout is used for deep-dive stories and workflow validation case studies (e.g. `Delegate Team` in `playbook/stories/`).
 
-## Layout Structure
+---
 
-1. **Title and Badges:**
-   A human-focused title, accompanied by `STORY` and either `MY MISTAKE` or `FIELD TESTED` badges.
-   ```markdown
-   # Case Study: [Title]
-   
-   ![STORY](../assets/badges/story.svg) ![FIELD TESTED](https://img.shields.io/badge/FIELD%20TESTED-10B981?style=flat-square)
-   ```
+## 1. Title and Badges
+- **Purpose:** Declare the story name and apply immediate thematic signal classifications.
+- **When to use:** The absolute top of every case study/story document.
+- **When not to use:** For standard lesson files or readme files.
+- **Markdown example:**
+  ```markdown
+  # Case Study: [Title]
 
-2. **Core Components:**
-   Each case study must answer the following 5 points using clean block structures:
+  ![STORY](../assets/badges/story.svg) ![FIELD TESTED](../assets/badges/field-tested.svg)
+  ```
+- **Common mistakes:** Omitting the `STORY` badge, or using lesson metadata tables (Level/Duration) which are reserved for lessons.
+- **Good example:** `/playbook/stories/02-when-i-should-have-used-codex.md`
+- **"Do not" rules for agents:**
+  * Do not place lesson hero images or metadata tables in case study documents.
 
-   ### 1. The Project
-   - Short description of what was built.
+---
 
-   ### 2. The Problem
-   - The specific workflow bottleneck or issue that occurred.
+## 2. Core Components (The 5-Point Structure)
+- **Purpose:** Force case study documents into a consistent retrospect template to ensure readable lessons.
+- **When to use:** The main content sections of case studies.
+- **When not to use:** To write open-ended blog posts or general opinions.
+- **Markdown example:**
+  ```markdown
+  ## 1. The Project
+  [Description of what was built]
 
-   ### 3. The Agent Setup
-   - Which tools were used (e.g. Claude Code, Cursor) and what tasks they were given.
+  ## 2. The Problem
+  [The specific workflow bottleneck]
 
-   ### 4. What Went Wrong
-   - The mistakes made during execution.
+  ## 3. The Agent Setup
+  [Which tools and how they were instructed]
 
-   ### 5. Reusable Lessons
-   - A structured checklist or markdown pattern that others can copy.
+  ## 4. What Went Wrong
+  [Decisions that failed]
+
+  ## 5. Reusable Lessons
+  [What to do instead]
+  ```
+- **Common mistakes:** Changing section titles or combining multiple sections.
+- **Good example:** `/playbook/stories/03-a-project-i-overcomplicated.md`
+- **"Do not" rules for agents:**
+  * Do not omit any of the 5 core headings.
+  * Do not write fictional case studies; always ground content in observed real developer events.
