@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="220" role="img" aria-label="Riftbook — Awesome Vibe Coding Space">
+  <defs>
+    <!-- Paper texture grid -->
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#D9D0C4" stroke-width="0.4" opacity="0.6"/>
+    </pattern>
+    <!-- Subtle inner border gradient -->
+    <style>
+      .hero-title {
+        font-family: 'Georgia', 'Times New Roman', serif;
+        font-weight: 700;
+        font-size: 42px;
+        fill: #111827;
+        letter-spacing: -0.01em;
+      }
+      .hero-sub {
+        font-family: 'Courier New', 'Courier', monospace;
+        font-weight: 700;
+        font-size: 10px;
+        fill: #4B5563;
+        letter-spacing: 0.22em;
+      }
+      .hero-desc {
+        font-family: 'Georgia', 'Times New Roman', serif;
+        font-size: 13.5px;
+        fill: #4B5563;
+        font-style: italic;
+      }
+      .tag-label {
+        font-family: 'Courier New', 'Courier', monospace;
+        font-weight: 700;
+        font-size: 9px;
+        letter-spacing: 0.12em;
+        fill: #111827;
+      }
+      .mark-text {
+        font-family: 'Courier New', 'Courier', monospace;
+        font-size: 8px;
+        fill: #9CA3AF;
+        letter-spacing: 0.05em;
+      }
+      .node-label {
+        font-family: 'Georgia', 'Times New Roman', serif;
+        font-size: 9px;
+        fill: #4B5563;
+        font-style: italic;
+      }
+    </style>
+  </defs>
+
+  <!-- Paper background -->
+  <rect width="900" height="220" fill="#F8F5EE"/>
+  <!-- Grid overlay -->
+  <rect width="900" height="220" fill="url(#grid)"/>
+  <!-- Top edge rule -->
+  <rect x="0" y="0" width="900" height="3" fill="#111827"/>
+  <!-- Bottom edge rule -->
+  <rect x="0" y="217" width="900" height="3" fill="#D97706"/>
+
+  <!-- Left margin rule (notebook style) -->
+  <line x1="64" y1="0" x2="64" y2="220" stroke="#EFE7D8" stroke-width="1.5"/>
+
+  <!-- ── LEFT COLUMN: Brand mark ── -->
+  <g transform="translate(12, 28)">
+    <!-- Book outline -->
+    <rect x="0" y="0" width="40" height="52" rx="4" fill="none" stroke="#111827" stroke-width="1.5"/>
+    <!-- Spine line -->
+    <line x1="20" y1="0" x2="20" y2="52" stroke="#111827" stroke-width="0.8"/>
+    <!-- Left page lines -->
+    <line x1="4" y1="12" x2="17" y2="12" stroke="#4B5563" stroke-width="0.6"/>
+    <line x1="4" y1="18" x2="17" y2="18" stroke="#4B5563" stroke-width="0.6"/>
+    <line x1="4" y1="24" x2="17" y2="24" stroke="#4B5563" stroke-width="0.6"/>
+    <line x1="4" y1="30" x2="17" y2="30" stroke="#4B5563" stroke-width="0.6"/>
+    <!-- Right page lines -->
+    <line x1="23" y1="12" x2="36" y2="12" stroke="#4B5563" stroke-width="0.6"/>
+    <line x1="23" y1="18" x2="36" y2="18" stroke="#4B5563" stroke-width="0.6"/>
+    <line x1="23" y1="24" x2="36" y2="24" stroke="#4B5563" stroke-width="0.6"/>
+    <!-- Signal node on book -->
+    <circle cx="20" cy="38" r="4.5" fill="#D97706" stroke="#111827" stroke-width="1"/>
+    <circle cx="8" cy="34" r="2.5" fill="#2563EB"/>
+    <circle cx="32" cy="34" r="2.5" fill="#16A34A"/>
+    <path d="M 8,34 Q 14,32 20,38 T 32,34" fill="none" stroke="#D97706" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+
+  <!-- ── CENTER: Typography ── -->
+  <text x="80" y="72" class="hero-title">Riftbook</text>
+  <text x="82" y="93" class="hero-sub">AWESOME VIBE CODING SPACE</text>
+
+  <!-- Thin rule under title -->
+  <line x1="80" y1="100" x2="520" y2="100" stroke="#D9D0C4" stroke-width="1"/>
+
+  <text x="80" y="122" class="hero-desc">A curated guide to tools, prompts, workflows, and systems</text>
+  <text x="80" y="140" class="hero-desc">for building better AI-assisted apps.</text>
+
+  <text x="80" y="162" class="hero-desc">Practical resources for builders who want less guesswork,</text>
+  <text x="80" y="179" class="hero-desc">better workflows, and more reusable systems.</text>
+
+  <!-- ── RIGHT COLUMN: Index tags ── -->
+  <!-- Tag block: TOOLS -->
+  <g transform="translate(600, 24)">
+    <rect width="76" height="26" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="38" y="17" class="tag-label" text-anchor="middle">TOOLS</text>
+  </g>
+  <!-- Tag block: PROMPTS -->
+  <g transform="translate(684, 24)">
+    <rect width="84" height="26" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="42" y="17" class="tag-label" text-anchor="middle">PROMPTS</text>
+  </g>
+  <!-- Tag block: WORKFLOWS -->
+  <g transform="translate(600, 58)">
+    <rect width="95" height="26" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="47.5" y="17" class="tag-label" text-anchor="middle">WORKFLOWS</text>
+  </g>
+  <!-- Tag block: SYSTEMS -->
+  <g transform="translate(703, 58)">
+    <rect width="78" height="26" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="39" y="17" class="tag-label" text-anchor="middle">SYSTEMS</text>
+  </g>
+  <!-- Tag block: SKILLS -->
+  <g transform="translate(600, 92)">
+    <rect width="76" height="26" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="38" y="17" class="tag-label" text-anchor="middle">SKILLS</text>
+  </g>
+  <!-- Tag block: AI AGENTS -->
+  <g transform="translate(684, 92)">
+    <rect width="96" height="26" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="48" y="17" class="tag-label" text-anchor="middle">AI AGENTS</text>
+  </g>
+  <!-- Tag block: PLAYBOOK -->
+  <g transform="translate(600, 126)">
+    <rect width="86" height="26" rx="3" fill="#2563EB" stroke="#1D4ED8" stroke-width="1"/>
+    <text x="43" y="17" class="tag-label" text-anchor="middle" fill="#ffffff">PLAYBOOK</text>
+  </g>
+  <!-- Tag block: LEARNING -->
+  <g transform="translate(694, 126)">
+    <rect width="84" height="26" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="42" y="17" class="tag-label" text-anchor="middle">LEARNING</text>
+  </g>
+
+  <!-- Vertical separator between text and tags -->
+  <line x1="582" y1="18" x2="582" y2="202" stroke="#D9D0C4" stroke-width="1"/>
+
+  <!-- Field-guide corner marks -->
+  <text x="590" y="195" class="mark-text">github.com/imMamdouhaboammar/Riftbook</text>
+
+  <!-- Bottom field note -->
+  <text x="80" y="202" class="mark-text">Field guide for AI-assisted builders — practical, curated, and workflow-tested.</text>
+</svg>

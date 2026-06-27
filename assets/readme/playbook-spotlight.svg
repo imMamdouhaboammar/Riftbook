@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 120" width="100%" height="120" role="img" aria-label="The Real Vibe Coding Playbook spotlight">
+  <defs>
+    <pattern id="nb-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#D9D0C4" stroke-width="0.35" opacity="0.5"/>
+    </pattern>
+    <style>
+      .sp-label  { font-family:'Courier New','Courier',monospace; font-size:9px; fill:#4B5563; letter-spacing:0.18em; font-weight:700; }
+      .sp-title  { font-family:'Georgia','Times New Roman',serif; font-weight:700; font-size:22px; fill:#111827; }
+      .sp-desc   { font-family:'Georgia','Times New Roman',serif; font-size:11px; fill:#4B5563; font-style:italic; }
+      .sp-pill   { font-family:'Courier New','Courier',monospace; font-size:8px; fill:#111827; letter-spacing:0.1em; font-weight:700; }
+      .sp-note   { font-family:'Georgia','Times New Roman',serif; font-size:10px; fill:#2563EB; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="120" rx="6" fill="#F8F5EE"/>
+  <rect width="860" height="120" rx="6" fill="url(#nb-grid)"/>
+  <!-- Left accent -->
+  <rect x="0" y="0" width="6" height="120" rx="3" fill="#2563EB"/>
+  <!-- Bottom rule -->
+  <rect x="0" y="116" width="860" height="4" fill="#EFE7D8"/>
+
+  <!-- Book mark motif -->
+  <g transform="translate(22, 18)">
+    <rect x="0" y="0" width="28" height="38" rx="3" fill="none" stroke="#2563EB" stroke-width="1.5"/>
+    <line x1="14" y1="0" x2="14" y2="38" stroke="#2563EB" stroke-width="0.6"/>
+    <line x1="3" y1="10" x2="11" y2="10" stroke="#4B5563" stroke-width="0.6"/>
+    <line x1="3" y1="15" x2="11" y2="15" stroke="#4B5563" stroke-width="0.6"/>
+    <line x1="17" y1="10" x2="25" y2="10" stroke="#4B5563" stroke-width="0.6"/>
+    <circle cx="14" cy="28" r="4" fill="#2563EB"/>
+    <!-- Bookmark tab -->
+    <path d="M 20,0 L 28,0 L 28,8 L 24,5 L 20,8 Z" fill="#D97706"/>
+  </g>
+
+  <!-- Label + Title -->
+  <text x="68" y="32" class="sp-label">FIELD GUIDE</text>
+  <text x="68" y="56" class="sp-title">The Real Vibe Coding Playbook</text>
+
+  <!-- Divider line -->
+  <line x1="68" y1="62" x2="500" y2="62" stroke="#D9D0C4" stroke-width="1"/>
+
+  <!-- Description -->
+  <text x="68" y="78" class="sp-desc">Built from real workflows, real mistakes, and real lessons — not from theory.</text>
+  <text x="68" y="92" class="sp-desc">Paths for beginners, solo builders, frontend builders, and agency operators.</text>
+
+  <!-- Vertical separator -->
+  <line x1="540" y1="14" x2="540" y2="106" stroke="#D9D0C4" stroke-width="1"/>
+
+  <!-- Right column: content pills -->
+  <g transform="translate(556, 20)">
+    <rect width="80" height="20" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="40" y="14" class="sp-pill" text-anchor="middle">WORKFLOWS</text>
+  </g>
+  <g transform="translate(644, 20)">
+    <rect width="72" height="20" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="36" y="14" class="sp-pill" text-anchor="middle">MISTAKES</text>
+  </g>
+  <g transform="translate(724, 20)">
+    <rect width="66" height="20" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="33" y="14" class="sp-pill" text-anchor="middle">STORIES</text>
+  </g>
+  <g transform="translate(556, 48)">
+    <rect width="56" height="20" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="28" y="14" class="sp-pill" text-anchor="middle">PATHS</text>
+  </g>
+  <g transform="translate(620, 48)">
+    <rect width="100" height="20" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="50" y="14" class="sp-pill" text-anchor="middle">GETTING STARTED</text>
+  </g>
+  <g transform="translate(728, 48)">
+    <rect width="62" height="20" rx="3" fill="#EFE7D8" stroke="#D9D0C4" stroke-width="1"/>
+    <text x="31" y="14" class="sp-pill" text-anchor="middle">LESSONS</text>
+  </g>
+
+  <!-- CTA note -->
+  <text x="556" y="96" class="sp-note">→ Open the Playbook</text>
+</svg>

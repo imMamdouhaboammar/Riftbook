@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 52" width="100%" height="52" role="img" aria-label="Curated resources — Impeccable · Delegate Team · React Doctor · Graphify · Taste Skill">
+  <defs>
+    <style>
+      .strip-label { font-family:'Courier New','Courier',monospace; font-size:8px; fill:#9CA3AF; letter-spacing:0.12em; font-weight:700; }
+      .strip-name  { font-family:'Georgia','Times New Roman',serif; font-size:11px; fill:#111827; font-weight:700; }
+      .strip-cat   { font-family:'Courier New','Courier',monospace; font-size:7.5px; fill:#4B5563; letter-spacing:0.08em; }
+      .strip-div   { stroke:#D9D0C4; stroke-width:1; }
+    </style>
+  </defs>
+
+  <!-- Background strip -->
+  <rect width="860" height="52" rx="4" fill="#EFE7D8"/>
+  <!-- Top rule -->
+  <rect x="0" y="0" width="860" height="2" fill="#111827"/>
+  <!-- Bottom rule -->
+  <rect x="0" y="50" width="860" height="2" fill="#111827"/>
+
+  <!-- Label on far left -->
+  <text x="12" y="20" class="strip-label">FEATURED PICKS</text>
+
+  <!-- Dividers between cards -->
+  <line x1="130" y1="8" x2="130" y2="44" class="strip-div"/>
+  <line x1="300" y1="8" x2="300" y2="44" class="strip-div"/>
+  <line x1="466" y1="8" x2="466" y2="44" class="strip-div"/>
+  <line x1="630" y1="8" x2="630" y2="44" class="strip-div"/>
+  <line x1="748" y1="8" x2="748" y2="44" class="strip-div"/>
+
+  <!-- Pick 1: Impeccable -->
+  <rect x="132" y="4" width="8" height="44" rx="2" fill="#8B5CF6" opacity="0.7"/>
+  <text x="148" y="23" class="strip-name">Impeccable</text>
+  <text x="148" y="36" class="strip-cat">AI Frontend Design</text>
+
+  <!-- Pick 2: Delegate Team -->
+  <rect x="302" y="4" width="8" height="44" rx="2" fill="#2563EB" opacity="0.7"/>
+  <text x="318" y="23" class="strip-name">Delegate Team</text>
+  <text x="318" y="36" class="strip-cat">Agent Delegation</text>
+
+  <!-- Pick 3: React Doctor -->
+  <rect x="468" y="4" width="8" height="44" rx="2" fill="#DC2626" opacity="0.7"/>
+  <text x="484" y="23" class="strip-name">React Doctor</text>
+  <text x="484" y="36" class="strip-cat">React Quality Gates</text>
+
+  <!-- Pick 4: Graphify -->
+  <rect x="632" y="4" width="8" height="44" rx="2" fill="#D97706" opacity="0.7"/>
+  <text x="648" y="23" class="strip-name">Graphify</text>
+  <text x="648" y="36" class="strip-cat">Project Intelligence</text>
+
+  <!-- Pick 5: Taste Skill -->
+  <rect x="750" y="4" width="8" height="44" rx="2" fill="#16A34A" opacity="0.7"/>
+  <text x="766" y="23" class="strip-name">Taste Skill</text>
+  <text x="766" y="36" class="strip-cat">Frontend Design</text>
+</svg>
