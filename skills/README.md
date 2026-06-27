@@ -20,11 +20,13 @@ Every skill listed has a dedicated **Skill Card** detailing its purpose, inputs,
 | **Competitor Matrix** | Marketing | Standard | Compares product features against main competitors | [![View Card](../assets/icons/open-card.svg)](./marketing/) |
 | **Fact Checker** | Content | Standard | Verifies technical API names and links in docs | [![View Card](../assets/icons/open-card.svg)](./content/) |
 | **Codebase Mapping** | AI Agents | Standard | Traverses repository to build module dependency map | [![View Card](../assets/icons/open-card.svg)](./ai-agents/) |
+| **Delegate Team (`dt`)** | Installable Skills | Installable Skill | Delegating coding tasks from Claude Code to Codex, MiniMax, GLM, OpenCode, OpenRouter, Gemini, Vertex AI | [![View Card](../assets/icons/open-card.svg)](./installable-skills/delegate-team.md) |
 
 ---
 
 ## Categories
 
+- [Installable Skills](./installable-skills/) — Real, runnable, maintained tools you install — not just prompt instructions.
 - [Token Efficiency](./token-efficiency/) — Optimizing token usage, agent output compression, and scanner tools.
 - [Project Intelligence](./project-intelligence/) — Codebase maps, knowledge graphs, architecture context, refactors, and debugging.
 - [Hot Skills](./hot-skills/) — Field-tested AI skills that provide clear practical value in real AI-assisted workflows.
