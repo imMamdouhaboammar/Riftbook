@@ -10,10 +10,18 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 |---|---|---|
 | The Real Vibe Coding Playbook | Playbook | [Open](./playbook/README.md) |
 | Fresh Vibe Coder Path | Playbook path | [Open](./playbook/paths/fresh-vibe-coder-path.md) |
+| First Real Project Lab | Playbook lab | [Open](./playbook/labs/first-real-project-lab.md) |
 | Getting Started | Playbook section | [Open](./playbook/getting-started/README.md) |
 | Beginner Path | Playbook path | [Open](./playbook/paths/beginner-path.md) |
 | Agency Operator Path | Playbook path | [Open](./playbook/paths/agency-operator-path.md) |
 | Core Workflows | Playbook section | [Open](./playbook/core-workflows/README.md) |
+
+## Practice labs
+
+| Lab | Use it for | Link |
+|---|---|---|
+| Labs Index | All practical playbook labs | [Open](./playbook/labs/README.md) |
+| First Real Project Lab | Building one small project from idea to handoff | [Open](./playbook/labs/first-real-project-lab.md) |
 
 ## Project truth kit
 
@@ -103,6 +111,7 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 |---|---|
 | Project Truth Kit | [Open](./project-truth-kit/README.md) |
 | Agent Briefs | [Open](./agent-briefs/README.md) |
+| Playbook Labs | [Open](./playbook/labs/README.md) |
 | Skills | [Open](./skills/README.md) |
 | Tools | [Open](./tools/README.md) |
 | Prompts | [Open](./prompts/README.md) |
