@@ -9,6 +9,15 @@ The goal is not to collect every AI link. The goal is to document resources that
 
 Before adding anything, read the curation rules in [`CURATION.md`](./CURATION.md).
 
+## Governance files
+
+- [`GOVERNANCE.md`](./GOVERNANCE.md) - Main governance index.
+- [`CURATION.md`](./CURATION.md) - Resource acceptance rules and rubric.
+- [`REVIEW.md`](./REVIEW.md) - Maintainer review guide.
+- [`ROADMAP.md`](./ROADMAP.md) - Current improvement plan.
+- [`CHANGELOG.md`](./CHANGELOG.md) - Notable changes.
+- [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) - Contribution behavior expectations.
+
 ---
 
 ## Contribution rules
