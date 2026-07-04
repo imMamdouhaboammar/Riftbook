@@ -31,6 +31,8 @@ The format is intentionally simple. Riftbook is documentation-first, so changes 
 - Bug Fix agent brief.
 - Frontend Rebuild agent brief.
 - PR Review agent brief.
+- Client Brief to Build agent brief.
+- Delivery QA agent brief.
 - Agent Brief template.
 
 ### Changed
@@ -39,6 +41,7 @@ The format is intentionally simple. Riftbook is documentation-first, so changes 
 - Upgraded tool, skill, workflow, and prompt templates for stronger workflow context.
 - Linked comparison pages from the main index.
 - Linked agent briefs from the main index and templates index.
+- Expanded Agency Operator Path.
 
 ---
 
