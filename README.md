@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/branding/riftbook-readme-hero.svg" alt="Riftbook — Awesome Vibe Coding Space" width="100%" />
+  <img src="./assets/branding/riftbook-readme-hero.svg" alt="Riftbook - Awesome Vibe Coding Space" width="100%" />
 </p>
 
 <h1 align="center">Riftbook</h1>
@@ -9,11 +9,7 @@
 </p>
 
 <p align="center">
-  A curated guide to tools, prompts, workflows, and systems for building better AI-assisted apps.
-</p>
-
-<p align="center">
-  Practical resources for builders who want less guesswork, better workflows, and more reusable systems.
+  A curated field guide for builders who use AI coding agents and want cleaner context, better workflows, and reusable systems.
 </p>
 
 <p align="center">
@@ -21,7 +17,10 @@
     <img src="https://img.shields.io/github/stars/imMamdouhaboammar/Riftbook?style=for-the-badge&label=Star" alt="GitHub stars" />
   </a>
   <a href="./playbook/README.md">
-    <img src="https://img.shields.io/badge/Open%20Playbook-2563EB?style=for-the-badge" alt="Open Playbook" />
+    <img src="https://img.shields.io/badge/Open%20Playbook-111827?style=for-the-badge" alt="Open Playbook" />
+  </a>
+  <a href="./frameworks/graph-intelligence-stack.md">
+    <img src="https://img.shields.io/badge/Graph%20Intelligence-D97706?style=for-the-badge" alt="Graph Intelligence" />
   </a>
   <a href="./CONTRIBUTING.md">
     <img src="https://img.shields.io/badge/Contribute-16A34A?style=for-the-badge" alt="Contribute" />
@@ -30,34 +29,43 @@
 
 ---
 
-## Start Here
+<p align="center">
+  <img src="./assets/readme/riftbook-stack-map.svg" alt="Riftbook system map" width="100%" />
+</p>
 
-New here? Three paths in. Pick the one that fits:
+---
+
+## What Riftbook is
+
+Riftbook is a practical map for AI-assisted builders.
+
+It collects the things that make coding agents more useful in real work: playbooks, skills, tools, prompts, workflows, graph-based context systems, review helpers, and learning paths.
+
+This repo is for people who already know that "just prompt better" is not enough. Good AI-assisted work needs context, rules, review, memory, and repeatable workflows.
+
+## What it helps you avoid
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td width="33%" valign="top">
 
-**[Start the Playbook](./playbook/README.md)**
+### Messy agent sessions
 
-Real workflows, real mistakes, real lessons.
-Paths for beginners, solo builders, frontend builders, and agency operators.
-
-</td>
-<td align="center" width="33%">
-
-**[Browse Tools](./tools/README.md)**
-
-IDE extensions, MCP servers, CLI utilities,
-and agent infrastructure — curated and tested.
+When every task starts from zero, the agent forgets how the project works. Riftbook gives you reusable context layers and workflows.
 
 </td>
-<td align="center" width="33%">
+<td width="33%" valign="top">
 
-**[Explore Skills](./skills/README.md)**
+### Random tool collecting
 
-Reusable agent behaviors and custom
-prompt logic layers you can copy directly.
+Not every AI tool deserves a place in your setup. Riftbook favors tools with clear use cases, commands, prompts, and limits.
+
+</td>
+<td width="33%" valign="top">
+
+### Weak code review
+
+AI can produce working code that still breaks flows. Riftbook includes review and graph intelligence tools for blast radius, risk, and test gaps.
 
 </td>
 </tr>
@@ -65,15 +73,278 @@ prompt logic layers you can copy directly.
 
 ---
 
-## Choose Your Route
+## Start here
 
-| If you want to… | Start here |
+<table>
+<tr>
+<td width="25%" valign="top">
+
+### 1. Learn the workflow
+
+Start with the real playbook.
+
+[Open Playbook](./playbook/README.md)
+
+</td>
+<td width="25%" valign="top">
+
+### 2. Add agent behavior
+
+Copy reusable skills into your AI coding setup.
+
+[Open Skills](./skills/README.md)
+
+</td>
+<td width="25%" valign="top">
+
+### 3. Pick tools carefully
+
+Use tested CLIs, MCP servers, review tools, and agent infrastructure.
+
+[Open Tools](./tools/README.md)
+
+</td>
+<td width="25%" valign="top">
+
+### 4. Run repeatable flows
+
+Use workflows for research, design, debugging, graph context, and shipping.
+
+[Open Workflows](./workflows/README.md)
+
+</td>
+</tr>
+</table>
+
+---
+
+## Choose your route
+
+| If you want to | Start here |
 |---|---|
 | Learn how to work with coding agents | [The Real Vibe Coding Playbook](./playbook/README.md) |
+| Build your first serious agent setup | [Getting Started](./playbook/getting-started/README.md) |
 | Find practical agent tools | [Tools](./tools/README.md) |
 | Add reusable agent behavior | [Skills](./skills/README.md) |
-| Build safer workflows | [Workflows](./workflows/README.md) |
+| Reduce context waste | [Token Efficiency](./skills/token-efficiency/caveman.md) |
+| Improve frontend output | [Impeccable](./skills/top-selected/impeccable.md) and [Taste Skill](./skills/hot-skills/taste-skill.md) |
+| Review risky changes | [Code Review Graph](./tools/review-intelligence/code-review-graph.md) |
+| Add graph-based repo context | [Graphify](./skills/project-intelligence/graphify.md) |
+| Explore graph memory and RAG | [Graph Intelligence Stack](./frameworks/graph-intelligence-stack.md) |
 | Study foundations | [Learning](./learning/README.md) |
+
+---
+
+## The Real Vibe Coding Playbook
+
+<p>
+  <img src="./assets/readme/playbook-spotlight.svg" alt="The Real Vibe Coding Playbook" width="100%" />
+</p>
+
+A growing field guide for learning how to actually work with AI coding agents.
+Built from real workflows, real mistakes, and real lessons, not theory-only advice.
+
+> If you use coding agents but still feel messy, slow, or unsure where to start, begin here.
+> Read the featured case study: [How I Use Claude Code and Delegate Team](./playbook/stories/01-how-i-use-claude-code-and-delegate-team.md).
+
+| Section | What is inside |
+|---|---|
+| [Getting Started](./playbook/getting-started/README.md) | Step zero, project truth, lead agent setup, context files, first moves |
+| [Core Workflows](./playbook/core-workflows/README.md) | Planning, multi-agent coordination, debugging, reviewing, and shipping |
+| [Mistakes](./playbook/mistakes/README.md) | Common mistakes, personal notes, and things that look smart but hurt |
+| [Stories](./playbook/stories/README.md) | Real accounts from actual use: what worked, what failed, what changed |
+| [Paths](./playbook/paths/README.md) | Reading order by role: beginner, solo builder, frontend builder, agency operator |
+
+<p>
+  <a href="./playbook/getting-started/00-step-zero-build-the-project-truth.md">
+    <img src="https://img.shields.io/badge/Start%20Here-111827?style=for-the-badge" alt="Start Here" />
+  </a>
+  <a href="./playbook/README.md">
+    <img src="https://img.shields.io/badge/Open%20Playbook-2563EB?style=for-the-badge" alt="Open Playbook" />
+  </a>
+  <a href="./playbook/paths/beginner-path.md">
+    <img src="https://img.shields.io/badge/Beginner%20Path-16A34A?style=for-the-badge" alt="Beginner Path" />
+  </a>
+</p>
+
+---
+
+## Featured stack
+
+<p>
+  <img src="./assets/readme/curated-resources-strip.svg" alt="Featured picks: Impeccable, Delegate Team, React Doctor, Graphify, Taste Skill" width="100%" />
+</p>
+
+The best starting set across design, delegation, review, context, and AI-assisted frontend quality.
+
+| Pick | Category | Why it matters | Card |
+|---|---|---|---|
+| **Impeccable** | AI Frontend Design | Gives coding agents practical UI judgment for audit, critique, polish, layout, typography, hardening, and live iteration | [![View Card](./assets/icons/open-card.svg)](./skills/top-selected/impeccable.md) |
+| **Delegate Team** | Agent Delegation Runtime | Lets Claude Code delegate focused tasks to Codex, MiniMax, Gemini, OpenCode, VertexCoder, or team-style workflows while keeping review centralized | [![View Card](./assets/icons/open-card.svg)](./tools/agent-infrastructure/delegate-team.md) |
+| **React Doctor** | React Quality Gate | Catches React issues across state, effects, performance, architecture, security, and accessibility after the agent builds the UI | [![View Card](./assets/icons/open-card.svg)](./tools/react-quality/react-doctor.md) |
+| **Graphify** | Project Intelligence | Turns a repo into a queryable graph so agents understand structure before editing | [![View Card](./assets/icons/open-card.svg)](./skills/project-intelligence/graphify.md) |
+| **Code Review Graph** | Review Intelligence | Reviews PRs and local changes through blast radius, affected flows, test gaps, and targeted context | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/code-review-graph.md) |
+| **Taste Skill** | Frontend Design | Helps agents avoid generic frontend output and make better visual decisions | [![View Card](./assets/icons/open-card.svg)](./skills/hot-skills/taste-skill.md) |
+
+---
+
+## New: Graph Intelligence layer
+
+Graph tools are powerful only when they are used for the right job. Riftbook now separates four graph layers clearly.
+
+| Layer | Tool | Use it for | Card |
+|---|---|---|---|
+| Project map | **Graphify** | Understanding a repo or mixed project folder before editing | [Open](./skills/project-intelligence/graphify.md) |
+| Corpus reasoning | **Microsoft GraphRAG** | Reasoning over private documents, reports, transcripts, policies, and research notes | [Open](./frameworks/rag/graphrag.md) |
+| Temporal memory | **Graphiti** | Agents that need evolving memory, provenance, current facts, and historical facts | [Open](./frameworks/agent-memory/graphiti.md) |
+| Review blast radius | **Code Review Graph** | Reviewing PRs and uncommitted changes through affected files, symbols, flows, and tests | [Open](./tools/review-intelligence/code-review-graph.md) |
+
+Start with the full map:
+
+[Open Graph Intelligence Stack](./frameworks/graph-intelligence-stack.md)
+
+Run it as a workflow:
+
+[Open Graph Intelligence Workflow](./workflows/graph-intelligence-workflow.md)
+
+---
+
+## Browse by category
+
+| Category | What you will find | Link |
+|---|---|---|
+| **Playbook** | Field guide for working with AI coding agents: lessons, mistakes, stories, and paths | [Open](./playbook/README.md) |
+| **Skills** | Reusable agent instructions, behaviors, and custom prompt logic layers | [Open](./skills/README.md) |
+| **Tools** | IDE extensions, MCP servers, terminal utilities, review tools, and agent infrastructure | [Open](./tools/README.md) |
+| **Prompts** | Curated prompts for coding, design, writing, research, and automation | [Open](./prompts/README.md) |
+| **Workflows** | Step-by-step ways to debug, research, design, review, and ship | [Open](./workflows/README.md) |
+| **Frameworks** | Architecture-level systems for retrieval, reasoning, context, and memory | [Open](./frameworks/README.md) |
+| **Guides** | Setup playbooks, best practices, and configuration guides | [Open](./guides/README.md) |
+| **Indexes** | Discovery hubs for AI-assisted coding resources | [Open](./indexes/README.md) |
+| **Learning** | Courses, tutorials, and study paths for agentic systems | [Open](./learning/README.md) |
+| **Templates** | Standard markdown patterns for prompts, skills, tools, and workflows | [Open](./templates/README.md) |
+| **Cheat Sheets** | Dense references and command lookups | [Open](./cheat-sheets/README.md) |
+| **Execution Playbooks** | End-to-end handbooks for product launch and build methods | [Open](./playbooks/README.md) |
+| **Resources** | External libraries, papers, and reference documentation | [Open](./resources/README.md) |
+| **Examples** | Real prompt examples, case studies, and before-after comparisons | [Open](./examples/README.md) |
+| **Ideas** | Backlog of product, automation, and research concepts for builders | [Open](./ideas/README.md) |
+
+---
+
+## All resources
+
+The complete index of curated cards in this repo.
+
+### Token Efficiency
+
+| Resource | Category | Why it matters | Card |
+|---|---|---|---|
+| **Caveman** | Token Efficiency | Cuts verbose agent output and makes long coding sessions easier to scan | [![View Card](./assets/icons/open-card.svg)](./skills/token-efficiency/caveman.md) |
+| **RTK** | Token Efficiency | Compresses terminal output before it enters the AI context window, reducing CLI noise during long coding sessions | [![View Card](./assets/icons/open-card.svg)](./tools/token-efficiency/rtk.md) |
+
+### Project Intelligence
+
+| Resource | Category | Why it matters | Card |
+|---|---|---|---|
+| **Graphify** | Project Intelligence | Turns a repo into a queryable graph so agents understand structure before editing | [![View Card](./assets/icons/open-card.svg)](./skills/project-intelligence/graphify.md) |
+| **Graph Intelligence Stack** | Graph Systems | Shows when to use Graphify, GraphRAG, Graphiti, and Code Review Graph | [![View Card](./assets/icons/open-card.svg)](./frameworks/graph-intelligence-stack.md) |
+| **Graph Intelligence Workflow** | Workflow | Gives agents a step-by-step process for graph-informed coding, review, RAG, and memory design | [![View Card](./assets/icons/open-card.svg)](./workflows/graph-intelligence-workflow.md) |
+
+### Frontend Design
+
+| Resource | Category | Why it matters | Card |
+|---|---|---|---|
+| **Impeccable** | AI Frontend Design | Gives AI coding agents practical design judgment for audit, critique, polish, layout, typography, hardening, and live iteration | [![View Card](./assets/icons/open-card.svg)](./skills/top-selected/impeccable.md) |
+| **Taste Skill** | Frontend Design | Gives AI coding agents stronger UI taste and helps avoid generic frontend output | [![View Card](./assets/icons/open-card.svg)](./skills/hot-skills/taste-skill.md) |
+
+### Use Case Skills
+
+| Resource | Category | Why it matters | Card |
+|---|---|---|---|
+| **Last30Days** | Recent-signal research | Searches recent social, developer, market, GitHub, and web signals before meetings, research, validation, or comparisons | [![View Card](./assets/icons/open-card.svg)](./skills/use-case-skills/last30days.md) |
+
+### Review Intelligence
+
+| Resource | Category | Why it matters | Card |
+|---|---|---|---|
+| **Code Review Graph** | PR Review Infrastructure | Builds a local graph of the repo so AI agents can review changes through blast radius, risk, affected flows, and targeted context | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/code-review-graph.md) |
+| **Open Code Review** | AI Review Automation | Runs structured AI code reviews on diffs, commits, branches, or full-file scans with line-level comments and configurable review rules | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/open-code-review.md) |
+| **reviewdog** | CI Review Bridge | Turns linter and static-analysis output into PR comments, checks, and annotations so vibe-coded changes get readable feedback inside review | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/reviewdog.md) |
+
+### Agent Infrastructure
+
+| Resource | Category | Why it matters | Card |
+|---|---|---|---|
+| **Serena** | MCP Semantic Coding Toolkit | Gives agents IDE-like symbol navigation, semantic editing, refactoring, and project memory | [![View Card](./assets/icons/open-card.svg)](./tools/agent-infrastructure/serena.md) |
+| **Delegate Team** | Agent Delegation Runtime | Lets Claude Code delegate focused tasks to Codex, MiniMax, Gemini, OpenCode, VertexCoder, or team workflows while keeping review centralized | [![View Card](./assets/icons/open-card.svg)](./tools/agent-infrastructure/delegate-team.md) |
+
+### React Quality Gates
+
+| Resource | Category | Why it matters | Card |
+|---|---|---|---|
+| **React Doctor** | React Quality Audit | Catches React issues across state, effects, performance, architecture, security, and accessibility after the agent builds the UI | [![View Card](./assets/icons/open-card.svg)](./tools/react-quality/react-doctor.md) |
+
+### Core Frameworks
+
+| Resource | Category | Why it matters | Card |
+|---|---|---|---|
+| **Microsoft GraphRAG** | RAG Infrastructure | Builds graph-based retrieval pipelines for reasoning over private or complex document collections | [![View Card](./assets/icons/open-card.svg)](./frameworks/rag/graphrag.md) |
+| **Graphiti** | Agent Memory | Builds temporal context graphs for agents that need changing facts, provenance, and session-to-session memory | [![View Card](./assets/icons/open-card.svg)](./frameworks/agent-memory/graphiti.md) |
+
+### Hot Indexes
+
+| Resource | Category | Why it matters | Card |
+|---|---|---|---|
+| **Awesome Claude Code** | Claude Code Ecosystem | Helps discover Claude Code skills, hooks, agents, commands, plugins, and workflow resources | [![View Card](./assets/icons/open-card.svg)](./indexes/hot-indexes/awesome-claude-code.md) |
+
+### Best Practice Guides
+
+| Resource | Category | Why it matters | Card |
+|---|---|---|---|
+| **Claude Code Best Practice** | Claude Code | Helps move from casual prompting to structured Claude Code workflows using commands, agents, skills, hooks, MCP, and memory | [![View Card](./assets/icons/open-card.svg)](./guides/claude-code/claude-code-best-practice.md) |
+
+### Learning Paths
+
+| Resource | Category | Why it matters | Card |
+|---|---|---|---|
+| **AI Agents for Beginners** | AI Agents | A Microsoft learning path for understanding how agents work before building with them | [![View Card](./assets/icons/open-card.svg)](./learning/ai-agents/ai-agents-for-beginners.md) |
+
+---
+
+## How to use this repo
+
+1. **Copy and adapt**: Do not just read. Copy prompts, templates, and skill files into your workspace configuration.
+2. **Install selectively**: Add tools only when they solve a specific problem in your workflow.
+3. **Run workflows**: Use the workflow docs before debugging, refactoring, reviewing, or shipping.
+4. **Keep generated files controlled**: Graph outputs, indexes, and local tool artifacts should not be committed unless the repo policy says so.
+5. **Verify important claims**: Treat graph output and AI summaries as guidance. Check source files before risky edits.
+
+---
+
+## Quality rules
+
+Every item added to Riftbook should follow this schema:
+
+1. **Name**: Clear and descriptive name.
+2. **Category**: Exact folder and file classification.
+3. **What it is**: Concise description of what the item does.
+4. **Why it matters**: Practical value in real AI-assisted work.
+5. **When to use**: The precise workflow phase or problem it addresses.
+6. **How to use**: Step-by-step instructions.
+7. **Commands and prompts**: Executable code blocks and agent instructions.
+8. **Good fit and not a good fit**: Clear target use cases and limits.
+9. **Notes and limitations**: Warnings, gotchas, and safety checks.
+10. **Official link**: Verified link to the target resource.
+
+### What is not included
+
+To keep the repo useful, Riftbook avoids:
+
+- Untested links or products
+- Hype-only AI tools with no practical coding value
+- Empty prompt lists like "Act as a developer"
+- Broad advice without explicit use cases
+- Outdated, broken, or unmaintained repositories
 
 ---
 
@@ -103,232 +374,47 @@ Want to support Riftbook? See [SPONSORS.md](./SPONSORS.md).
 
 ---
 
-## The Real Vibe Coding Playbook
-
-<p>
-  <img src="./assets/readme/playbook-spotlight.svg" alt="The Real Vibe Coding Playbook" width="100%" />
-</p>
-
-A growing field guide for learning how to actually work with AI coding agents.
-Built from real workflows, real mistakes, and real lessons — not from theory.
-
-> If you are using coding agents and still feel messy, slow, or unsure where to start, the playbook is for you.
-> Read our featured case study: [How I Use Claude Code and Delegate Team](./playbook/stories/01-how-i-use-claude-code-and-delegate-team.md).
-
-| Section | What is inside |
-|---|---|
-| 🚀 [Getting Started](./playbook/getting-started/README.md) | How to begin the right way — lead agent, rules, context files, first steps |
-| ⚙️ [Core Workflows](./playbook/core-workflows/README.md) | Planning, multi-agent coordination, debugging, reviewing, and shipping |
-| ❌ [Mistakes](./playbook/mistakes/README.md) | Common mistakes, personal confessions, and things that look smart but hurt |
-| 📖 [Stories](./playbook/stories/README.md) | Real accounts from actual use — what worked, what didn't, what changed |
-| 🗺️ [Paths](./playbook/paths/README.md) | Structured reading order by role: beginner, solo builder, frontend, agency |
-
-<p>
-  <a href="./playbook/getting-started/00-step-zero-build-the-project-truth.md">
-    <img src="https://img.shields.io/badge/Start%20Here-111827?style=for-the-badge" alt="Start Here" />
-  </a>
-  <a href="./playbook/README.md">
-    <img src="https://img.shields.io/badge/Open%20Playbook-2563EB?style=for-the-badge" alt="Open Playbook" />
-  </a>
-  <a href="./playbook/paths/beginner-path.md">
-    <img src="https://img.shields.io/badge/Beginner%20Path-16A34A?style=for-the-badge" alt="Beginner Path" />
-  </a>
-</p>
-
----
-
-## Featured Picks
-
-<p>
-  <img src="./assets/readme/curated-resources-strip.svg" alt="Featured picks: Impeccable · Delegate Team · React Doctor · Graphify · Taste Skill" width="100%" />
-</p>
-
-The most useful resources to start with, across design, delegation, review, and intelligence.
-
-| Pick | Category | Why it matters | Card |
-|---|---|---|---|
-| **Impeccable** | AI Frontend Design | Gives AI coding agents a practical design language with commands for audit, critique, polish, layout, typography, hardening, and live iteration | [![View Card](./assets/icons/open-card.svg)](./skills/top-selected/impeccable.md) |
-| **Delegate Team** | Agent Delegation Runtime | Lets Claude Code delegate focused tasks to Codex, MiniMax, Gemini, OpenCode, VertexCoder, or team workflows while keeping review and approval centralized | [![View Card](./assets/icons/open-card.svg)](./tools/agent-infrastructure/delegate-team.md) |
-| **React Doctor** | React Quality Gate | Catches React issues across state, effects, performance, architecture, security, and accessibility after the agent builds the UI | [![View Card](./assets/icons/open-card.svg)](./tools/react-quality/react-doctor.md) |
-| **Graphify** | Project Intelligence | Turns a repo into a queryable graph so agents understand structure before editing | [![View Card](./assets/icons/open-card.svg)](./skills/project-intelligence/graphify.md) |
-| **Taste Skill** | Frontend Design | Gives AI coding agents stronger UI taste and helps avoid generic frontend output | [![View Card](./assets/icons/open-card.svg)](./skills/hot-skills/taste-skill.md) |
-
----
-
-## Browse by Category
-
-| Category | What you'll find | Link |
-|---|---|---|
-| **The Real Vibe Coding Playbook** | Field guide for working with AI coding agents — lessons, mistakes, stories, and paths | [Open](./playbook/README.md) |
-| **Skills** | Reusable agent instructions, behaviors, and custom prompt logic layers | [Open](./skills/README.md) |
-| **Tools** | A curated index of IDE extensions, MCP servers, and terminal utilities | [Open](./tools/README.md) |
-| **Prompts** | Curated, tested prompts for coding, design, writing, research, and automation | [Open](./prompts/README.md) |
-| **Workflows** | Step-by-step blueprints for debugging, researching, designing, and shipping | [Open](./workflows/README.md) |
-| **Frameworks** | Architecture-level projects and technical frameworks for building serious AI-assisted applications | [Open](./frameworks/README.md) |
-| **Guides** | Setup playbooks, best practices, and configurations (e.g. Claude Code) | [Open](./guides/README.md) |
-| **Indexes** | Curated indexes and discovery hubs for finding AI-assisted coding resources | [Open](./indexes/README.md) |
-| **Learning** | Structured courses, tutorials, and study paths for agentic systems | [Open](./learning/README.md) |
-| **Templates** | Standardized markdown patterns for prompts, skills, tools, and workflows | [Open](./templates/README.md) |
-| **Cheat Sheets** | High-density references and command lookups for coding and git | [Open](./cheat-sheets/README.md) |
-| **Execution Playbooks** | End-to-end handbooks detailing product launch and build methodologies | [Open](./playbooks/README.md) |
-| **Resources** | External libraries, academic papers, and reference documentation | [Open](./resources/README.md) |
-| **Examples** | Real-world prompt examples, case studies, and before/after comparisons | [Open](./examples/README.md) |
-| **Ideas** | Backlog of product, automation, and research concepts for builders | [Open](./ideas/README.md) |
-
----
-
-## All Resources
-
-The complete index of curated cards in this repo.
-
-### Token Efficiency
-
-| Resource | Category | Why it matters | Card |
-|---|---|---|---|
-| **Caveman** | Token Efficiency | Cuts verbose agent output and makes long coding sessions easier to scan | [![View Card](./assets/icons/open-card.svg)](./skills/token-efficiency/caveman.md) |
-| **RTK** | Token Efficiency | Compresses terminal output before it enters the AI context window, reducing CLI noise during long coding sessions | [![View Card](./assets/icons/open-card.svg)](./tools/token-efficiency/rtk.md) |
-
-### Project Intelligence
-
-| Resource | Category | Why it matters | Card |
-|---|---|---|---|
-| **Graphify** | Project Intelligence | Turns a repo into a queryable graph so agents understand structure before editing | [![View Card](./assets/icons/open-card.svg)](./skills/project-intelligence/graphify.md) |
-
-### Frontend Design
-
-| Resource | Category | Why it matters | Card |
-|---|---|---|---|
-| **Impeccable** | AI Frontend Design | Gives AI coding agents a practical design language with commands for audit, critique, polish, layout, typography, hardening, and live iteration | [![View Card](./assets/icons/open-card.svg)](./skills/top-selected/impeccable.md) |
-| **Taste Skill** | Frontend Design | Gives AI coding agents stronger UI taste and helps avoid generic frontend output | [![View Card](./assets/icons/open-card.svg)](./skills/hot-skills/taste-skill.md) |
-
-### Use Case Skills
-
-| Resource | Category | Why it matters | Card |
-|---|---|---|---|
-| **Last30Days** | Recent-signal research | Searches recent social, developer, market, GitHub, and web signals before meetings, research, validation, or comparisons | [![View Card](./assets/icons/open-card.svg)](./skills/use-case-skills/last30days.md) |
-
-### Review Intelligence
-
-| Resource | Category | Why it matters | Card |
-|---|---|---|---|
-| **Code Review Graph** | PR Review Infrastructure | Builds a local graph of the repo so AI agents can review changes through blast radius, risk, affected flows, and targeted context | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/code-review-graph.md) |
-| **Open Code Review** | AI Review Automation | Runs structured AI code reviews on diffs, commits, branches, or full-file scans with line-level comments and configurable review rules | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/open-code-review.md) |
-| **reviewdog** | CI Review Bridge | Turns linter and static-analysis output into PR comments, checks, and annotations so vibe-coded changes get readable feedback inside review | [![View Card](./assets/icons/open-card.svg)](./tools/review-intelligence/reviewdog.md) |
-
-### Agent Infrastructure
-
-| Resource | Category | Why it matters | Card |
-|---|---|---|---|
-| **Serena** | MCP Semantic Coding Toolkit | Gives agents IDE-like symbol navigation, semantic editing, refactoring, and project memory | [![View Card](./assets/icons/open-card.svg)](./tools/agent-infrastructure/serena.md) |
-| **Delegate Team** | Agent Delegation Runtime | Lets Claude Code delegate focused tasks to Codex, MiniMax, Gemini, OpenCode, VertexCoder, or team workflows while keeping review and approval centralized | [![View Card](./assets/icons/open-card.svg)](./tools/agent-infrastructure/delegate-team.md) |
-
-### React Quality Gates
-
-| Resource | Category | Why it matters | Card |
-|---|---|---|---|
-| **React Doctor** | React Quality Audit | Catches React issues across state, effects, performance, architecture, security, and accessibility after the agent builds the UI | [![View Card](./assets/icons/open-card.svg)](./tools/react-quality/react-doctor.md) |
-
-### Core Frameworks
-
-| Resource | Category | Why it matters | Card |
-|---|---|---|---|
-| **Microsoft GraphRAG** | RAG Infrastructure | Builds graph-based retrieval pipelines for reasoning over private or complex document collections | [![View Card](./assets/icons/open-card.svg)](./frameworks/rag/graphrag.md) |
-
-### Hot Indexes
-
-| Resource | Category | Why it matters | Card |
-|---|---|---|---|
-| **Awesome Claude Code** | Claude Code Ecosystem | Helps discover Claude Code skills, hooks, agents, commands, plugins, and workflow resources | [![View Card](./assets/icons/open-card.svg)](./indexes/hot-indexes/awesome-claude-code.md) |
-
-### Best Practice Guides
-
-| Resource | Category | Why it matters | Card |
-|---|---|---|---|
-| **Claude Code Best Practice** | Claude Code | Helps move from casual prompting to structured Claude Code workflows using commands, agents, skills, hooks, MCP, and memory | [![View Card](./assets/icons/open-card.svg)](./guides/claude-code/claude-code-best-practice.md) |
-
-### Learning Paths
-
-| Resource | Category | Why it matters | Card |
-|---|---|---|---|
-| **AI Agents for Beginners** | AI Agents | A Microsoft learning path for understanding how agents work before building with them | [![View Card](./assets/icons/open-card.svg)](./learning/ai-agents/ai-agents-for-beginners.md) |
-
----
-
-## How to Use This Repo
-
-1. **Copy & Adapt** — Don't just read. Copy prompts, templates, and skill files directly into your workspace configuration (e.g. your `.claudecoderc` or system instructions).
-2. **Integrate Tools** — Adopt the developer utilities listed in the [Tool Stack](./tools/README.md) to reduce context noise and optimize speed.
-3. **Execute Blueprints** — Follow step-by-step [Workflows](./workflows/README.md) for testing, debugging, and shipping code.
-
----
-
-## Quality Rules
-
-Every item added to Riftbook must follow a strict schema:
-
-1. **Name** — Clear and descriptive name.
-2. **Category** — Exact folder/file classification.
-3. **What it is** — Concise description of what the item does.
-4. **Why it matters** — Explanation of its value and significance.
-5. **When to use** — The precise workflow phase or issue this addresses.
-6. **How to use** — Practical step-by-step instructions.
-7. **Commands / Prompts** — Executable code blocks and agent instructions.
-8. **Good fit for / Not a good fit for** — Demarcation of target use cases.
-9. **Notes & Limitations** — Constraining parameters, warnings, or gotchas.
-10. **Official Link** — Verified link to the target resource.
-
-### What is Not Included
-
-To maintain a high signal-to-noise ratio, this repository excludes:
-
-- Untested links or products
-- Hype-only AI tools with no practical coding value
-- Empty or generic prompt lists (e.g., "Act as a developer")
-- Broad advice lacking explicit use cases
-- Outdated, broken, or unmaintained repositories
-
----
-
 ## Contribute
 
-Read [CONTRIBUTING.md](./CONTRIBUTING.md) for rules on how to format additions, follow templates, and submit pull requests.
+Read [CONTRIBUTING.md](./CONTRIBUTING.md) for formatting rules, templates, and pull request guidance.
 
 If Riftbook saves you time, helps you find a useful tool, or gives you a better workflow:
 
-- ⭐ Star the repo
-- 🔗 Share it with another AI-assisted builder
-- 🤝 Open a PR with a workflow-tested card
+- Star the repo
+- Share it with another AI-assisted builder
+- Open a PR with a workflow-tested card
 
 Riftbook gets better when builders contribute tools they have actually used.
 
 ---
 
-## Special Thanks
+## Special thanks
 
-A huge thank you to the creators, developers, and maintainers of the repositories featured in Riftbook. Your open-source work is the foundation of the modern vibe coding and AI agent ecosystem.
+Thanks to the creators, developers, and maintainers of the repositories featured in Riftbook.
 
-| Creator | Featured Project |
+| Creator | Featured project |
 |---|---|
-| [@pbakaus](https://github.com/pbakaus) | [Impeccable](https://github.com/pbakaus/impeccable) (AI Frontend Design Language) |
-| [@JuliusBrussee](https://github.com/JuliusBrussee) | [Caveman](https://github.com/JuliusBrussee/caveman) (Token Efficiency Formatter) |
-| [@rtk-ai](https://github.com/rtk-ai) | [RTK](https://github.com/rtk-ai/rtk) (CLI Output Token Compressor) |
-| [@safishamsi](https://github.com/safishamsi) | [Graphify](https://github.com/safishamsi/graphify) (Project Knowledge Graph builder) |
-| [@Leonxlnx](https://github.com/Leonxlnx) | [Taste Skill](https://github.com/Leonxlnx/taste-skill) (Frontend UI/UX design taste skill) |
-| [@mvanhorn](https://github.com/mvanhorn) | [Last30Days](https://github.com/mvanhorn/last30days-skill) (Recent-signal web search skill) |
-| [@tirth8205](https://github.com/tirth8205) | [Code Review Graph](https://github.com/tirth8205/code-review-graph) (PR Context & Blast Radius visualizer) |
-| [@alibaba](https://github.com/alibaba) | [Open Code Review](https://github.com/alibaba/open-code-review) (AI-powered automated code reviews) |
-| [@reviewdog](https://github.com/reviewdog) | [reviewdog](https://github.com/reviewdog/reviewdog) (Linter bridge for pull request reviews) |
-| [@oraios](https://github.com/oraios) | [Serena](https://github.com/oraios/serena) (IDE-like MCP Semantic Coding Toolkit) |
-| [@millionco](https://github.com/millionco) | [React Doctor](https://github.com/millionco/react-doctor) (React code auditing & quality gates) |
-| [@microsoft](https://github.com/microsoft) | [GraphRAG](https://github.com/microsoft/graphrag) & [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) |
-| [@hesreallyhim](https://github.com/hesreallyhim) | [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) index |
+| [@pbakaus](https://github.com/pbakaus) | [Impeccable](https://github.com/pbakaus/impeccable) |
+| [@JuliusBrussee](https://github.com/JuliusBrussee) | [Caveman](https://github.com/JuliusBrussee/caveman) |
+| [@rtk-ai](https://github.com/rtk-ai) | [RTK](https://github.com/rtk-ai/rtk) |
+| [@Graphify-Labs](https://github.com/Graphify-Labs) | [Graphify](https://github.com/Graphify-Labs/graphify) |
+| [@getzep](https://github.com/getzep) | [Graphiti](https://github.com/getzep/graphiti) |
+| [@Leonxlnx](https://github.com/Leonxlnx) | [Taste Skill](https://github.com/Leonxlnx/taste-skill) |
+| [@mvanhorn](https://github.com/mvanhorn) | [Last30Days](https://github.com/mvanhorn/last30days-skill) |
+| [@tirth8205](https://github.com/tirth8205) | [Code Review Graph](https://github.com/tirth8205/code-review-graph) |
+| [@alibaba](https://github.com/alibaba) | [Open Code Review](https://github.com/alibaba/open-code-review) |
+| [@reviewdog](https://github.com/reviewdog) | [reviewdog](https://github.com/reviewdog/reviewdog) |
+| [@oraios](https://github.com/oraios) | [Serena](https://github.com/oraios/serena) |
+| [@millionco](https://github.com/millionco) | [React Doctor](https://github.com/millionco/react-doctor) |
+| [@microsoft](https://github.com/microsoft) | [GraphRAG](https://github.com/microsoft/graphrag) and [AI Agents for Beginners](https://github.com/microsoft/ai-agents-for-beginners) |
+| [@hesreallyhim](https://github.com/hesreallyhim) | [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) |
 | [@shanraisshan](https://github.com/shanraisshan) | [Claude Code Best Practice](https://github.com/shanraisshan/claude-code-best-practice) |
-| [@imMamdouhaboammar](https://github.com/imMamdouhaboammar) | [Delegate Team](https://github.com/imMamdouhaboammar/delegate-team) (Agent Delegation Runtime) |
+| [@imMamdouhaboammar](https://github.com/imMamdouhaboammar) | [Delegate Team](https://github.com/imMamdouhaboammar/delegate-team) |
 | [@mamdouhaboammar](https://github.com/mamdouhaboammar) | [Chrome DevTools MCP](https://github.com/mamdouhaboammar/chrome-devtools-mcp) |
-| [@obra](https://github.com/obra) | [Superpowers](https://github.com/obra/superpowers) (Structured agent workflows) |
+| [@obra](https://github.com/obra) | [Superpowers](https://github.com/obra/superpowers) |
 
 ---
 
-## Topics & Keywords
+## Topics and keywords
 
-`vibe-coding` · `awesome-vibe-coding` · `claude-code` · `ai-agents` · `coding-agents` · `awesome-list` · `developer-tools` · `mcp-servers` · `metagpt` · `openai-codex` · `vertex-ai` · `prompt-engineering` · `agentic-workflows` · `riftbook`
+`vibe-coding` · `awesome-vibe-coding` · `claude-code` · `ai-agents` · `coding-agents` · `awesome-list` · `developer-tools` · `mcp-servers` · `metagpt` · `openai-codex` · `vertex-ai` · `prompt-engineering` · `agentic-workflows` · `knowledge-graph` · `graphrag` · `agent-memory` · `riftbook`
