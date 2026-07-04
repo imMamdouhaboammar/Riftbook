@@ -6,7 +6,7 @@
 
 **Not everyone starts from the same place. Find yours.**
 
-A path is a structured reading order through the playbook — based on where you are, what you are building, and what you need right now.
+A path is a structured reading order through the playbook - based on where you are, what you are building, and what you need right now.
 
 ---
 
@@ -14,6 +14,7 @@ A path is a structured reading order through the playbook — based on where you
 
 | Path | Best for |
 |---|---|
+| [Fresh Vibe Coder Path](./fresh-vibe-coder-path.md) | Going from point 0 to 10 by building a real project through clean, structured prompts |
 | [Beginner Path](./beginner-path.md) | First time using a coding agent of any kind |
 | [Solo Builder Path](./solo-builder-path.md) | Building products alone with AI assistance |
 | [Frontend Path](./frontend-path.md) | UI-first builders focused on design and interfaces |
@@ -24,7 +25,7 @@ A path is a structured reading order through the playbook — based on where you
 
 ## How to Use a Path
 
-1. Pick the path that fits your current situation — not your aspirations
+1. Pick the path that fits your current situation - not your aspirations
 2. Read the listed lessons in the suggested order
 3. Come back to other sections after you have finished your path
 
