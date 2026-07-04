@@ -11,17 +11,20 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 | The Real Vibe Coding Playbook | Playbook | [Open](./playbook/README.md) |
 | Getting Started | Playbook section | [Open](./playbook/getting-started/README.md) |
 | Beginner Path | Playbook path | [Open](./playbook/paths/beginner-path.md) |
+| Agency Operator Path | Playbook path | [Open](./playbook/paths/agency-operator-path.md) |
 | Core Workflows | Playbook section | [Open](./playbook/core-workflows/README.md) |
 
 ## Agent briefs
 
 | Brief | Use it when | Link |
 |---|---|---|
+| Client Brief to Build Brief | You need to turn loose project notes into an agent-ready build plan | [Open](./agent-briefs/client-brief-to-build-brief.md) |
 | Repo Audit Brief | You want the agent to inspect a repo before changing code | [Open](./agent-briefs/repo-audit-brief.md) |
 | Refactor Brief | You want a safer refactor with scope and verification | [Open](./agent-briefs/refactor-brief.md) |
 | Bug Fix Brief | You want root-cause diagnosis and a focused fix | [Open](./agent-briefs/bug-fix-brief.md) |
 | Frontend Rebuild Brief | You want to rebuild or polish UI without losing design intent | [Open](./agent-briefs/frontend-rebuild-brief.md) |
 | PR Review Brief | You want a structured review before merge | [Open](./agent-briefs/pr-review-brief.md) |
+| Delivery QA Brief | You want to verify work before handoff or delivery | [Open](./agent-briefs/delivery-qa-brief.md) |
 
 ## Featured resources
 
