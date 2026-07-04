@@ -14,6 +14,18 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 | Agency Operator Path | Playbook path | [Open](./playbook/paths/agency-operator-path.md) |
 | Core Workflows | Playbook section | [Open](./playbook/core-workflows/README.md) |
 
+## Project truth kit
+
+| File | Use it for | Link |
+|---|---|---|
+| Project Truth Kit | Full setup guide | [Open](./project-truth-kit/README.md) |
+| PRODUCT template | Product goal, audience, flows, and scope | [Open](./project-truth-kit/PRODUCT.template.md) |
+| RULES template | Build, design, naming, and agent rules | [Open](./project-truth-kit/RULES.template.md) |
+| TASKS template | Active work, small commits, and blockers | [Open](./project-truth-kit/TASKS.template.md) |
+| DECISIONS template | Decision log and rejected options | [Open](./project-truth-kit/DECISIONS.template.md) |
+| QA template | Review gates and manual QA | [Open](./project-truth-kit/QA.template.md) |
+| HANDOFF template | Delivery summary and next steps | [Open](./project-truth-kit/HANDOFF.template.md) |
+
 ## Agent briefs
 
 | Brief | Use it when | Link |
@@ -88,6 +100,7 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 
 | Category | Link |
 |---|---|
+| Project Truth Kit | [Open](./project-truth-kit/README.md) |
 | Agent Briefs | [Open](./agent-briefs/README.md) |
 | Skills | [Open](./skills/README.md) |
 | Tools | [Open](./tools/README.md) |
