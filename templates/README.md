@@ -1,6 +1,6 @@
 # Templates
 
-Standardized markdown templates to make it easier to contribute prompts, tools, skills, workflows, agent briefs, and learning resources.
+Standardized markdown templates to make it easier to contribute prompts, tools, skills, workflows, agent briefs, project truth files, and learning resources.
 
 ## Available templates
 
@@ -10,6 +10,19 @@ Standardized markdown templates to make it easier to contribute prompts, tools, 
 - [Workflow Template](./workflow-template.md) - For creating step-by-step developer workflows.
 - [Agent Brief Template](./agent-brief-template.md) - For creating copy-ready task briefs for coding agents.
 - [Resource Template](./resource-template.md) - For adding external articles, tutorials, repos, or references.
+
+## Project Truth Kit templates
+
+These templates are designed to be copied into project roots:
+
+- [PRODUCT Template](../project-truth-kit/PRODUCT.template.md)
+- [RULES Template](../project-truth-kit/RULES.template.md)
+- [TASKS Template](../project-truth-kit/TASKS.template.md)
+- [DECISIONS Template](../project-truth-kit/DECISIONS.template.md)
+- [QA Template](../project-truth-kit/QA.template.md)
+- [HANDOFF Template](../project-truth-kit/HANDOFF.template.md)
+
+Open the full kit: [Project Truth Kit](../project-truth-kit/README.md)
 
 ## How to use
 
