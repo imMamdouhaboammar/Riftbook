@@ -34,6 +34,13 @@ The format is intentionally simple. Riftbook is documentation-first, so changes 
 - Client Brief to Build agent brief.
 - Delivery QA agent brief.
 - Agent Brief template.
+- Project Truth Kit.
+- PRODUCT template.
+- RULES template.
+- TASKS template.
+- DECISIONS template.
+- QA template.
+- HANDOFF template.
 
 ### Changed
 
@@ -42,6 +49,7 @@ The format is intentionally simple. Riftbook is documentation-first, so changes 
 - Linked comparison pages from the main index.
 - Linked agent briefs from the main index and templates index.
 - Expanded Agency Operator Path.
+- Linked Project Truth Kit from main index, templates index, and Agency Operator Path.
 
 ---
 
