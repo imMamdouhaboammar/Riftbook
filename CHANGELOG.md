@@ -17,11 +17,20 @@ The format is intentionally simple. Riftbook is documentation-first, so changes 
 - Markdown lint GitHub Action.
 - Link check GitHub Action.
 - Roadmap file.
+- Main resource index.
+- Tag glossary.
+- Comparisons section.
+- Graphify vs Code Review Graph comparison.
+- GraphRAG vs Graphiti comparison.
+- Governance index.
+- Review guide.
+- Code of conduct.
 
 ### Changed
 
 - Updated contribution guidelines to match the current folder-based repo structure.
 - Upgraded tool, skill, workflow, and prompt templates for stronger workflow context.
+- Linked comparison pages from the main index.
 
 ---
 
