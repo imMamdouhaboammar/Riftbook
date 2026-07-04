@@ -7,6 +7,8 @@ The goal is not to collect every AI link. The goal is to document resources that
 > [!IMPORTANT]
 > Riftbook is not a generic awesome-list clone. Plain links are not accepted. Every tool, skill, prompt, workflow, guide, or framework must explain exactly when to use it, how to use it, when to avoid it, and what the agent should do with it.
 
+Before adding anything, read the curation rules in [`CURATION.md`](./CURATION.md).
+
 ---
 
 ## Contribution rules
@@ -76,7 +78,7 @@ Every new entry should include:
 1. Choose the right category folder under [`/prompts`](./prompts/), for example `coding/`, `design/`, `writing/`, or `research/`.
 2. Create a new markdown card.
 3. Start from [`templates/prompt-template.md`](./templates/prompt-template.md).
-4. Include the raw prompt, required context, expected output, and failure modes.
+4. Include the prompt, required context, expected output, and failure modes.
 5. Add it to the category README and [`prompts/README.md`](./prompts/README.md) when relevant.
 
 ### Add a framework
@@ -96,7 +98,7 @@ Every new entry should include:
 - Add examples when they help the reader act.
 - Mention prerequisites and generated files.
 - Warn about costs, tokens, privacy, and security where relevant.
-- Avoid duplicate entries. Search the repo before adding anything.
+- Avoid duplicate entries. Search the repo first.
 - Use plain English. The reader should know exactly what to do next.
 
 ---
