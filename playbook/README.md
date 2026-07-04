@@ -18,8 +18,8 @@
   <a href="./getting-started/00-step-zero-build-the-project-truth.md">
     <img src="https://img.shields.io/badge/Start%20Here-111827?style=for-the-badge" alt="Start Here" />
   </a>
-  <a href="./paths/beginner-path.md">
-    <img src="https://img.shields.io/badge/Beginner%20Path-3B82F6?style=for-the-badge" alt="Beginner Path" />
+  <a href="./paths/fresh-vibe-coder-path.md">
+    <img src="https://img.shields.io/badge/Fresh%20Vibe%20Coder-16A34A?style=for-the-badge" alt="Fresh Vibe Coder Path" />
   </a>
   <a href="./mistakes/01-common-vibe-coding-mistakes.md">
     <img src="https://img.shields.io/badge/Mistakes%20Log-EF4444?style=for-the-badge" alt="Mistakes Log" />
@@ -52,7 +52,7 @@ If you are new to working with AI coding agents, read these first — in order:
 | 1 | [From MVP Idea to Agent-Ready Spec](./getting-started/01-turn-your-mvp-idea-into-an-agent-ready-spec.md) | Shape concept with AI client, then hand off to coding agent. |
 | 2 | [Choose Your Lead Agent](./getting-started/02-choose-your-lead-agent.md) | The most important decision most builders skip. |
 | 3 | [Build Your Default Stack](./getting-started/03-build-your-default-stack.md) | Stop picking tools every time. Build a repeatable setup — runtime safety, clean-code skill, and the Superhero Prompt to arm your agent before coding. |
-| 4 | [Set Rules Before You Build](./getting-started/04-set-rules-before-you-build.md) | Rules are not optional. They are what makes agents predictable. |
+| 4 | [Set Rules Before You Build](./getting-started/04-set-rules-before-build.md) | Rules are not optional. They are what makes agents predictable. |
 | 5 | [The First Slice](./getting-started/05-the-first-slice.md) | Build one real flow end to end before expanding. Never open the whole app scope at once. |
 
 ---
@@ -74,6 +74,15 @@ The real day-to-day routines of working with coding agents.
 > Planning, multi-agent coordination, debugging, reviewing, and shipping.
 
 [→ Open Core Workflows](./core-workflows/README.md)
+
+---
+
+### 🧪 Labs
+Hands-on practice for turning playbook concepts into a real build.
+
+> Practical exercises with prompts, checkpoints, QA, and handoff.
+
+[→ Open Labs](./labs/README.md)
 
 ---
 
@@ -117,11 +126,20 @@ The field-notes system to capture raw builder battles and turn them into playboo
 
 | Path | Best for | Start |
 |---|---|---|
+| [Fresh Vibe Coder Path](./paths/fresh-vibe-coder-path.md) | Going from point 0 to 10 by building a real project through clean prompts | [Start →](./paths/fresh-vibe-coder-path.md) |
 | [Beginner Path](./paths/beginner-path.md) | First time using a coding agent | [Start →](./paths/beginner-path.md) |
 | [Solo Builder Path](./paths/solo-builder-path.md) | Building products alone with AI | [Start →](./paths/solo-builder-path.md) |
 | [Frontend Path](./paths/frontend-path.md) | UI-first builders | [Start →](./paths/frontend-path.md) |
 | [Product-Minded Path](./paths/product-minded-path.md) | Product thinkers who code | [Start →](./paths/product-minded-path.md) |
 | [Agency Operator Path](./paths/agency-operator-path.md) | Running multiple clients or projects | [Start →](./paths/agency-operator-path.md) |
+
+---
+
+## Practice Labs
+
+| Lab | Best for | Start |
+|---|---|---|
+| [First Real Project Lab](./labs/first-real-project-lab.md) | Applying the Fresh Vibe Coder path on one small real project | [Start →](./labs/first-real-project-lab.md) |
 
 ---
 
@@ -138,6 +156,8 @@ The field-notes system to capture raw builder battles and turn them into playboo
 | [Planning the Build](./core-workflows/01-planning-the-build.md) | Core Workflows | Saves hours every project |
 | [The First Slice](./getting-started/05-the-first-slice.md) | Getting Started | How to make the first implementation move correctly |
 | [Debugging with Agents](./core-workflows/03-debugging-with-agents.md) | Core Workflows | Most underrated skill |
+| [Fresh Vibe Coder Path](./paths/fresh-vibe-coder-path.md) | Paths | 0 to 10 process for fresh builders |
+| [First Real Project Lab](./labs/first-real-project-lab.md) | Labs | Apply the path by building one real project |
 | [Superhero Prompt](./templates/superhero-prompt.md) | Templates | Arm your coding agent with skills, rules, and safety before it builds |
 
 ---
@@ -177,28 +197,3 @@ This block will grow over time. These are things I learned the hard way — not 
 - **Treating planning as optional.** I skipped planning because it felt slow. Every time I did this, the project took twice as long.
 - **Switching agents mid-context too often.** The new agent does not know what the first one was thinking. You always pay a context tax.
 - **Trusting agent output without review.** It looks correct most of the time. It is not correct most of the time.
-
-> This section grows with every new lesson added to the playbook.
-
----
-
-## What This Playbook Is Not
-
-- It is not a list of AI tools to install
-- It is not a motivational productivity guide
-- It is not fake-positive builder culture content
-- It is not a course with checkboxes and completion certificates
-
-It is a field guide. Read it like one.
-
----
-
-## How the Playbook Grows
-
-New lessons get added from real use. If something works reliably, it earns a lesson. If something fails consistently, it earns a mistake entry. Stories come from actual projects.
-
-The playbook is never finished. That is the point.
-
----
-
-*Part of [Riftbook](../README.md) — Awesome Vibe Coding Space*
