@@ -15,10 +15,10 @@
 
 Graphify is an AI coding assistant skill that turns a project folder into a queryable knowledge graph.
 
-It can map code, SQL schemas, scripts, docs, papers, images, videos, and other project files into graph outputs that your AI coding agent can inspect instead of repeatedly grepping through files.
+It maps code, SQL schemas, scripts, docs, papers, images, videos, and other project files into graph outputs that your AI coding agent can inspect instead of repeatedly grepping through files.
 
 Official repo:
-[https://github.com/safishamsi/graphify](https://github.com/safishamsi/graphify)
+[https://github.com/Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
 
 ## Why it is a Premium Pick
 
@@ -29,7 +29,7 @@ Most AI coding agents can read files, but they often miss how the project fits t
 This is especially valuable in large codebases, inherited projects, refactors, debugging sessions, and any task where architecture context matters.
 
 > [!WARNING]
-> **Not a Truth Engine**: Graphify is a **navigation layer**, not a truth engine. It is excellent at pointing agents in the right direction ("look here, here, and here"), but any critical relationship, dependency, or sensitive refactoring must be manually verified from the original source files before making edits.
+> **Not a Truth Engine**: Graphify is a navigation layer, not a truth engine. It is excellent at pointing agents in the right direction, but critical relationships, dependencies, or sensitive refactors must still be verified from the original source files before editing.
 
 ## Best use cases
 
@@ -63,40 +63,42 @@ Helpful when the agent keeps reading too many files just to understand the same 
 
 ## How it helps in real work
 
-* Gives the agent a project map before coding
-* Turns scattered files into a queryable graph
-* Helps reveal important modules and relationships
-* Produces a human-readable graph report
-* Produces an interactive graph view
-* Produces machine-readable graph JSON
-* Helps with architecture discovery
-* Helps reduce repeated file reading
-* Useful before refactors, audits, debugging, and onboarding
-* Makes long agent sessions more grounded
+- Gives the agent a project map before coding
+- Turns scattered files into a queryable graph
+- Helps reveal important modules and relationships
+- Produces a human-readable graph report
+- Produces an interactive graph view
+- Produces machine-readable graph JSON
+- Can export readable call-flow HTML with Mermaid diagrams
+- Helps with architecture discovery
+- Helps reduce repeated file reading
+- Useful before refactors, audits, debugging, and onboarding
+- Makes long agent sessions more grounded
 
 ## Good fit for
 
-* Large repos
-* Unknown repos
-* Refactoring projects
-* Debugging multi-file problems
-* Claude Code users
-* Codex users
-* Cursor users
-* Gemini CLI users
-* OpenCode users
-* Developers working with AI coding agents
-* Teams that need better project onboarding
-* Vibe coders building beyond small prototypes
+- Large repos
+- Unknown repos
+- Refactoring projects
+- Debugging multi-file problems
+- Claude Code users
+- Codex users
+- Cursor users
+- Gemini CLI users
+- OpenCode users
+- GitHub Copilot CLI users
+- Developers working with AI coding agents
+- Teams that need better project onboarding
+- Vibe coders building beyond small prototypes
 
 ## Not a good fit for
 
-* Tiny projects with only a few files
-* One-line edits
-* Simple landing pages
-* Repos where you already know every file
-* Tasks that do not need architecture context
-* Situations where you cannot spend time generating the graph first
+- Tiny projects with only a few files
+- One-line edits
+- Simple landing pages
+- Repos where you already know every file
+- Tasks that do not need architecture context
+- Situations where you cannot spend time generating the graph first
 
 ## Installation prompt
 
@@ -106,7 +108,7 @@ Copy this prompt and give it to your coding agent:
 I want you to install and configure Graphify for my current AI coding setup.
 
 Official repo:
-https://github.com/safishamsi/graphify
+https://github.com/Graphify-Labs/graphify
 
 Your task:
 1. Detect my OS and current AI coding environment.
@@ -166,9 +168,15 @@ graphify-out/
 
 Use them like this:
 
-* `GRAPH_REPORT.md` for the human-readable project summary
-* `graph.html` for interactive exploration
-* `graph.json` for machine-readable graph queries
+- `GRAPH_REPORT.md` for the human-readable project summary
+- `graph.html` for interactive exploration
+- `graph.json` for machine-readable graph queries
+
+Optional architecture output:
+
+```bash
+graphify export callflow-html
+```
 
 ## Usage prompt after installation
 
@@ -233,22 +241,29 @@ Before using Graphify output for coding decisions, check:
 - [ ] The agent has read the report before editing
 - [ ] Generated relationships are treated as guidance, not absolute truth
 - [ ] Ambiguous or inferred relationships are verified manually
-- [ ] Large generated files are not accidentally committed unless intended (handled according to the project’s git policy / added to `.gitignore` if needed)
+- [ ] Large generated files are not accidentally committed unless intended
+- [ ] `graphify-out/` is handled according to the project git policy
+
+## Pair it with
+
+- [Code Review Graph](../../tools/review-intelligence/code-review-graph.md) for review blast radius
+- [Microsoft GraphRAG](../../frameworks/rag/graphrag.md) for document-corpus reasoning
+- [Graphiti](../../frameworks/agent-memory/graphiti.md) for temporal agent memory
+- [Graph Intelligence Workflow](../../workflows/graph-intelligence-workflow.md) for the full decision path
 
 ## Notes
 
-- **Navigation Layer Warning**: Graphify is a navigation and exploration layer, not a direct truth engine. It helps direct the agent to relevant files ("look here first"), but critical architecture mappings and dependencies must be manually verified from actual source files before refactoring or major edits.
-- **Project Size**: Graphify is strongest when the codebase is big enough that raw search is not enough. For very small projects, the graph may be overkill. In those cases, its value is more about structural clarity than token savings.
-- **Not a File Reader Replacement**: Treat the graph as a navigation layer for the agent, not as a replacement for reading critical files before editing.
-- **Git Policy**: Avoid auto-committing large generated outputs under `graphify-out/` unless specifically requested by the project maintainers.
+- **Navigation Layer Warning**: Graphify helps direct the agent to relevant files, but critical architecture mappings and dependencies must be manually verified from actual source files before refactoring or major edits.
+- **Project Size**: Graphify is strongest when the codebase is big enough that raw search is not enough.
+- **Not a File Reader Replacement**: Treat the graph as a navigation layer, not a replacement for reading critical files before editing.
+- **Git Policy**: Avoid auto-committing large generated outputs under `graphify-out/` unless specifically requested.
 
 ## Links
 
-* GitHub: [https://github.com/safishamsi/graphify](https://github.com/safishamsi/graphify)
-* How it works: [https://github.com/safishamsi/graphify/blob/main/docs/how-it-works.md](https://github.com/safishamsi/graphify/blob/main/docs/how-it-works.md)
+- GitHub: [https://github.com/Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
 
 ---
 
 ## Special Thanks
 
-Special thanks to [@safishamsi](https://github.com/safishamsi) for creating and maintaining the amazing [Graphify](https://github.com/safishamsi) repository! Your contribution significantly enhances the vibe coding ecosystem. 🌟
+Special thanks to [Graphify Labs](https://github.com/Graphify-Labs) for building and maintaining [Graphify](https://github.com/Graphify-Labs/graphify).
