@@ -41,6 +41,7 @@ The format is intentionally simple. Riftbook is documentation-first, so changes 
 - DECISIONS template.
 - QA template.
 - HANDOFF template.
+- Fresh Vibe Coder Path.
 
 ### Changed
 
@@ -50,6 +51,7 @@ The format is intentionally simple. Riftbook is documentation-first, so changes 
 - Linked agent briefs from the main index and templates index.
 - Expanded Agency Operator Path.
 - Linked Project Truth Kit from main index, templates index, and Agency Operator Path.
+- Linked Fresh Vibe Coder Path from paths index and main index.
 
 ---
 
