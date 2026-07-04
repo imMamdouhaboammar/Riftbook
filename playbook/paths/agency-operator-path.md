@@ -53,6 +53,7 @@ Use this operating system for every client project.
 | Stage | Goal | Agent brief |
 |---|---|---|
 | Intake | Turn messy client input into project truth | [Client Brief to Build Brief](../../agent-briefs/client-brief-to-build-brief.md) |
+| Project truth | Create stable files the agent can read every session | [Project Truth Kit](../../project-truth-kit/README.md) |
 | Audit | Understand the repo or project before changing it | [Repo Audit Brief](../../agent-briefs/repo-audit-brief.md) |
 | Plan | Convert scope into small commits and review gates | [Refactor Brief](../../agent-briefs/refactor-brief.md) when cleanup is needed |
 | Build | Execute the smallest useful change | Use the relevant workflow or task brief |
@@ -67,14 +68,14 @@ Use this operating system for every client project.
 
 For every client project, create these files or their equivalent.
 
-| File | Purpose |
-|---|---|
-| `PRODUCT.md` | Product goal, audience, value proposition, core flows |
-| `RULES.md` | Coding rules, design rules, naming rules, constraints |
-| `TASKS.md` | Active tasks, status, priorities, next actions |
-| `DECISIONS.md` | Important decisions and why they were made |
-| `QA.md` | Review checklist, manual QA, known risks |
-| `HANDOFF.md` | What was delivered, what changed, what the client should know |
+| File | Purpose | Template |
+|---|---|---|
+| `PRODUCT.md` | Product goal, audience, value proposition, core flows | [Template](../../project-truth-kit/PRODUCT.template.md) |
+| `RULES.md` | Coding rules, design rules, naming rules, constraints | [Template](../../project-truth-kit/RULES.template.md) |
+| `TASKS.md` | Active tasks, status, priorities, next actions | [Template](../../project-truth-kit/TASKS.template.md) |
+| `DECISIONS.md` | Important decisions and why they were made | [Template](../../project-truth-kit/DECISIONS.template.md) |
+| `QA.md` | Review checklist, manual QA, known risks | [Template](../../project-truth-kit/QA.template.md) |
+| `HANDOFF.md` | What was delivered, what changed, what the client should know | [Template](../../project-truth-kit/HANDOFF.template.md) |
 
 The agent should read these before acting. If they do not exist, create them before scaling the work.
 
@@ -141,13 +142,14 @@ Use this cadence when multiple projects are active.
 
 Use this sequence on one real client project:
 
-1. Create `PRODUCT.md`, `RULES.md`, and `TASKS.md`.
-2. Run [Client Brief to Build Brief](../../agent-briefs/client-brief-to-build-brief.md).
-3. Run [Repo Audit Brief](../../agent-briefs/repo-audit-brief.md) if a repo already exists.
-4. Ask the agent for a 5-commit improvement plan.
-5. Execute one commit only.
-6. Run [PR Review Brief](../../agent-briefs/pr-review-brief.md).
-7. Update `HANDOFF.md`.
+1. Copy [Project Truth Kit](../../project-truth-kit/README.md) templates into the project.
+2. Create `PRODUCT.md`, `RULES.md`, and `TASKS.md` first.
+3. Run [Client Brief to Build Brief](../../agent-briefs/client-brief-to-build-brief.md).
+4. Run [Repo Audit Brief](../../agent-briefs/repo-audit-brief.md) if a repo already exists.
+5. Ask the agent for a 5-commit improvement plan.
+6. Execute one commit only.
+7. Run [PR Review Brief](../../agent-briefs/pr-review-brief.md).
+8. Update `HANDOFF.md`.
 
 Do not scale to all clients until this works once.
 
