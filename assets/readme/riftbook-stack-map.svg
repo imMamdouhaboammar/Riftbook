@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Riftbook system map">
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#E7DED1" stroke-width="0.7" opacity="0.85"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#1F2937" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .title { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 42px; font-weight: 800; fill: #111827; letter-spacing: -0.03em; }
+      .subtitle { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 18px; font-weight: 500; fill: #4B5563; }
+      .kicker { font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 12px; font-weight: 700; letter-spacing: 0.12em; fill: #D97706; }
+      .card-title { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 19px; font-weight: 800; fill: #111827; }
+      .card-text { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; font-weight: 500; fill: #4B5563; }
+      .mono { font-family: 'JetBrains Mono', 'Courier New', monospace; font-size: 10px; font-weight: 700; letter-spacing: 0.08em; fill: #6B7280; }
+      .node { fill: #FFFFFF; stroke: #E5E7EB; stroke-width: 1.2; filter: url(#shadow); }
+      .line { stroke: #D97706; stroke-width: 2.5; stroke-linecap: round; opacity: 0.75; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="360" rx="32" fill="#FBF7EF"/>
+  <rect width="1200" height="360" rx="32" fill="url(#grid)" opacity="0.75"/>
+  <rect x="18" y="18" width="1164" height="324" rx="26" fill="none" stroke="#E5D8C5" stroke-width="1.5"/>
+
+  <text x="70" y="72" class="kicker">RIFTBOOK OPERATING MAP</text>
+  <text x="70" y="118" class="title">From messy prompting to reusable systems</text>
+  <text x="70" y="151" class="subtitle">A curated path for AI builders who want cleaner context, better review, and fewer repeated mistakes.</text>
+
+  <line x1="170" y1="246" x2="1032" y2="246" class="line"/>
+
+  <g transform="translate(70, 194)">
+    <rect class="node" x="0" y="0" width="172" height="104" rx="20"/>
+    <text x="22" y="36" class="card-title">Playbook</text>
+    <text x="22" y="60" class="card-text">Learn the actual</text>
+    <text x="22" y="78" class="card-text">workflow first</text>
+    <text x="22" y="96" class="mono">STEP 01</text>
+  </g>
+
+  <g transform="translate(278, 194)">
+    <rect class="node" x="0" y="0" width="172" height="104" rx="20"/>
+    <text x="22" y="36" class="card-title">Skills</text>
+    <text x="22" y="60" class="card-text">Reusable agent</text>
+    <text x="22" y="78" class="card-text">instructions</text>
+    <text x="22" y="96" class="mono">STEP 02</text>
+  </g>
+
+  <g transform="translate(486, 194)">
+    <rect class="node" x="0" y="0" width="172" height="104" rx="20"/>
+    <text x="22" y="36" class="card-title">Tools</text>
+    <text x="22" y="60" class="card-text">CLIs, MCP, review</text>
+    <text x="22" y="78" class="card-text">and infra picks</text>
+    <text x="22" y="96" class="mono">STEP 03</text>
+  </g>
+
+  <g transform="translate(694, 194)">
+    <rect class="node" x="0" y="0" width="172" height="104" rx="20"/>
+    <text x="22" y="36" class="card-title">Workflows</text>
+    <text x="22" y="60" class="card-text">Repeatable ways</text>
+    <text x="22" y="78" class="card-text">to build and ship</text>
+    <text x="22" y="96" class="mono">STEP 04</text>
+  </g>
+
+  <g transform="translate(902, 194)">
+    <rect class="node" x="0" y="0" width="228" height="104" rx="20"/>
+    <text x="22" y="36" class="card-title">Graph Intelligence</text>
+    <text x="22" y="60" class="card-text">Repo maps, memory,</text>
+    <text x="22" y="78" class="card-text">RAG and PR context</text>
+    <text x="22" y="96" class="mono">NEW LAYER</text>
+  </g>
+</svg>
