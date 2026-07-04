@@ -38,6 +38,13 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 | Graphify | Skill | Project maps before editing | [Open](./skills/project-intelligence/graphify.md) |
 | Code Review Graph | Tool | Review blast radius | [Open](./tools/review-intelligence/code-review-graph.md) |
 
+## Comparisons
+
+| Comparison | Use it when | Link |
+|---|---|---|
+| Graphify vs Code Review Graph | You need to choose between project mapping and review blast-radius analysis | [Open](./comparisons/graphify-vs-code-review-graph.md) |
+| GraphRAG vs Graphiti | You need to choose between document-corpus reasoning and temporal agent memory | [Open](./comparisons/graphrag-vs-graphiti.md) |
+
 ## Token efficiency
 
 | Resource | Type | Link |
@@ -73,6 +80,7 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 | Prompts | [Open](./prompts/README.md) |
 | Workflows | [Open](./workflows/README.md) |
 | Frameworks | [Open](./frameworks/README.md) |
+| Comparisons | [Open](./comparisons/README.md) |
 | Guides | [Open](./guides/README.md) |
 | Learning | [Open](./learning/README.md) |
 | Templates | [Open](./templates/README.md) |
