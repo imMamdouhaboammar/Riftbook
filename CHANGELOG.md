@@ -25,12 +25,20 @@ The format is intentionally simple. Riftbook is documentation-first, so changes 
 - Governance index.
 - Review guide.
 - Code of conduct.
+- Agent Briefs section.
+- Repo Audit agent brief.
+- Refactor agent brief.
+- Bug Fix agent brief.
+- Frontend Rebuild agent brief.
+- PR Review agent brief.
+- Agent Brief template.
 
 ### Changed
 
 - Updated contribution guidelines to match the current folder-based repo structure.
 - Upgraded tool, skill, workflow, and prompt templates for stronger workflow context.
 - Linked comparison pages from the main index.
+- Linked agent briefs from the main index and templates index.
 
 ---
 
