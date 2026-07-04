@@ -13,6 +13,16 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 | Beginner Path | Playbook path | [Open](./playbook/paths/beginner-path.md) |
 | Core Workflows | Playbook section | [Open](./playbook/core-workflows/README.md) |
 
+## Agent briefs
+
+| Brief | Use it when | Link |
+|---|---|---|
+| Repo Audit Brief | You want the agent to inspect a repo before changing code | [Open](./agent-briefs/repo-audit-brief.md) |
+| Refactor Brief | You want a safer refactor with scope and verification | [Open](./agent-briefs/refactor-brief.md) |
+| Bug Fix Brief | You want root-cause diagnosis and a focused fix | [Open](./agent-briefs/bug-fix-brief.md) |
+| Frontend Rebuild Brief | You want to rebuild or polish UI without losing design intent | [Open](./agent-briefs/frontend-rebuild-brief.md) |
+| PR Review Brief | You want a structured review before merge | [Open](./agent-briefs/pr-review-brief.md) |
+
 ## Featured resources
 
 | Resource | Type | Category | Link |
@@ -75,6 +85,7 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 
 | Category | Link |
 |---|---|
+| Agent Briefs | [Open](./agent-briefs/README.md) |
 | Skills | [Open](./skills/README.md) |
 | Tools | [Open](./tools/README.md) |
 | Prompts | [Open](./prompts/README.md) |
