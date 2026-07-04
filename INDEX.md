@@ -9,6 +9,7 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 | Resource | Type | Link |
 |---|---|---|
 | The Real Vibe Coding Playbook | Playbook | [Open](./playbook/README.md) |
+| Fresh Vibe Coder Path | Playbook path | [Open](./playbook/paths/fresh-vibe-coder-path.md) |
 | Getting Started | Playbook section | [Open](./playbook/getting-started/README.md) |
 | Beginner Path | Playbook path | [Open](./playbook/paths/beginner-path.md) |
 | Agency Operator Path | Playbook path | [Open](./playbook/paths/agency-operator-path.md) |
