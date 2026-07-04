@@ -42,6 +42,8 @@ The format is intentionally simple. Riftbook is documentation-first, so changes 
 - QA template.
 - HANDOFF template.
 - Fresh Vibe Coder Path.
+- Playbook Labs section.
+- First Real Project Lab.
 
 ### Changed
 
@@ -52,6 +54,8 @@ The format is intentionally simple. Riftbook is documentation-first, so changes 
 - Expanded Agency Operator Path.
 - Linked Project Truth Kit from main index, templates index, and Agency Operator Path.
 - Linked Fresh Vibe Coder Path from paths index and main index.
+- Linked Playbook Labs from playbook README and main index.
+- Fixed a broken getting-started lesson link in the playbook README.
 
 ---
 
