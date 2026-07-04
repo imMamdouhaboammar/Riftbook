@@ -8,11 +8,25 @@ Use them when you want the agent to work with a clear goal, inputs, rules, expec
 
 | Brief | Use it when | Link |
 |---|---|---|
+| Client Brief to Build Brief | You need to turn loose project notes into an agent-ready build plan | [Open](./client-brief-to-build-brief.md) |
 | Repo Audit Brief | You want the agent to inspect a repository and report issues before changing code | [Open](./repo-audit-brief.md) |
 | Refactor Brief | You want a safer refactor with scope, constraints, and verification | [Open](./refactor-brief.md) |
 | Bug Fix Brief | You want the agent to diagnose and fix a specific bug | [Open](./bug-fix-brief.md) |
 | Frontend Rebuild Brief | You want the agent to rebuild or polish a frontend section without losing design intent | [Open](./frontend-rebuild-brief.md) |
 | PR Review Brief | You want the agent to review a pull request or local diff before merge | [Open](./pr-review-brief.md) |
+| Delivery QA Brief | You want to verify work before handoff or delivery | [Open](./delivery-qa-brief.md) |
+
+## Agency operator flow
+
+For agency work, use this order:
+
+1. [Client Brief to Build Brief](./client-brief-to-build-brief.md)
+2. [Repo Audit Brief](./repo-audit-brief.md), if a repo exists
+3. [Refactor Brief](./refactor-brief.md), if cleanup is needed
+4. [Frontend Rebuild Brief](./frontend-rebuild-brief.md), if UI quality matters
+5. [Bug Fix Brief](./bug-fix-brief.md), for specific defects
+6. [PR Review Brief](./pr-review-brief.md), before merge
+7. [Delivery QA Brief](./delivery-qa-brief.md), before handoff
 
 ## How to use an agent brief
 
@@ -39,6 +53,7 @@ A useful agent brief should include:
 
 ## Related
 
+- [Agency Operator Path](../playbook/paths/agency-operator-path.md)
 - [The Real Vibe Coding Playbook](../playbook/README.md)
 - [Workflows](../workflows/README.md)
 - [Templates](../templates/README.md)
