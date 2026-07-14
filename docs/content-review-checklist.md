@@ -59,7 +59,7 @@ The goal is not to make every file look identical. The goal is to make every add
 A contribution is ready when a reviewer can answer yes to all three questions:
 
 1. Does this help a reader make a better decision or run a better workflow?
-2. Can the reader verify the important claims and outputs?
-3. Can the reader discover this page from the rest of Riftbook without guessing its path?
+1. Can the reader verify the important claims and outputs?
+1. Can the reader discover this page from the rest of Riftbook without guessing its path?
 
 If any answer is unclear, revise the contribution before merging it.
