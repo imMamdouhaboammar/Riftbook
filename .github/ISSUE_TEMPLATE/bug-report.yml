@@ -1,0 +1,70 @@
+name: Bug or broken experience
+description: Report a confirmed problem in content, navigation, automation, or repository behavior.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for reproducible problems. For a new resource or lesson idea, use the proposal form instead.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Playbook or learning path
+        - Resource card
+        - Navigation or internal link
+        - Template or contributor workflow
+        - GitHub Action or validation
+        - Accessibility or readability
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      description: Describe the current behavior and why it creates a real problem.
+      placeholder: The beginner path links to a missing lesson, so readers cannot continue the sequence.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and reproduction
+      description: Include file paths, links, commands, screenshots, or exact steps.
+      placeholder: |
+        1. Open playbook/paths/beginner-path.md
+        2. Select the lesson link under step 3
+        3. GitHub returns 404
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+      description: State what a correct result should look like.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Suggested scope
+      description: Note related files or a focused fix when known.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Verification
+      options:
+        - label: I searched open issues and pull requests for the same problem.
+          required: true
+        - label: This report describes a confirmed issue, not a placeholder idea.
+          required: true
