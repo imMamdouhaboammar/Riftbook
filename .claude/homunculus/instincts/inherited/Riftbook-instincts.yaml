@@ -1,0 +1,369 @@
+# Instincts generated from https://github.com/imMamdouhaboammar/Riftbook
+# Generated: 2026-07-14T12:38:29.252Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: Riftbook-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Commit Length
+
+## Action
+
+Keep commit messages concise (~38 characters)
+
+## Evidence
+
+- Average commit message length: 38 chars
+- Based on 8 commits
+
+---
+id: Riftbook-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Naming Files
+
+## Action
+
+Use camelCase naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: camelCase
+
+---
+id: Riftbook-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: Riftbook-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: Riftbook-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: Riftbook-workflow-add-new-github-issue-template
+trigger: "when doing add new github issue template"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Workflow Add New Github Issue Template
+
+## Action
+
+Follow the add-new-github-issue-template workflow:
+1. Create a new YAML file in .github/ISSUE_TEMPLATE/
+2. Define the structure and fields for the template
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: .github/ISSUE_TEMPLATE/*.yml
+
+---
+id: Riftbook-workflow-implement-and-integrate-new-repository-checker
+trigger: "when doing implement and integrate new repository checker"
+confidence: 0.55
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Workflow Implement And Integrate New Repository Checker
+
+## Action
+
+Follow the implement-and-integrate-new-repository-checker workflow:
+1. Add a new checker script in scripts/
+2. Write corresponding tests in tests/
+3. Integrate the checker into GitHub Actions by adding a workflow YAML
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~1x per month
+- Files: scripts/*.py, tests/*.py, .github/workflows/*.yml
+
+---
+id: riftbook-instinct-file-naming-camelcase
+trigger: "When creating a new Python file in the repository"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Instinct File Naming Camelcase
+
+## Action
+
+Name the file using camelCase (e.g., myNewScript.py)
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.files
+
+---
+id: riftbook-instinct-function-naming-camelcase
+trigger: "When defining a new function in Python code"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Instinct Function Naming Camelcase
+
+## Action
+
+Name the function using camelCase (e.g., checkQuality())
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.functions
+
+---
+id: riftbook-instinct-class-naming-pascalcase
+trigger: "When defining a new class in Python code"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Instinct Class Naming Pascalcase
+
+## Action
+
+Name the class using PascalCase (e.g., ContentChecker)
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.classes
+
+---
+id: riftbook-instinct-constant-naming-screaming-snake-case
+trigger: "When defining a constant in Python code"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Instinct Constant Naming Screaming Snake Case
+
+## Action
+
+Name the constant using SCREAMING_SNAKE_CASE (e.g., MAX_ATTEMPTS)
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.constants
+
+---
+id: riftbook-instinct-import-style-relative
+trigger: "When importing modules in Python code"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Instinct Import Style Relative
+
+## Action
+
+Use relative imports
+
+## Evidence
+
+- Pattern in codeStyle.importStyle
+
+---
+id: riftbook-instinct-export-style-named
+trigger: "When exporting functions or classes from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Instinct Export Style Named
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in codeStyle.exportStyle
+
+---
+id: riftbook-instinct-test-location-separate
+trigger: "When adding tests for new scripts or features"
+confidence: 0.9
+domain: testing
+source: repo-analysis
+source_repo: imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Instinct Test Location Separate
+
+## Action
+
+Place test files in the separate 'tests/' folder
+
+## Evidence
+
+- Pattern in architecture.folderStructure.testLocation
+- Files in tests/*.py
+
+---
+id: riftbook-instinct-test-script-mirroring
+trigger: "When creating a test for a script in 'scripts/'"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Instinct Test Script Mirroring
+
+## Action
+
+Name the test file similarly and place it in 'tests/' (e.g., scripts/foo.py → tests/test_foo.py)
+
+## Evidence
+
+- Pattern in workflow implement-and-integrate-new-repository-checker
+- Files in scripts/*.py and tests/*.py
+
+---
+id: riftbook-instinct-git-commit-freeform-short
+trigger: "When writing a commit message"
+confidence: 0.8
+domain: git
+source: repo-analysis
+source_repo: imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Instinct Git Commit Freeform Short
+
+## Action
+
+Use a short, freeform message describing the change (average length ~38 characters, no enforced prefix)
+
+## Evidence
+
+- Pattern in commits.type and commits.averageLength
+- Examples: 'Add repository content quality checker'
+
+---
+id: riftbook-instinct-add-new-github-issue-template
+trigger: "When someone wants to introduce a new structured issue template for the repository"
+confidence: 0.95
+domain: workflow
+source: repo-analysis
+source_repo: imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Instinct Add New Github Issue Template
+
+## Action
+
+Create a new YAML file in .github/ISSUE_TEMPLATE/ and define the structure and fields for the template
+
+## Evidence
+
+- Workflow: add-new-github-issue-template
+- Files: .github/ISSUE_TEMPLATE/*.yml
+- Commits: 'Create a new YAML file in .github/ISSUE_TEMPLATE/'
+
+---
+id: riftbook-instinct-implement-integrate-new-repo-checker
+trigger: "When someone wants to introduce a new automated check for repository content quality"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: imMamdouhaboammar/Riftbook
+---
+
+# Riftbook Instinct Implement Integrate New Repo Checker
+
+## Action
+
+Add a new checker script in scripts/, write corresponding tests in tests/, and integrate the checker into GitHub Actions by adding a workflow YAML
+
+## Evidence
+
+- Workflow: implement-and-integrate-new-repository-checker
+- Files: scripts/*.py, tests/*.py, .github/workflows/*.yml
+- Commits: 'Add a new checker script in scripts/'
+
