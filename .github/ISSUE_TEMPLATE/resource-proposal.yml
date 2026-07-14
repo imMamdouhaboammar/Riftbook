@@ -1,0 +1,91 @@
+name: Resource or lesson proposal
+description: Propose a researched addition that fits Riftbook's workflow-first direction.
+title: "[Proposal]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Riftbook does not accept plain links or generic topic requests. Explain the reader problem, practical use, and evidence before proposing implementation.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Contribution type
+      options:
+        - Playbook lesson
+        - Learning path improvement
+        - Tool card
+        - Skill card
+        - Workflow
+        - Prompt
+        - Framework or comparison
+        - Interactive template or practical resource
+        - Contributor or repository improvement
+    validations:
+      required: true
+
+  - type: textarea
+    id: reader_problem
+    attributes:
+      label: Reader problem
+      description: What decision or workflow is currently difficult, unclear, or missing?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_value
+    attributes:
+      label: Proposed addition
+      description: Describe the complete addition and the concrete outcome for readers.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and sources
+      description: Include official documentation, primary sources, tested commands, or repository evidence.
+    validations:
+      required: true
+
+  - type: textarea
+    id: connection
+    attributes:
+      label: Where it connects
+      description: Name the existing index, lesson, path, workflow, or category that should link to this addition.
+    validations:
+      required: true
+
+  - type: textarea
+    id: limits
+    attributes:
+      label: Limits and when not to use it
+      description: State cost, risk, prerequisites, weak-fit cases, or uncertainty.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - Complete card using the matching template
+        - Linked from the category index
+        - Includes commands and verification steps
+        - Passes link and content quality checks
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Proposal checks
+      options:
+        - label: I searched the repository, open issues, and pull requests for duplicates.
+          required: true
+        - label: This proposal is more than a plain link or generic content request.
+          required: true
+        - label: I can distinguish verified facts from assumptions or future ideas.
+          required: true
