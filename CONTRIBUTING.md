@@ -17,6 +17,7 @@ Before adding anything, read the curation rules in [`CURATION.md`](./CURATION.md
 - [`ROADMAP.md`](./ROADMAP.md) - Current improvement plan.
 - [`CHANGELOG.md`](./CHANGELOG.md) - Notable changes.
 - [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md) - Contribution behavior expectations.
+- [`docs/content-review-checklist.md`](./docs/content-review-checklist.md) - Practical review checklist for lessons, cards, workflows, and templates.
 
 ---
 
@@ -112,6 +113,34 @@ Every new entry should include:
 
 ---
 
+## Run the quality checks
+
+Riftbook uses Python standard-library checks, so contributors do not need to install project dependencies.
+
+Run the unit tests:
+
+```bash
+python -m unittest discover -s tests -p "test_*.py" -v
+```
+
+Validate the repository content rules:
+
+```bash
+python scripts/check_content_quality.py
+```
+
+When working on a branch, validate only Markdown changed from `main`:
+
+```bash
+python scripts/check_content_quality.py --changed-from main
+```
+
+The content checker currently blocks published Markdown that contains placeholder text, tracking parameters in Markdown links, or content files without an H1 title. Governance, templates, and GitHub configuration are exempt from rules that need example placeholder language.
+
+GitHub Actions also runs the unit tests, content checker, and link checker on relevant pull requests.
+
+---
+
 ## Quality checklist before opening a PR
 
 - [ ] The resource has a real use case.
@@ -124,6 +153,7 @@ Every new entry should include:
 - [ ] There are no tracking parameters in links.
 - [ ] The card includes when not to use the resource.
 - [ ] The card includes verification steps.
+- [ ] The local unit tests and content checks pass.
 - [ ] The PR explains what changed and why.
 
 ---
