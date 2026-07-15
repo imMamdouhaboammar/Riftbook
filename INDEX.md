@@ -8,6 +8,7 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 
 | Resource | Type | Link |
 |---|---|---|
+| Path Finder | Playbook decision guide | [Open](./playbook/paths/path-finder.md) |
 | The Real Vibe Coding Playbook | Playbook | [Open](./playbook/README.md) |
 | Fresh Vibe Coder Path | Playbook path | [Open](./playbook/paths/fresh-vibe-coder-path.md) |
 | First Real Project Lab | Playbook lab | [Open](./playbook/labs/first-real-project-lab.md) |
@@ -111,6 +112,7 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 |---|---|
 | Project Truth Kit | [Open](./project-truth-kit/README.md) |
 | Agent Briefs | [Open](./agent-briefs/README.md) |
+| Playbook Paths | [Open](./playbook/paths/README.md) |
 | Playbook Labs | [Open](./playbook/labs/README.md) |
 | Skills | [Open](./skills/README.md) |
 | Tools | [Open](./tools/README.md) |
