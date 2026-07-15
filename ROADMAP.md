@@ -18,18 +18,24 @@ Goals:
 - Add basic GitHub quality workflows
 - Make every new entry easier to review
 
-Planned work:
+Completed:
 
-- Add issue templates for common contribution types
-- Improve link-check policy
+- Added curation and review guidance
+- Added templates for common content types
+- Added issue forms and a content review checklist in PR #3
+- Added an automated Markdown content quality checker in PR #3
+
+Confirmed follow-up work:
+
+- Resolve repository-wide Markdown lint failures without weakening rules
+- Improve link-check policy and separate transient external failures from broken internal links
 - Add metadata guidance for cards
-- Add a simple content review checklist
 
 ---
 
 ## Phase 2: Navigation and discovery
 
-Status: Planned
+Status: In progress
 
 Goals:
 
@@ -37,19 +43,25 @@ Goals:
 - Help visitors find the right starting point quickly
 - Reduce repeated manual index updates
 
+Completed:
+
+- Added `INDEX.md` for major cards and sections
+- Added comparison pages for similar graph tools
+- Added a problem-based Path Finder that connects workflow symptoms to lessons, briefs, tools, and next actions
+- Linked playbook paths from the main index
+
 Planned work:
 
-- Add `INDEX.md` for all cards
 - Add `TAGS.md` for common tags
 - Add category landing pages with clearer descriptions
-- Add comparison pages for similar tools
-- Add decision trees for common workflows
+- Add more decision guides for tool selection and review workflows
+- Define metadata required for future generated indexes
 
 ---
 
 ## Phase 3: Playbook expansion
 
-Status: Planned
+Status: In progress
 
 Goals:
 
@@ -57,19 +69,24 @@ Goals:
 - Add real-world cases and mistakes
 - Create stronger paths for different builder types
 
+Completed:
+
+- Added Fresh Vibe Coder, Beginner, Solo Builder, Frontend, Product-Minded, and Agency Operator paths
+- Added the First Real Project Lab
+- Added reusable agent brief templates
+
 Planned work:
 
 - Add more case studies under `playbook/stories/`
-- Add agency operator path
-- Add frontend builder path improvements
-- Add mistake library entries
-- Add reusable agent brief templates
+- Add frontend path exercises tied to a real interface review
+- Add mistake library entries grounded in real failed builds
+- Add a second lab focused on debugging and recovery
 
 ---
 
 ## Phase 4: Graph intelligence depth
 
-Status: Planned
+Status: In progress
 
 Goals:
 
@@ -77,10 +94,14 @@ Goals:
 - Help builders choose the right graph layer
 - Add stronger workflows for project context, review, memory, and RAG
 
+Completed:
+
+- Added Graphify vs Code Review Graph comparison
+- Added GraphRAG vs Graphiti comparison
+- Added the Graph Intelligence Stack and workflow
+
 Planned work:
 
-- Add Graphify vs Code Review Graph comparison
-- Add GraphRAG vs Graphiti comparison
 - Add graph workflow examples
 - Add generated-files policy for graph outputs
 - Add sample prompts for graph-assisted review
@@ -120,12 +141,12 @@ Planned work:
 - Generate `INDEX.md` from metadata
 - Generate tag listings
 - Add stale-link reporting
-- Add simple docs health report
+- Add a simple docs health report
 
 ---
 
 ## Current priority
 
-The current priority is governance, templates, and quality checks.
+The current priority is to finish the governance checks in PR #3 while improving navigation through small, connected decision guides.
 
-Before adding many new resources, Riftbook should have strong rules for what gets accepted and how new cards are structured.
+The next development round should address Markdown lint and link-check failures first, then add metadata guidance before any generated index work.
