@@ -12,6 +12,8 @@ Explain the meaningful behavior, content, navigation, workflow, or maintenance c
 
 ## Tests and checks
 
+Use the [CI checks and failure triage guide](../docs/ci-checks.md) when classifying failures.
+
 | Check | Command or workflow | Result |
 |---|---|---|
 | Markdown lint | `npx --yes markdownlint-cli2@0.17.2 <changed-files>` | Not run |
