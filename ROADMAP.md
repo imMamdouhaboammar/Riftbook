@@ -18,12 +18,21 @@ Goals:
 - Add basic GitHub quality workflows
 - Make every new entry easier to review
 
-Planned work:
+Completed:
 
-- Add issue templates for common contribution types
-- Improve link-check policy
-- Add metadata guidance for cards
-- Add a simple content review checklist
+- [x] Add structured issue forms for confirmed bugs and researched resource proposals
+- [x] Add a practical content review checklist
+- [x] Add repository-specific Markdown content validation
+- [x] Add unit tests for content validation rules
+- [x] Run content quality validation in GitHub Actions
+
+Next work:
+
+- [ ] Define a stable link-check policy for rate limits, redirects, and intentionally unreachable development URLs
+- [ ] Add metadata guidance for cards without forcing a migration of all existing content
+- [ ] Add pull request templates for content-only and automation changes
+- [ ] Audit existing cards against the review checklist in small, evidence-based batches
+- [ ] Add regression fixtures for edge cases found during the first full content audit
 
 ---
 
@@ -124,8 +133,25 @@ Planned work:
 
 ---
 
+## Confirmed issues and opportunities
+
+Confirmed:
+
+- Content quality rules previously existed only as prose and were not enforced automatically.
+- Contributors did not have structured issue forms for separating reproducible bugs from future proposals.
+- The roadmap did not distinguish completed governance work from pending tasks.
+
+Future opportunities requiring a separate audit:
+
+- Generate a repository-wide card index from agreed metadata.
+- Add reader-facing decision trees after the current content inventory is measured.
+- Improve mobile scanning in long index pages without duplicating navigation.
+- Add stale-link reporting after the current link-check behavior is documented and tuned.
+
+---
+
 ## Current priority
 
-The current priority is governance, templates, and quality checks.
+The current priority remains governance, templates, and quality checks.
 
-Before adding many new resources, Riftbook should have strong rules for what gets accepted and how new cards are structured.
+The next development round should run the new validator against the full repository, classify any findings, tune only proven false positives, and then begin a measured navigation inventory before adding generated indexes or new discovery layers.

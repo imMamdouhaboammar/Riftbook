@@ -1,0 +1,46 @@
+name: Content Quality
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "scripts/check_content_quality.py"
+      - "tests/test_content_quality.py"
+      - ".github/workflows/content-quality.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - "scripts/check_content_quality.py"
+      - "tests/test_content_quality.py"
+      - ".github/workflows/content-quality.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  content-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+
+      - name: Validate changed Markdown
+        if: github.event_name == 'pull_request'
+        run: python scripts/check_content_quality.py --changed-from "origin/${{ github.base_ref }}"
+
+      - name: Validate repository Markdown
+        if: github.event_name != 'pull_request'
+        run: python scripts/check_content_quality.py
