@@ -44,6 +44,15 @@ The format is intentionally simple. Riftbook is documentation-first, so changes 
 - Fresh Vibe Coder Path.
 - Playbook Labs section.
 - First Real Project Lab.
+- Integration Intelligence decision layer.
+- Machine-readable registry covering 37 coding-agent tools, skills, plugins, libraries, and infrastructure sources.
+- Individual integration cards with fit signals, overlap groups, install policy, validation, agent instructions, and removal rules.
+- Integration selection policy and compatibility matrix.
+- Agent Capability Bootstrap prompt and active-integration record template.
+- Five-part Integrations lesson track.
+- Integration Selection Lab.
+- Read-only integration selector with Markdown and JSON output.
+- Integration selector test suite.
 
 ### Changed
 
@@ -56,6 +65,7 @@ The format is intentionally simple. Riftbook is documentation-first, so changes 
 - Linked Fresh Vibe Coder Path from paths index and main index.
 - Linked Playbook Labs from playbook README and main index.
 - Fixed a broken getting-started lesson link in the playbook README.
+- Expanded the main index with Integration Intelligence, its lessons, selector, registry, prompt, and lab.
 
 ---
 

@@ -9,12 +9,28 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 | Resource | Type | Link |
 |---|---|---|
 | The Real Vibe Coding Playbook | Playbook | [Open](./playbook/README.md) |
+| Integration Intelligence | Integration decision layer | [Open](./integrations/README.md) |
 | Fresh Vibe Coder Path | Playbook path | [Open](./playbook/paths/fresh-vibe-coder-path.md) |
 | First Real Project Lab | Playbook lab | [Open](./playbook/labs/first-real-project-lab.md) |
+| Integration Selection Lab | Playbook lab | [Open](./playbook/labs/integration-selection-lab.md) |
 | Getting Started | Playbook section | [Open](./playbook/getting-started/README.md) |
 | Beginner Path | Playbook path | [Open](./playbook/paths/beginner-path.md) |
 | Agency Operator Path | Playbook path | [Open](./playbook/paths/agency-operator-path.md) |
 | Core Workflows | Playbook section | [Open](./playbook/core-workflows/README.md) |
+
+## Integration intelligence
+
+| Resource | Use it for | Link |
+|---|---|---|
+| Integrations Hub | Browse the full decision layer and all 37 source cards | [Open](./integrations/README.md) |
+| Machine-readable Registry | Let agents score candidates against project signals | [Open](./integrations/registry.json) |
+| Selection Policy | Decide what may be proposed, installed locally, or held for approval | [Open](./integrations/selection-policy.md) |
+| Compatibility Matrix | Prevent duplicate capability owners and conflicting stacks | [Open](./integrations/compatibility-matrix.md) |
+| Agent Capability Bootstrap | Give the lead agent a copy-ready discovery, install, and validation workflow | [Open](./integrations/prompts/agent-capability-bootstrap.md) |
+| Active Integrations Template | Record versions, changes, validation, ownership, and rollback | [Open](./integrations/templates/ACTIVE_INTEGRATIONS.template.md) |
+| Integration Selector | Inspect a project and rank candidates without installing anything | [Open](./scripts/integration-selector.mjs) |
+| Integration Lessons | Learn discovery, selection, safe installation, operation, and removal | [Open](./playbook/integrations/README.md) |
+| Integration Selection Lab | Apply the system to one real repository | [Open](./playbook/labs/integration-selection-lab.md) |
 
 ## Practice labs
 
@@ -22,6 +38,7 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 |---|---|---|
 | Labs Index | All practical playbook labs | [Open](./playbook/labs/README.md) |
 | First Real Project Lab | Building one small project from idea to handoff | [Open](./playbook/labs/first-real-project-lab.md) |
+| Integration Selection Lab | Turning a large source list into a small evidenced stack | [Open](./playbook/labs/integration-selection-lab.md) |
 
 ## Project truth kit
 
@@ -51,6 +68,7 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 
 | Resource | Type | Category | Link |
 |---|---|---|---|
+| Integration Intelligence | System | Capability selection | [Open](./integrations/README.md) |
 | Impeccable | Skill | AI Frontend Design | [Open](./skills/top-selected/impeccable.md) |
 | Taste Skill | Skill | Frontend Design | [Open](./skills/hot-skills/taste-skill.md) |
 | Graphify | Skill | Project Intelligence | [Open](./skills/project-intelligence/graphify.md) |
@@ -109,6 +127,7 @@ Use this file when you want to jump directly to a card, workflow, guide, or fram
 
 | Category | Link |
 |---|---|
+| Integrations | [Open](./integrations/README.md) |
 | Project Truth Kit | [Open](./project-truth-kit/README.md) |
 | Agent Briefs | [Open](./agent-briefs/README.md) |
 | Playbook Labs | [Open](./playbook/labs/README.md) |
