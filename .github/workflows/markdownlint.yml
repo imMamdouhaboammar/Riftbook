@@ -2,6 +2,8 @@ name: Markdown Lint
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "**/*.md"
       - ".markdownlint.json"
@@ -12,14 +14,29 @@ on:
       - ".markdownlint.json"
       - ".github/workflows/markdownlint.yml"
 
+permissions:
+  contents: read
+
 jobs:
   markdownlint:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Run markdownlint
-        uses: DavidAnson/markdownlint-cli2-action@v19
         with:
-          globs: "**/*.md"
+          fetch-depth: 0
+
+      - name: Lint changed Markdown
+        if: github.event_name == 'pull_request'
+        shell: bash
+        run: |
+          mapfile -t files < <(git diff --name-only --diff-filter=ACMR "origin/${{ github.base_ref }}...HEAD" -- '*.md')
+          if (( ${#files[@]} == 0 )); then
+            echo "No changed Markdown files to lint."
+            exit 0
+          fi
+          npx --yes markdownlint-cli2@0.17.2 "${files[@]}"
+
+      - name: Lint repository Markdown
+        if: github.event_name != 'pull_request'
+        run: npx --yes markdownlint-cli2@0.17.2 "**/*.md"
