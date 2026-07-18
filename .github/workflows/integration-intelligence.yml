@@ -1,0 +1,51 @@
+name: Integration Intelligence
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "integrations/**"
+      - "scripts/integration-selector.mjs"
+      - "scripts/integration-selector.test.mjs"
+      - "scripts/validate-integration-registry.mjs"
+      - "scripts/validate-integration-registry.test.mjs"
+      - ".github/workflows/integration-intelligence.yml"
+  pull_request:
+    paths:
+      - "integrations/**"
+      - "scripts/integration-selector.mjs"
+      - "scripts/integration-selector.test.mjs"
+      - "scripts/validate-integration-registry.mjs"
+      - "scripts/validate-integration-registry.test.mjs"
+      - ".github/workflows/integration-intelligence.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Validate registry and selector
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate integration registry
+        run: node scripts/validate-integration-registry.mjs
+
+      - name: Run integration intelligence tests
+        run: node --test scripts/integration-selector.test.mjs scripts/validate-integration-registry.test.mjs
+
+      - name: Smoke-test Markdown report
+        run: node scripts/integration-selector.mjs --project . --max 5 > /tmp/integration-report.md
+
+      - name: Smoke-test JSON report
+        run: node scripts/integration-selector.mjs --project . --format json --max 5 > /tmp/integration-report.json
