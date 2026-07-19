@@ -3,6 +3,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import process from "node:process";
+import { fileURLToPath } from "node:url";
 
 const markdownLink = /!?\[[^\]]*]\(([^)]+)\)/g;
 const fencedCode = /```[\s\S]*?```/g;
@@ -84,7 +85,7 @@ function main() {
 
 export { checkFile, checkInternalLinks, markdownFiles, normalizeTarget, resolveTarget };
 
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   try {
     main();
   } catch (error) {
