@@ -22,14 +22,17 @@ Completed:
 
 - Added curation and review guidance
 - Added templates for common content types
-- Added issue forms and a content review checklist in PR #3
-- Added an automated Markdown content quality checker in PR #3
+- Added scoped Markdown linting and CI failure-triage guidance
+- Added a deterministic internal Markdown link checker with tests and CI
+- Added integration-registry structural validation and selector checks
 
 Confirmed follow-up work:
 
 - Resolve repository-wide Markdown lint failures without weakening rules
-- Improve link-check policy and separate transient external failures from broken internal links
+- Classify external link failures separately from repository-local breakage
+- Resolve or supersede the remaining unmergeable content-quality pull request
 - Add metadata guidance for cards
+- Extend internal-link validation to heading anchors and reference-style links when justified by real failures
 
 ---
 
@@ -73,6 +76,7 @@ Completed:
 
 - Added Fresh Vibe Coder, Beginner, Solo Builder, Frontend, Product-Minded, and Agency Operator paths
 - Added the First Real Project Lab
+- Added the Debugging and Recovery Lab
 - Added reusable agent brief templates
 
 Planned work:
@@ -80,7 +84,6 @@ Planned work:
 - Add more case studies under `playbook/stories/`
 - Add frontend path exercises tied to a real interface review
 - Add mistake library entries grounded in real failed builds
-- Add a second lab focused on debugging and recovery
 
 ---
 
@@ -140,13 +143,13 @@ Planned work:
 - Add optional metadata blocks for cards
 - Generate `INDEX.md` from metadata
 - Generate tag listings
-- Add stale-link reporting
-- Add a simple docs health report
+- Add stale external-link reporting
+- Add a simple docs health report that separates internal and external findings
 
 ---
 
 ## Current priority
 
-The current priority is to finish the governance checks in PR #3 while improving navigation through small, connected decision guides.
+The current priority is to make repository quality findings deterministic and actionable before adding generated discovery layers.
 
-The next development round should address Markdown lint and link-check failures first, then add metadata guidance before any generated index work.
+The next development round should resolve the remaining content-quality pull request, run the new internal-link check against `main`, classify any confirmed failures, and then define minimal card metadata for future indexes.
