@@ -5,6 +5,11 @@ on:
   pull_request:
     paths:
       - "**/*.md"
+      - ".lycheeignore"
+      - ".github/workflows/link-check.yml"
+
+permissions:
+  contents: read
 
 jobs:
   link-check:
@@ -16,6 +21,6 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: "--verbose --no-progress './**/*.md'"
+          args: "--verbose --no-progress --exclude-file .lycheeignore './**/*.md'"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
