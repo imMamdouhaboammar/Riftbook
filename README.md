@@ -29,29 +29,31 @@
 
 <!-- project-story:start -->
 <details open>
-  <summary><strong>Why I built Riftbook</strong></summary>
+  <summary><strong>Problem to project: Why I built Riftbook</strong></summary>
   <br />
+  <p align="center"><img src="https://raw.githubusercontent.com/imMamdouhaboammar/imMamdouhaboammar/main/assets/profile/project-badges.svg" width="488" alt="Real friction, building in public, daily pulse" /></p>
   <table>
     <tr>
-      <td width="118" align="center" valign="top">
-        <img src="./assets/branding/riftbook-mark.svg" width="88" alt="Riftbook repository mark" />
-      </td>
-      <td valign="top">
-        <p><strong>What is Riftbook?</strong> A curated field guide for builders who use AI coding agents in real projects.</p>
-        <p><strong>Built from a recurring problem:</strong> Useful agent tools, prompts, skills, lessons, and review practices are scattered, while many collections provide links without an operating workflow.</p>
-        <p><strong>Practical goal:</strong> Organize practical AI-assisted building knowledge into clear routes, tested tools, reusable skills, and real workflow stories.</p>
-        <p><strong>Who it is for:</strong> Beginners, solo builders, frontend developers, agency operators, and experienced coding-agent users.</p>
-        <p><strong>Topics:</strong> AI coding field guide · vibe coding playbook · coding agent tools · agent workflow resources</p>
-      </td>
+      <td width="104" align="center" valign="middle"><img src="./assets/branding/riftbook-mark.svg" width="76" alt="Riftbook repository mark" /></td>
+      <td valign="middle"><strong>Riftbook</strong><br />A curated field guide for builders who use AI coding agents in real projects.</td>
     </tr>
   </table>
-  <p><strong>Daily development summary</strong></p>
+  <table>
+    <tr>
+      <td width="50%" valign="top"><strong>Recurring problem</strong><br />Useful agent tools, prompts, skills, lessons, and review practices are scattered, while many collections provide links without an operating workflow.</td>
+      <td width="50%" valign="top"><strong>Practical goal</strong><br />Organize practical AI-assisted building knowledge into clear routes, tested tools, reusable skills, and real workflow stories.</td>
+    </tr>
+    <tr>
+      <td width="50%" valign="top"><strong>Built for</strong><br />Beginners, solo builders, frontend developers, agency operators, and experienced coding-agent users.</td>
+      <td width="50%" valign="top"><strong>Search terms</strong><br />AI coding field guide · vibe coding playbook · coding agent tools · agent workflow resources</td>
+    </tr>
+  </table>
+  <p><strong>Daily build pulse</strong></p>
   <ul>
-      <li>1 pull request updated, led by #9: Add deterministic internal Markdown link validation.</li>
-      <li>Daily summary covers 1 public activity item from the last 7 days.</li>
-      <li>Documentation and project status remain aligned with the repository’s current public state.</li>
+      <li>1 commit landed: docs: add dynamic project story card.</li>
+      <li>1 pull request updated, led by #10: docs: add dynamic project story card.</li>
+      <li>Daily summary covers 2 public activity items from the last 1 day.</li>
   </ul>
-  <p><sub>Updated 2026-07-26T06:35:04.625Z · Deterministic public-activity summary</sub></p>
 </details>
 <!-- project-story:end -->
 
