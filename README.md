@@ -27,7 +27,6 @@
   </a>
 </p>
 
-
 <!-- project-story:start -->
 <details open>
   <summary><strong>Why I built Riftbook</strong></summary>
