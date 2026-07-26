@@ -1,0 +1,9 @@
+^file://.*/playbook/templates/.*$
+^file://.*/prompts/templates/prompt-template\.md$
+^file://.*/templates/prompt-template\.md$
+^file://.*/workflows/testing-workflow\.md$
+^https://github\.com/imMamdouhaboammar/Riftbook/stargazers$
+^https://github\.com/mamdouhaboammar/chrome-devtools-mcp$
+^https://www\.deeplearning\.ai/$
+^https://coolors\.co/$
+^https://www\.perplexity\.ai/$

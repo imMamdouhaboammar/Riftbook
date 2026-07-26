@@ -27,6 +27,34 @@
   </a>
 </p>
 
+<!-- project-story:start -->
+<details open>
+  <summary><strong>Why I built Riftbook</strong></summary>
+  <br />
+  <table>
+    <tr>
+      <td width="118" align="center" valign="top">
+        <img src="./assets/branding/riftbook-mark.svg" width="88" alt="Riftbook repository mark" />
+      </td>
+      <td valign="top">
+        <p><strong>What is Riftbook?</strong> A curated field guide for builders who use AI coding agents in real projects.</p>
+        <p><strong>Built from a recurring problem:</strong> Useful agent tools, prompts, skills, lessons, and review practices are scattered, while many collections provide links without an operating workflow.</p>
+        <p><strong>Practical goal:</strong> Organize practical AI-assisted building knowledge into clear routes, tested tools, reusable skills, and real workflow stories.</p>
+        <p><strong>Who it is for:</strong> Beginners, solo builders, frontend developers, agency operators, and experienced coding-agent users.</p>
+        <p><strong>Topics:</strong> AI coding field guide · vibe coding playbook · coding agent tools · agent workflow resources</p>
+      </td>
+    </tr>
+  </table>
+  <p><strong>Daily development summary</strong></p>
+  <ul>
+      <li>1 pull request updated, led by #9: Add deterministic internal Markdown link validation.</li>
+      <li>Daily summary covers 1 public activity item from the last 7 days.</li>
+      <li>Documentation and project status remain aligned with the repository’s current public state.</li>
+  </ul>
+  <p><sub>Updated 2026-07-26T06:35:04.625Z · Deterministic public-activity summary</sub></p>
+</details>
+<!-- project-story:end -->
+
 ---
 
 <p align="center">
