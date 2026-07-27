@@ -52,7 +52,7 @@
   <ul>
       <li>1 commit landed: docs: add dynamic project story card.</li>
       <li>1 pull request updated, led by #10: docs: add dynamic project story card.</li>
-      <li>Daily summary covers 2 public activity items from the last 1 day.</li>
+      <li>Daily summary covers 2 public activity items from the last 7 days.</li>
   </ul>
 </details>
 <!-- project-story:end -->
