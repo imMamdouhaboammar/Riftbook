@@ -24,11 +24,13 @@ Completed:
 - Added templates for common content types
 - Added issue forms and a content review checklist in PR #3
 - Added an automated Markdown content quality checker in PR #3
+- Added Integration Intelligence registry validation in CI
 
 Confirmed follow-up work:
 
+- Resolve or supersede the remaining unmergeable content-quality work in PR #3
+- Review and integrate deterministic internal-link validation from PR #9
 - Resolve repository-wide Markdown lint failures without weakening rules
-- Improve link-check policy and separate transient external failures from broken internal links
 - Add metadata guidance for cards
 
 ---
@@ -59,13 +61,14 @@ Planned work:
 
 ---
 
-## Phase 3: Playbook expansion
+## Phase 3: Playbook and learning depth
 
 Status: In progress
 
 Goals:
 
 - Turn Riftbook into a practical field guide, not just a directory
+- Teach software engineering concepts behind agent-assisted work
 - Add real-world cases and mistakes
 - Create stronger paths for different builder types
 
@@ -73,14 +76,16 @@ Completed:
 
 - Added Fresh Vibe Coder, Beginner, Solo Builder, Frontend, Product-Minded, and Agency Operator paths
 - Added the First Real Project Lab
+- Added the Debugging and Recovery Lab
 - Added reusable agent brief templates
+- Added Engineering Foundations for AI-Assisted Builders covering state, APIs, authentication, authorization, databases, transactions, concurrency, idempotency, queues, caching, process lifecycle, testing, Git, CI, and architecture boundaries
 
 Planned work:
 
 - Add more case studies under `playbook/stories/`
 - Add frontend path exercises tied to a real interface review
 - Add mistake library entries grounded in real failed builds
-- Add a second lab focused on debugging and recovery
+- Connect more playbook paths to engineering-concept prerequisites when those concepts are required
 
 ---
 
@@ -147,6 +152,6 @@ Planned work:
 
 ## Current priority
 
-The current priority is to finish the governance checks in PR #3 while improving navigation through small, connected decision guides.
+The current priority is to strengthen learning depth without duplicating the workflow material that already exists, while finishing repository quality checks that make navigation trustworthy.
 
-The next development round should address Markdown lint and link-check failures first, then add metadata guidance before any generated index work.
+The next development round should review PR #9 and the remaining useful parts of PR #3, then measure which playbook paths need explicit engineering-concept prerequisites before adding more standalone content.
