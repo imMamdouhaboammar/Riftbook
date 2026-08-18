@@ -8,6 +8,7 @@ This file points contributors and maintainers to the main rules that keep Riftbo
 |---|---|
 | [CONTRIBUTING.md](./CONTRIBUTING.md) | How to add tools, skills, prompts, workflows, and frameworks |
 | [CURATION.md](./CURATION.md) | How resources are evaluated before they belong in Riftbook |
+| [CURRENTNESS.md](./CURRENTNESS.md) | How fast-moving guidance records and validates source freshness |
 | [REVIEW.md](./REVIEW.md) | How maintainers should review contributions |
 | [ROADMAP.md](./ROADMAP.md) | What the repo should improve next |
 | [CHANGELOG.md](./CHANGELOG.md) | Important changes grouped by content area |
@@ -34,7 +35,8 @@ Read these first:
 
 1. [CURATION.md](./CURATION.md)
 2. [CONTRIBUTING.md](./CONTRIBUTING.md)
-3. The relevant template in [`templates/`](./templates/)
+3. [CURRENTNESS.md](./CURRENTNESS.md) for time-sensitive guidance
+4. The relevant template in [`templates/`](./templates/)
 
 ## Before reviewing a pull request
 
@@ -42,4 +44,5 @@ Read these first:
 
 1. [REVIEW.md](./REVIEW.md)
 2. [CURATION.md](./CURATION.md)
-3. The changed category README
+3. [CURRENTNESS.md](./CURRENTNESS.md) when behavior may have changed
+4. The changed category README
