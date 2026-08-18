@@ -50,9 +50,9 @@
   </table>
   <p><strong>Daily build pulse</strong></p>
   <ul>
-      <li>No public repository changes were recorded in the last 7 days.</li>
-      <li>The project purpose and documented usage remain unchanged.</li>
-      <li>The next update will appear automatically when public activity is detected.</li>
+      <li>1 pull request updated, led by #11: Add engineering foundations learning path.</li>
+      <li>Daily summary covers 1 public activity item from the last 1 day.</li>
+      <li>Documentation and project status remain aligned with the repository’s current public state.</li>
   </ul>
 </details>
 <!-- project-story:end -->
