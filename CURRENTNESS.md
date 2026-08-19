@@ -26,13 +26,27 @@ This is deliberately scoped to changed cards. Existing content is not mass-faile
 Run the focused test suite:
 
 ```bash
-node --test scripts/check-currentness.test.mjs
+node --test scripts/check-currentness.test.mjs scripts/currentness-inventory.test.mjs
 ```
 
 Check one or more cards:
 
 ```bash
 node scripts/check-currentness.mjs --max-age-days=120 tools/example.md skills/example.md
+```
+
+Generate a repository-wide migration inventory:
+
+```bash
+node scripts/currentness-inventory.mjs
+```
+
+The inventory is advisory. It exits successfully and groups cards as `fresh`, `stale`, `invalid`, or `missing`, with the most actionable problems first. Use it to choose what to re-check next without turning legacy metadata debt into an unrelated merge blocker.
+
+You can scope the report to selected categories:
+
+```bash
+node scripts/currentness-inventory.mjs tools workflows
 ```
 
 The validator rejects:
@@ -46,5 +60,7 @@ The validator rejects:
 ## What this check does not prove
 
 Passing the validator does not prove that the source actually supports every claim in the card. Reviewers still need to compare material claims, commands, version assumptions, and compatibility notes against the cited primary source.
+
+The inventory also does not decide whether a source is truly authoritative. It only exposes freshness evidence and missing metadata so review work can be prioritized.
 
 The check provides an auditable freshness boundary. It does not replace technical review or source reading.
