@@ -7,6 +7,12 @@ const DATE_FIELD = /^- \*\*Last verified\*\*:\s*(\d{4}-\d{2}-\d{2})\s*$/m;
 const SOURCE_FIELD = /^- \*\*Verification source\*\*:\s*(.+)\s*$/m;
 const URL = /https:\/\/[^\s)>]+/i;
 const TRACKING_PARAM = /[?&](?:utm_[^=&\s]+|ref|referrer|affiliate|campaign)=[^&\s)]*/i;
+const STATUS_PRIORITY = new Map([
+  ['invalid', 0],
+  ['stale', 1],
+  ['missing', 2],
+  ['fresh', 3]
+]);
 
 export function parseArgs(argv) {
   let maxAgeDays = 120;
@@ -73,6 +79,30 @@ export function inspectCurrentness(text, { now = new Date(), maxAgeDays = 120 } 
   }
 
   return problems;
+}
+
+function classifyProblems(problems) {
+  if (problems.length === 0) return 'fresh';
+  if (problems.some((problem) => problem.startsWith('missing `- **'))) return 'missing';
+  if (problems.some((problem) => problem.startsWith('verification is '))) return 'stale';
+  return 'invalid';
+}
+
+export function buildInventory(cards, options = {}) {
+  const summary = { total: cards.length, fresh: 0, stale: 0, invalid: 0, missing: 0 };
+  const items = cards.map(({ file, text }) => {
+    const problems = inspectCurrentness(text, options);
+    const status = classifyProblems(problems);
+    summary[status] += 1;
+    return { file, status, problems };
+  });
+
+  items.sort((a, b) => {
+    const priority = STATUS_PRIORITY.get(a.status) - STATUS_PRIORITY.get(b.status);
+    return priority || a.file.localeCompare(b.file);
+  });
+
+  return { summary, items };
 }
 
 export async function checkFiles(files, options = {}) {
