@@ -9,6 +9,8 @@ on:
       - 'workflows/**/*.md'
       - 'scripts/check-currentness.mjs'
       - 'scripts/check-currentness.test.mjs'
+      - 'scripts/currentness-inventory.mjs'
+      - 'scripts/currentness-inventory.test.mjs'
       - '.github/workflows/currentness.yml'
   push:
     branches: [main]
@@ -19,6 +21,8 @@ on:
       - 'workflows/**/*.md'
       - 'scripts/check-currentness.mjs'
       - 'scripts/check-currentness.test.mjs'
+      - 'scripts/currentness-inventory.mjs'
+      - 'scripts/currentness-inventory.test.mjs'
       - '.github/workflows/currentness.yml'
   workflow_dispatch:
 
@@ -33,8 +37,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Test validator
-        run: node --test scripts/check-currentness.test.mjs
+      - name: Test currentness tooling
+        run: node --test scripts/check-currentness.test.mjs scripts/currentness-inventory.test.mjs
 
       - name: Determine changed time-sensitive cards
         id: changed
