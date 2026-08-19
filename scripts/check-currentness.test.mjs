@@ -1,8 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { inspectCurrentness, parseArgs } from './check-currentness.mjs';
+import * as currentness from './check-currentness.mjs';
 
+const { inspectCurrentness, parseArgs } = currentness;
 const NOW = new Date('2026-08-18T12:00:00Z');
 
 function card({ date = '2026-08-18', source = '[Official docs](https://example.com/docs)' } = {}) {
@@ -52,4 +53,29 @@ test('parses a custom age budget and file list', () => {
 test('rejects invalid arguments and empty file lists', () => {
   assert.throws(() => parseArgs([]), /at least one Markdown file/);
   assert.throws(() => parseArgs(['--max-age-days=0', 'tools/a.md']), /positive integer/);
+});
+
+test('builds a reviewer-friendly inventory with status counts', () => {
+  assert.equal(typeof currentness.buildInventory, 'function');
+
+  const inventory = currentness.buildInventory(
+    [
+      { file: 'tools/fresh.md', text: card({ date: '2026-08-18' }) },
+      { file: 'skills/stale.md', text: card({ date: '2026-01-01' }) },
+      { file: 'workflows/missing.md', text: '# Workflow\n' },
+      { file: 'frameworks/invalid.md', text: card({ date: '2026-02-30' }) }
+    ],
+    { now: NOW, maxAgeDays: 120 }
+  );
+
+  assert.deepEqual(inventory.summary, { total: 4, fresh: 1, stale: 1, invalid: 1, missing: 1 });
+  assert.deepEqual(
+    inventory.items.map(({ file, status }) => ({ file, status })),
+    [
+      { file: 'frameworks/invalid.md', status: 'invalid' },
+      { file: 'skills/stale.md', status: 'stale' },
+      { file: 'workflows/missing.md', status: 'missing' },
+      { file: 'tools/fresh.md', status: 'fresh' }
+    ]
+  );
 });
