@@ -1,0 +1,63 @@
+name: Currentness
+
+on:
+  pull_request:
+    paths:
+      - 'tools/**/*.md'
+      - 'skills/**/*.md'
+      - 'frameworks/**/*.md'
+      - 'workflows/**/*.md'
+      - 'scripts/check-currentness.mjs'
+      - 'scripts/check-currentness.test.mjs'
+      - '.github/workflows/currentness.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'tools/**/*.md'
+      - 'skills/**/*.md'
+      - 'frameworks/**/*.md'
+      - 'workflows/**/*.md'
+      - 'scripts/check-currentness.mjs'
+      - 'scripts/check-currentness.test.mjs'
+      - '.github/workflows/currentness.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  currentness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Test validator
+        run: node --test scripts/check-currentness.test.mjs
+
+      - name: Determine changed time-sensitive cards
+        id: changed
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            base="${{ github.event.pull_request.base.sha }}"
+          elif [[ "${{ github.event_name }}" == "push" ]]; then
+            base="${{ github.event.before }}"
+          else
+            base="HEAD^"
+          fi
+
+          git diff --name-only --diff-filter=ACMR "$base" "$GITHUB_SHA" -- \
+            'tools/**/*.md' 'skills/**/*.md' 'frameworks/**/*.md' 'workflows/**/*.md' \
+            > /tmp/currentness-files.txt
+
+          count=$(grep -c . /tmp/currentness-files.txt || true)
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+
+      - name: Validate changed cards
+        if: steps.changed.outputs.count != '0'
+        shell: bash
+        run: |
+          mapfile -t files < /tmp/currentness-files.txt
+          node scripts/check-currentness.mjs --max-age-days=120 "${files[@]}"
