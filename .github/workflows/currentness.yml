@@ -40,6 +40,9 @@ jobs:
       - name: Test currentness tooling
         run: node --test scripts/check-currentness.test.mjs scripts/currentness-inventory.test.mjs
 
+      - name: Smoke-test migration inventory
+        run: node scripts/currentness-inventory.mjs > /tmp/currentness-inventory.txt
+
       - name: Determine changed time-sensitive cards
         id: changed
         shell: bash
