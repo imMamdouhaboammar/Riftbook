@@ -7,6 +7,8 @@
 - **Official Link**: [Official repo or docs](https://example.com)
 - **Best For**: [Short use case]
 - **Target Environment**: [Claude Code / Codex / Cursor / Gemini CLI / VS Code / Terminal / CI]
+- **Last verified**: YYYY-MM-DD
+- **Verification source**: [Official docs or repository](https://example.com)
 
 ## What it is
 

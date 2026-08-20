@@ -6,6 +6,8 @@
 - **Tier**: [Premium Pick / Top Selected / Hot Skill / Use Case Skill / Experimental]
 - **Purpose**: [What this skill helps the agent do]
 - **Target Agent**: [Claude Code / Codex / Cursor / Gemini CLI / ChatGPT / Other]
+- **Last verified**: YYYY-MM-DD
+- **Verification source**: [Official docs or repository](https://example.com)
 
 ## What it is
 

@@ -1,5 +1,10 @@
 # [Workflow Name]
 
+## Metadata
+
+- **Last verified**: YYYY-MM-DD
+- **Verification source**: [Official docs or repository](https://example.com)
+
 ## Goal
 
 [Clear goal of the workflow.]
