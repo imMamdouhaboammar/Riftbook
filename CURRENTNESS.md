@@ -49,6 +49,14 @@ You can scope the report to selected categories:
 node scripts/currentness-inventory.mjs tools workflows
 ```
 
+For automation or downstream analysis, request the stable JSON representation:
+
+```bash
+node scripts/currentness-inventory.mjs --format=json
+```
+
+The JSON output includes `schemaVersion`, summary counts, and the same ordered findings as the human-readable report. The Currentness GitHub Actions workflow publishes both formats as a `currentness-inventory` artifact for 14 days and adds the readable inventory to the workflow job summary so reviewers can inspect currentness debt without rerunning the script locally.
+
 The validator rejects:
 
 - missing verification dates

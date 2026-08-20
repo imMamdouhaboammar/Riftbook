@@ -7,6 +7,7 @@ import { pathToFileURL } from 'node:url';
 import { buildInventory } from './check-currentness.mjs';
 
 const DEFAULT_ROOTS = ['tools', 'skills', 'frameworks', 'workflows'];
+const SUPPORTED_FORMATS = new Set(['text', 'json']);
 
 function toPosix(path) {
   return path.split(sep).join('/');
@@ -69,26 +70,37 @@ export function renderInventory(cards, options = {}) {
   return `${lines.join('\n')}\n`;
 }
 
-function parseCli(argv) {
+export function renderInventoryJson(cards, options = {}) {
+  const inventory = buildInventory(cards, options);
+  return `${JSON.stringify({ schemaVersion: 1, ...inventory }, null, 2)}\n`;
+}
+
+export function parseCli(argv) {
   let maxAgeDays = 120;
+  let format = 'text';
   const roots = [];
+
   for (const arg of argv) {
     if (arg.startsWith('--max-age-days=')) {
       const value = Number.parseInt(arg.slice('--max-age-days='.length), 10);
       if (!Number.isInteger(value) || value < 1) throw new Error('--max-age-days must be a positive integer');
-    
       maxAgeDays = value;
+    } else if (arg.startsWith('--format=')) {
+      format = arg.slice('--format='.length);
+      if (!SUPPORTED_FORMATS.has(format)) throw new Error('--format must be text or json');
     } else {
       roots.push(arg);
     }
   }
-  return { maxAgeDays, roots: roots.length > 0 ? roots : DEFAULT_ROOTS };
+
+  return { maxAgeDays, format, roots: roots.length > 0 ? roots : DEFAULT_ROOTS };
 }
 
 async function main() {
-  const { maxAgeDays, roots } = parseCli(process.argv.slice(2));
+  const { maxAgeDays, format, roots } = parseCli(process.argv.slice(2));
   const cards = await collectMarkdownCards(process.cwd(), roots);
-  process.stdout.write(renderInventory(cards, { maxAgeDays }));
+  const options = { maxAgeDays };
+  process.stdout.write(format === 'json' ? renderInventoryJson(cards, options) : renderInventory(cards, options));
 }
 
 if (import.meta.url === pathToFileURL(process.argv[1]).href) {

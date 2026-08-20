@@ -35,3 +35,29 @@ test('collects markdown cards recursively and renders actionable output', async 
     await rm(root, { recursive: true, force: true });
   }
 });
+
+test('renders deterministic machine-readable inventory evidence', () => {
+  assert.equal(typeof inventoryModule.renderInventoryJson, 'function');
+
+  const cards = [
+    { file: 'tools/fresh.md', text: card() },
+    { file: 'tools/stale.md', text: card('2026-01-01') }
+  ];
+
+  const rendered = inventoryModule.renderInventoryJson(cards, { now: NOW, maxAgeDays: 120 });
+  const parsed = JSON.parse(rendered);
+
+  assert.equal(parsed.schemaVersion, 1);
+  assert.deepEqual(parsed.summary, {
+    total: 2,
+    fresh: 1,
+    stale: 1,
+    invalid: 0,
+    missing: 0
+  });
+  assert.deepEqual(parsed.items.map(({ file, status }) => ({ file, status })), [
+    { file: 'tools/stale.md', status: 'stale' },
+    { file: 'tools/fresh.md', status: 'fresh' }
+  ]);
+  assert.equal(rendered.endsWith('\n'), true);
+});
