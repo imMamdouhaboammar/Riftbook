@@ -40,8 +40,21 @@ jobs:
       - name: Test currentness tooling
         run: node --test scripts/check-currentness.test.mjs scripts/currentness-inventory.test.mjs
 
-      - name: Smoke-test migration inventory
-        run: node scripts/currentness-inventory.mjs > /tmp/currentness-inventory.txt
+      - name: Build reviewer currentness evidence
+        shell: bash
+        run: |
+          mkdir -p .currentness-artifacts
+          node scripts/currentness-inventory.mjs > .currentness-artifacts/currentness-inventory.md
+          node scripts/currentness-inventory.mjs --format=json > .currentness-artifacts/currentness-inventory.json
+          cat .currentness-artifacts/currentness-inventory.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload currentness evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: currentness-inventory
+          path: .currentness-artifacts/
+          if-no-files-found: error
+          retention-days: 14
 
       - name: Determine changed time-sensitive cards
         id: changed
