@@ -50,9 +50,9 @@
   </table>
   <p><strong>Daily build pulse</strong></p>
   <ul>
-      <li>2 pull requests updated, led by #13: Add reviewer-facing currentness inventory.</li>
-      <li>Daily summary covers 2 public activity items from the last 1 day.</li>
-      <li>Documentation and project status remain aligned with the repository’s current public state.</li>
+      <li>8 commits landed: Merge PR #15: publish reviewer currentness evidence; fix: publish currentness artifacts from visible path.</li>
+      <li>3 pull requests updated, led by #13: Add reviewer-facing currentness inventory.</li>
+      <li>Daily summary covers 11 public activity items from the last 1 day.</li>
   </ul>
 </details>
 <!-- project-story:end -->
