@@ -65,4 +65,4 @@
 
 ---
 
-*← Back to [Mistakes](./README.md)*
+*← Back to [Mistakes](../mistakes/README.md)*

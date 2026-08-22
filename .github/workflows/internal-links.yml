@@ -1,0 +1,42 @@
+name: Internal Links
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - "scripts/check-internal-links.mjs"
+      - "scripts/check-internal-links.test.mjs"
+      - ".github/workflows/internal-links.yml"
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "scripts/check-internal-links.mjs"
+      - "scripts/check-internal-links.test.mjs"
+      - ".github/workflows/internal-links.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  internal-links:
+    name: Validate internal Markdown links
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run checker tests
+        run: node --test scripts/check-internal-links.test.mjs
+
+      - name: Validate repository internal links
+        run: node scripts/check-internal-links.mjs .
