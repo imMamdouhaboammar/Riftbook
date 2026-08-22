@@ -60,4 +60,4 @@
 
 ---
 
-*← Back to [Stories](./README.md)*
+*← Back to [Stories](../stories/README.md)*
