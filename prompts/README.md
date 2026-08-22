@@ -14,5 +14,5 @@ A structured library of tested prompts for various domains, optimized for clarit
 
 To add a prompt:
 1. Create a markdown file in the appropriate category subfolder (e.g., `prompts/coding/refactor.md`).
-2. Copy the template structure from [`/templates/prompt-template.md`](../../templates/prompt-template.md).
+2. Copy the template structure from [`/templates/prompt-template.md`](../templates/prompt-template.md).
 3. Fill in details and register it in the subfolder README.
