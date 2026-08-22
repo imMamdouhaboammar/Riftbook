@@ -14,6 +14,6 @@ Step-by-step maps detailing sequential actions from project inception to complet
 ## How to Add a Workflow
 
 To add a new workflow:
-1. Create a markdown file in this folder (e.g. [`workflows/testing-workflow.md`](./testing-workflow.md)).
+1. Create a markdown file in this folder (for example, `workflows/testing-workflow.md`).
 2. Apply the format from [`templates/workflow-template.md`](../templates/workflow-template.md).
 3. Add a link and description here in `workflows/README.md`.
