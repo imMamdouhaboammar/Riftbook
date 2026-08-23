@@ -50,9 +50,9 @@
   </table>
   <p><strong>Daily build pulse</strong></p>
   <ul>
-      <li>2 pull requests updated, led by #16: Add practical engineering foundations learning path.</li>
-      <li>Daily summary covers 2 public activity items from the last 1 day.</li>
-      <li>Documentation and project status remain aligned with the repository’s current public state.</li>
+      <li>15 commits landed: Merge pull request #4 from imMamdouhaboammar/ecc-tools/Riftbook-1784032715150; Merge PR #17: deterministic internal link integrity gate.</li>
+      <li>5 pull requests updated, led by #18: docs(learning): add Git and GitHub path for AI-assisted builders.</li>
+      <li>Daily summary covers 20 public activity items from the last 1 day.</li>
   </ul>
 </details>
 <!-- project-story:end -->
