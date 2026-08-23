@@ -14,8 +14,8 @@ If Git state, branches, commits, recovery, or pull-request review still feel unc
 
 | Learning Path | Topic | Best For | Card |
 |---|---|---|---|
-| Engineering Foundations for AI-Assisted Builders | Core software engineering | Builders using coding agents who need stronger engineering judgment | [[👁️]](./engineering-foundations-for-ai-builders.md) |
 | Git and GitHub for AI-Assisted Builders | Git, branches, commits, recovery, and pull requests | Builders who want safer control over agent-created repository changes | [[👁️]](./git-github-for-ai-assisted-builders.md) |
+| Engineering Foundations for AI-Assisted Builders | Core software engineering | Builders using coding agents who need stronger engineering judgment | [[👁️]](./engineering-foundations-for-ai-builders.md) |
 | AI Agents for Beginners | AI Agents | Learning agent fundamentals, patterns, RAG, memory, protocols, and production concepts | [[👁️]](./ai-agents/ai-agents-for-beginners.md) |
 
 ## Suggested order
