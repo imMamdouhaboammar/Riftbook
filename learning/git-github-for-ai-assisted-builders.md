@@ -197,13 +197,15 @@ Recovery starts by identifying which Git state contains the good version.
 git restore --staged path/to/file
 ```
 
-### Discard an unwanted working-tree change to a tracked file
+### Discard staged and working-tree changes to a tracked file
+
+If the file may already be staged and you want both the index and working tree to match `HEAD`, make the restore source explicit:
 
 ```bash
-git restore path/to/file
+git restore --source=HEAD --staged --worktree path/to/file
 ```
 
-This discards local changes in that file. Inspect the diff first.
+This discards local changes in both Git states for that file. Inspect both `git diff` and `git diff --staged` first.
 
 ### Inspect previous commits
 
@@ -227,7 +229,7 @@ Avoid reaching for `git reset --hard`, force push, interactive rebase, or other 
 1. Modify two files.
 2. Stage both.
 3. Unstage one while preserving its content.
-4. Restore the other file to `HEAD`.
+4. Restore the other staged file in both the index and working tree to `HEAD` with `git restore --source=HEAD --staged --worktree path/to/file`.
 5. Run `git status` and explain what remains.
 
 Official references: [git-restore](https://git-scm.com/docs/git-restore) and [git-revert](https://git-scm.com/docs/git-revert).
