@@ -1,0 +1,72 @@
+name: Content Quality
+
+on:
+  pull_request:
+    paths:
+      - 'learning/**/*.md'
+      - 'playbook/**/*.md'
+      - 'tools/**/*.md'
+      - 'skills/**/*.md'
+      - 'workflows/**/*.md'
+      - 'frameworks/**/*.md'
+      - 'prompts/**/*.md'
+      - 'examples/**/*.md'
+      - 'scripts/check-content-quality.mjs'
+      - 'scripts/check-content-quality.test.mjs'
+      - '.github/workflows/content-quality.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'learning/**/*.md'
+      - 'playbook/**/*.md'
+      - 'tools/**/*.md'
+      - 'skills/**/*.md'
+      - 'workflows/**/*.md'
+      - 'frameworks/**/*.md'
+      - 'prompts/**/*.md'
+      - 'examples/**/*.md'
+      - 'scripts/check-content-quality.mjs'
+      - 'scripts/check-content-quality.test.mjs'
+      - '.github/workflows/content-quality.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  content-quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Test content quality tooling
+        run: node --test scripts/check-content-quality.test.mjs
+
+      - name: Determine changed published Markdown
+        id: changed
+        shell: bash
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            base="${{ github.event.pull_request.base.sha }}"
+          elif [[ "${{ github.event_name }}" == "push" ]]; then
+            base="${{ github.event.before }}"
+          else
+            base="HEAD^"
+          fi
+
+          git diff --name-only --diff-filter=ACMR "$base" "$GITHUB_SHA" -- \
+            'learning/**/*.md' 'playbook/**/*.md' 'tools/**/*.md' 'skills/**/*.md' \
+            'workflows/**/*.md' 'frameworks/**/*.md' 'prompts/**/*.md' 'examples/**/*.md' \
+            > /tmp/content-quality-files.txt
+
+          count=$(grep -c . /tmp/content-quality-files.txt || true)
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+
+      - name: Validate changed published Markdown
+        if: steps.changed.outputs.count != '0'
+        shell: bash
+        run: |
+          mapfile -t files < /tmp/content-quality-files.txt
+          node scripts/check-content-quality.mjs "${files[@]}"
