@@ -29,8 +29,18 @@ test('ignores placeholder examples inside fenced code', () => {
   assert.deepEqual(findings, []);
 });
 
+test('ignores placeholder examples inside inline code', () => {
+  const findings = inspectMarkdown(file, '# Example\n\nDo not leave `TODO` markers in published prose.\n');
+  assert.deepEqual(findings, []);
+});
+
 test('rejects utm parameters in Markdown links', () => {
   const findings = inspectMarkdown(file, '# Example\n\n[Docs](https://example.com/?utm_source=routing)\n');
+  assert.equal(findings.some((finding) => finding.rule === 'tracking-url'), true);
+});
+
+test('rejects tracking links that also have a Markdown title', () => {
+  const findings = inspectMarkdown(file, '# Example\n\n[Docs](https://example.com/?utm_campaign=test "Official docs")\n');
   assert.equal(findings.some((finding) => finding.rule === 'tracking-url'), true);
 });
 
@@ -40,7 +50,7 @@ test('rejects common referral parameters in Markdown links', () => {
 });
 
 test('accepts meaningful non-tracking query parameters', () => {
-  const findings = inspectMarkdown(file, '# Example\n\n[Search](https://example.com/search?q=agents&page=2)\n');
+  const findings = inspectMarkdown(file, '# Example\n\n[Search](https://example.com/search?q=agents&page=2&source=docs)\n');
   assert.deepEqual(findings, []);
 });
 
