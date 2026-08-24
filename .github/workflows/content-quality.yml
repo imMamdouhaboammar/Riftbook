@@ -44,6 +44,21 @@ jobs:
       - name: Test content quality tooling
         run: node --test scripts/check-content-quality.test.mjs
 
+      - name: Exercise CLI pass and fail behavior
+        shell: bash
+        run: |
+          fixture='learning/.content-quality-smoke.md'
+          trap 'rm -f "$fixture"' EXIT
+
+          printf '# Valid smoke fixture\n\nNo placeholders here.\n' > "$fixture"
+          node scripts/check-content-quality.mjs "$fixture"
+
+          printf '# Invalid smoke fixture\n\nTODO: replace this.\n' > "$fixture"
+          if node scripts/check-content-quality.mjs "$fixture"; then
+            echo 'Expected the invalid smoke fixture to fail validation.' >&2
+            exit 1
+          fi
+
       - name: Determine changed published Markdown
         id: changed
         shell: bash
