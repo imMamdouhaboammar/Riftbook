@@ -2,6 +2,7 @@
 
 import { readFile } from 'node:fs/promises';
 import { resolve, relative, sep } from 'node:path';
+import { pathToFileURL } from 'node:url';
 import process from 'node:process';
 
 const CONTENT_ROOTS = new Set([
@@ -23,7 +24,6 @@ const TRACKING_KEYS = new Set([
   'affiliate',
   'aff',
   'campaign',
-  'source',
 ]);
 
 function normalizePath(file) {
@@ -36,7 +36,7 @@ function isPublishedContent(file) {
   return normalized.endsWith('.md') && CONTENT_ROOTS.has(root);
 }
 
-function stripFencedCode(markdown) {
+function stripCode(markdown) {
   const lines = markdown.split(/\r?\n/);
   let inFence = false;
   let fenceMarker = '';
@@ -54,7 +54,8 @@ function stripFencedCode(markdown) {
       }
       return '';
     }
-    return inFence ? '' : line;
+    if (inFence) return '';
+    return line.replace(/`[^`\n]*`/g, '');
   }).join('\n');
 }
 
@@ -79,8 +80,17 @@ function firstMeaningfulLine(markdown) {
   return '';
 }
 
+function extractUrl(destination) {
+  const trimmed = destination.trim();
+  if (trimmed.startsWith('<')) {
+    const end = trimmed.indexOf('>');
+    return end === -1 ? trimmed : trimmed.slice(1, end);
+  }
+  return trimmed.split(/\s+["'(]/, 1)[0];
+}
+
 function hasTrackingParameter(destination) {
-  const clean = destination.trim().replace(/^<|>$/g, '');
+  const clean = extractUrl(destination);
   if (!/^https?:\/\//i.test(clean)) return false;
 
   try {
@@ -99,7 +109,7 @@ export function inspectMarkdown(file, markdown) {
   if (!isPublishedContent(file)) return [];
 
   const findings = [];
-  const visible = stripFencedCode(markdown);
+  const visible = stripCode(markdown);
   const firstLine = firstMeaningfulLine(markdown);
 
   if (!/^#\s+\S/.test(firstLine)) {
@@ -120,7 +130,7 @@ export function inspectMarkdown(file, markdown) {
         findings.push({
           rule: 'tracking-url',
           line: index + 1,
-          message: `Remove tracking or referral parameters from ${match[1]}`,
+          message: `Remove tracking or referral parameters from ${extractUrl(match[1])}`,
         });
       }
     }
@@ -164,6 +174,5 @@ async function main() {
   }
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
-  await main();
-}
+const invokedAsScript = process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href;
+if (invokedAsScript) await main();
