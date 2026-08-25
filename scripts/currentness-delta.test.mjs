@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 
 import {
+  assertGitBase,
   buildDelta,
   parseCli,
   readGitFile,
@@ -83,9 +84,29 @@ test('requires a base revision and validates CLI options', () => {
   assert.throws(() => parseCli(['--base=abc', '--max-age-days=0']), /positive integer/);
 });
 
-test('treats a file missing from the base revision as absent', () => {
+test('rejects an invalid base revision before classifying files as new', () => {
   const failingExec = () => {
-    throw new Error('missing');
+    throw new Error('unknown revision');
+  };
+  assert.throws(() => assertGitBase('missing-base', failingExec), /invalid git base revision: missing-base/);
+});
+
+test('validates the base revision without invoking a shell', () => {
+  let received;
+  const fakeExec = (command, args, options) => {
+    received = { command, args, options };
+    return 'abc123\n';
+  };
+
+  assertGitBase('abc123', fakeExec);
+  assert.equal(received.command, 'git');
+  assert.deepEqual(received.args, ['rev-parse', '--verify', '--quiet', 'abc123^{commit}']);
+  assert.equal(received.options.encoding, 'utf8');
+});
+
+test('treats a file missing from a valid base revision as absent', () => {
+  const failingExec = () => {
+    throw new Error('missing file');
   };
   assert.equal(readGitFile('base', 'tools/new.md', failingExec), null);
 });
