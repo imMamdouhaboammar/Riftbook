@@ -50,9 +50,9 @@
   </table>
   <p><strong>Daily build pulse</strong></p>
   <ul>
-      <li>6 commits landed: Merge PR #18: Git and GitHub learning path; merge: refresh Git learning path onto latest main.</li>
-      <li>1 pull request updated, led by #18: docs(learning): add Git and GitHub path for AI-assisted builders.</li>
-      <li>Daily summary covers 7 public activity items from the last 1 day.</li>
+      <li>7 commits landed: Merge PR #19: enforce published content quality; test(content): exercise CLI pass and failure paths.</li>
+      <li>2 pull requests updated, led by #19: Enforce published content quality on changed pages.</li>
+      <li>Daily summary covers 9 public activity items from the last 1 day.</li>
   </ul>
 </details>
 <!-- project-story:end -->
