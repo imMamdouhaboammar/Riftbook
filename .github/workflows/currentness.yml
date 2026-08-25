@@ -56,6 +56,10 @@ jobs:
             base="HEAD^"
           fi
 
+          git diff --name-only --diff-filter=ACMRD "$base" "$GITHUB_SHA" -- \
+            'tools/**/*.md' 'skills/**/*.md' 'frameworks/**/*.md' 'workflows/**/*.md' \
+            > /tmp/currentness-delta-files.txt
+
           git diff --name-only --diff-filter=ACMR "$base" "$GITHUB_SHA" -- \
             'tools/**/*.md' 'skills/**/*.md' 'frameworks/**/*.md' 'workflows/**/*.md' \
             > /tmp/currentness-files.txt
@@ -70,9 +74,9 @@ jobs:
           mkdir -p currentness-artifacts
           node scripts/currentness-inventory.mjs > currentness-artifacts/currentness-inventory.md
           node scripts/currentness-inventory.mjs --format=json > currentness-artifacts/currentness-inventory.json
-          mapfile -t files < /tmp/currentness-files.txt
-          node scripts/currentness-delta.mjs --base="${{ steps.changed.outputs.base }}" "${files[@]}" > currentness-artifacts/currentness-delta.md
-          node scripts/currentness-delta.mjs --base="${{ steps.changed.outputs.base }}" --format=json "${files[@]}" > currentness-artifacts/currentness-delta.json
+          mapfile -t delta_files < /tmp/currentness-delta-files.txt
+          node scripts/currentness-delta.mjs --base="${{ steps.changed.outputs.base }}" "${delta_files[@]}" > currentness-artifacts/currentness-delta.md
+          node scripts/currentness-delta.mjs --base="${{ steps.changed.outputs.base }}" --format=json "${delta_files[@]}" > currentness-artifacts/currentness-delta.json
           cat currentness-artifacts/currentness-delta.md >> "$GITHUB_STEP_SUMMARY"
           printf '\n' >> "$GITHUB_STEP_SUMMARY"
           cat currentness-artifacts/currentness-inventory.md >> "$GITHUB_STEP_SUMMARY"
