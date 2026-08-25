@@ -6,6 +6,7 @@ import {
   buildDelta,
   parseCli,
   readGitFile,
+  readWorkingFile,
   renderDelta,
   renderDeltaJson
 } from './currentness-delta.mjs';
@@ -123,4 +124,22 @@ test('reads base content through git show without invoking a shell', () => {
   assert.equal(received.command, 'git');
   assert.deepEqual(received.args, ['show', 'abc123:tools/example.md']);
   assert.equal(received.options.encoding, 'utf8');
+});
+
+test('treats a deleted working-tree card as absent', async () => {
+  const missingRead = async () => {
+    const error = new Error('missing');
+    error.code = 'ENOENT';
+    throw error;
+  };
+  assert.equal(await readWorkingFile('tools/removed.md', missingRead), null);
+});
+
+test('does not hide unexpected working-tree read failures', async () => {
+  const deniedRead = async () => {
+    const error = new Error('denied');
+    error.code = 'EACCES';
+    throw error;
+  };
+  await assert.rejects(() => readWorkingFile('tools/private.md', deniedRead), /denied/);
 });
