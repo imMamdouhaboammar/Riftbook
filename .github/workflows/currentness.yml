@@ -11,6 +11,8 @@ on:
       - 'scripts/check-currentness.test.mjs'
       - 'scripts/currentness-inventory.mjs'
       - 'scripts/currentness-inventory.test.mjs'
+      - 'scripts/currentness-delta.mjs'
+      - 'scripts/currentness-delta.test.mjs'
       - '.github/workflows/currentness.yml'
   push:
     branches: [main]
@@ -23,6 +25,8 @@ on:
       - 'scripts/check-currentness.test.mjs'
       - 'scripts/currentness-inventory.mjs'
       - 'scripts/currentness-inventory.test.mjs'
+      - 'scripts/currentness-delta.mjs'
+      - 'scripts/currentness-delta.test.mjs'
       - '.github/workflows/currentness.yml'
   workflow_dispatch:
 
@@ -38,23 +42,7 @@ jobs:
           fetch-depth: 0
 
       - name: Test currentness tooling
-        run: node --test scripts/check-currentness.test.mjs scripts/currentness-inventory.test.mjs
-
-      - name: Build reviewer currentness evidence
-        shell: bash
-        run: |
-          mkdir -p currentness-artifacts
-          node scripts/currentness-inventory.mjs > currentness-artifacts/currentness-inventory.md
-          node scripts/currentness-inventory.mjs --format=json > currentness-artifacts/currentness-inventory.json
-          cat currentness-artifacts/currentness-inventory.md >> "$GITHUB_STEP_SUMMARY"
-
-      - name: Upload currentness evidence
-        uses: actions/upload-artifact@v4
-        with:
-          name: currentness-inventory
-          path: currentness-artifacts/
-          if-no-files-found: error
-          retention-days: 14
+        run: node --test scripts/check-currentness.test.mjs scripts/currentness-inventory.test.mjs scripts/currentness-delta.test.mjs
 
       - name: Determine changed time-sensitive cards
         id: changed
@@ -73,7 +61,29 @@ jobs:
             > /tmp/currentness-files.txt
 
           count=$(grep -c . /tmp/currentness-files.txt || true)
+          echo "base=$base" >> "$GITHUB_OUTPUT"
           echo "count=$count" >> "$GITHUB_OUTPUT"
+
+      - name: Build reviewer currentness evidence
+        shell: bash
+        run: |
+          mkdir -p currentness-artifacts
+          node scripts/currentness-inventory.mjs > currentness-artifacts/currentness-inventory.md
+          node scripts/currentness-inventory.mjs --format=json > currentness-artifacts/currentness-inventory.json
+          mapfile -t files < /tmp/currentness-files.txt
+          node scripts/currentness-delta.mjs --base="${{ steps.changed.outputs.base }}" "${files[@]}" > currentness-artifacts/currentness-delta.md
+          node scripts/currentness-delta.mjs --base="${{ steps.changed.outputs.base }}" --format=json "${files[@]}" > currentness-artifacts/currentness-delta.json
+          cat currentness-artifacts/currentness-delta.md >> "$GITHUB_STEP_SUMMARY"
+          printf '\n' >> "$GITHUB_STEP_SUMMARY"
+          cat currentness-artifacts/currentness-inventory.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload currentness evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: currentness-inventory
+          path: currentness-artifacts/
+          if-no-files-found: error
+          retention-days: 14
 
       - name: Validate changed cards
         if: steps.changed.outputs.count != '0'
