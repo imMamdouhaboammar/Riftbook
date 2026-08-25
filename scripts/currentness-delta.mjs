@@ -123,13 +123,23 @@ export function readGitFile(base, file, exec = execFileSync) {
   }
 }
 
+export async function readWorkingFile(file, read = readFile) {
+  try {
+    return await read(file, 'utf8');
+  } catch (error) {
+    if (error?.code === 'ENOENT') return null;
+    throw error;
+  }
+}
+
 export async function collectDeltaEntries(base, files, options = {}) {
   const exec = options.exec ?? execFileSync;
+  const read = options.read ?? readFile;
   assertGitBase(base, exec);
   const entries = [];
   for (const file of files) {
     const beforeText = readGitFile(base, file, exec);
-    const afterText = await readFile(file, 'utf8');
+    const afterText = await readWorkingFile(file, read);
     entries.push({ file, beforeText, afterText });
   }
   return entries;
