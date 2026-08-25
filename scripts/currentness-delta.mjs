@@ -101,6 +101,17 @@ export function parseCli(argv) {
   return { base, maxAgeDays, format, files };
 }
 
+export function assertGitBase(base, exec = execFileSync) {
+  try {
+    exec('git', ['rev-parse', '--verify', '--quiet', `${base}^{commit}`], {
+      encoding: 'utf8',
+      stdio: ['ignore', 'pipe', 'ignore']
+    });
+  } catch {
+    throw new Error(`invalid git base revision: ${base}`);
+  }
+}
+
 export function readGitFile(base, file, exec = execFileSync) {
   try {
     return exec('git', ['show', `${base}:${file}`], {
@@ -114,6 +125,7 @@ export function readGitFile(base, file, exec = execFileSync) {
 
 export async function collectDeltaEntries(base, files, options = {}) {
   const exec = options.exec ?? execFileSync;
+  assertGitBase(base, exec);
   const entries = [];
   for (const file of files) {
     const beforeText = readGitFile(base, file, exec);
