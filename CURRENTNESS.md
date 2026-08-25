@@ -26,7 +26,7 @@ This is deliberately scoped to changed cards. Existing content is not mass-faile
 Run the focused test suite:
 
 ```bash
-node --test scripts/check-currentness.test.mjs scripts/currentness-inventory.test.mjs
+node --test scripts/check-currentness.test.mjs scripts/currentness-inventory.test.mjs scripts/currentness-delta.test.mjs
 ```
 
 Check one or more cards:
@@ -55,7 +55,27 @@ For automation or downstream analysis, request the stable JSON representation:
 node scripts/currentness-inventory.mjs --format=json
 ```
 
-The JSON output includes `schemaVersion`, summary counts, and the same ordered findings as the human-readable report. The Currentness GitHub Actions workflow publishes both formats as a `currentness-inventory` artifact for 14 days and adds the readable inventory to the workflow job summary so reviewers can inspect currentness debt without rerunning the script locally.
+The JSON output includes `schemaVersion`, summary counts, and the same ordered findings as the human-readable report.
+
+## Reviewer delta
+
+For a pull request, the useful question is often not the size of the repository-wide freshness debt but what the change did to the cards it touched. Generate a delta against a base revision with:
+
+```bash
+node scripts/currentness-delta.mjs --base=origin/main tools/example.md
+```
+
+The delta classifies each changed card as `new`, `refreshed`, `regressed`, `changed`, `unchanged`, or `removed` and shows its currentness status before and after the change. A stale card that is re-checked becomes `stale -> fresh (refreshed)`. A previously fresh card that loses valid evidence becomes `fresh -> missing (regressed)`.
+
+Machine-readable output is also available:
+
+```bash
+node scripts/currentness-delta.mjs --base=origin/main --format=json tools/example.md
+```
+
+The script validates the base revision before reading historical files so an invalid revision cannot silently make every card look newly added.
+
+The Currentness GitHub Actions workflow publishes the repository inventory and changed-card delta in both Markdown and JSON inside the `currentness-inventory` artifact for 14 days. The changed-card delta appears first in the workflow job summary, followed by the full advisory inventory, so reviewers can distinguish PR-specific freshness work from pre-existing debt.
 
 The validator rejects:
 
@@ -69,6 +89,6 @@ The validator rejects:
 
 Passing the validator does not prove that the source actually supports every claim in the card. Reviewers still need to compare material claims, commands, version assumptions, and compatibility notes against the cited primary source.
 
-The inventory also does not decide whether a source is truly authoritative. It only exposes freshness evidence and missing metadata so review work can be prioritized.
+The inventory and delta also do not decide whether a source is truly authoritative. They expose freshness evidence and status changes so review work can be prioritized.
 
 The check provides an auditable freshness boundary. It does not replace technical review or source reading.
