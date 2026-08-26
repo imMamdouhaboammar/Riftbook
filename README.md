@@ -50,9 +50,9 @@
   </table>
   <p><strong>Daily build pulse</strong></p>
   <ul>
-      <li>7 commits landed: Merge PR #19: enforce published content quality; test(content): exercise CLI pass and failure paths.</li>
-      <li>2 pull requests updated, led by #19: Enforce published content quality on changed pages.</li>
-      <li>Daily summary covers 9 public activity items from the last 1 day.</li>
+      <li>10 commits landed: Merge PR #20: add reviewer currentness delta evidence; ci(currentness): include deleted cards in reviewer delta.</li>
+      <li>1 pull request updated, led by #20: Add reviewer currentness delta evidence.</li>
+      <li>Daily summary covers 11 public activity items from the last 1 day.</li>
   </ul>
 </details>
 <!-- project-story:end -->
