@@ -50,9 +50,9 @@
   </table>
   <p><strong>Daily build pulse</strong></p>
   <ul>
-      <li>25 commits landed: Merge PR #20: add reviewer currentness delta evidence; ci(currentness): include deleted cards in reviewer delta.</li>
-      <li>4 pull requests updated, led by #20: Add reviewer currentness delta evidence.</li>
-      <li>Daily summary covers 29 public activity items from the last 7 days.</li>
+      <li>17 commits landed: Merge PR #20: add reviewer currentness delta evidence; ci(currentness): include deleted cards in reviewer delta.</li>
+      <li>3 pull requests updated, led by #20: Add reviewer currentness delta evidence.</li>
+      <li>Daily summary covers 20 public activity items from the last 7 days.</li>
   </ul>
 </details>
 <!-- project-story:end -->
