@@ -50,9 +50,9 @@
   </table>
   <p><strong>Daily build pulse</strong></p>
   <ul>
-      <li>10 commits landed: Merge PR #20: add reviewer currentness delta evidence; ci(currentness): include deleted cards in reviewer delta.</li>
-      <li>1 pull request updated, led by #20: Add reviewer currentness delta evidence.</li>
-      <li>Daily summary covers 11 public activity items from the last 7 days.</li>
+      <li>No public repository changes were recorded in the last 7 days.</li>
+      <li>The project purpose and documented usage remain unchanged.</li>
+      <li>The next update will appear automatically when public activity is detected.</li>
   </ul>
 </details>
 <!-- project-story:end -->
